@@ -40,6 +40,30 @@
   "ref": "ACIP General Best Practice 2024"
  },
  {
+  "id": "icx001",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Measles: HSCT with 2 MMR doses",
+  "scenario": "A 34-year-old man, allogeneic HSCT 14 months ago, still on ruxolitinib for chronic GVHD. He had 2 documented MMR doses in childhood and positive measles IgG pre-transplant. Sat 2 h in a waiting room with a measles case 3 days ago.",
+  "question": "What is the correct post-exposure action?",
+  "options": [
+   "IGIV 400 mg/kg now, regardless of vaccine/serology",
+   "No action; 2 documented MMR doses = immune",
+   "Check measles IgG first and give IG only if negative"
+  ],
+  "answer": "المرضى شديدو كبت المناعة (HSCT خلال سنتين أو مع GVHD، ALL أثناء العلاج، HIV مع CD4 <200، نقص مناعي أولي شديد) يُعطَون IGIV 400 mg/kg خلال 6 أيام بغض النظر عن التطعيم أو الأجسام المضادة؛ لأن المناعة السابقة مُحيت أو غير موثوقة، والمصل قد يكون كاذباً بسبب نقل الدم/IG. MMR ممنوع هنا.",
+  "terms": [
+   [
+    "Ruxolitinib",
+    "رُك-سو-لي-تي-نِب"
+   ],
+   [
+    "IGIV",
+    "آي-جي-آي-ڤي"
+   ]
+  ],
+  "ref": "ACIP 2013 measles PEP; CDC 2024"
+ },
+ {
   "id": "vimm001",
   "topic": "Immunocompromised",
   "title": "Timing before immunosuppression",
@@ -82,6 +106,26 @@
    ]
   ],
   "ref": "ACIP 2013/CDC Pink Book"
+ },
+ {
+  "id": "ich001",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: HSCT unit nurse and LAIV",
+  "scenario": "A 29-year-old nurse works in an allogeneic HSCT unit (HEPA-filtered protective rooms). It is October; she asks for the nasal flu vaccine because she dislikes needles.",
+  "question": "Which influenza vaccine plan is correct?",
+  "options": [
+   "Give injectable inactivated vaccine (IIV/RIV)",
+   "Give LAIV; no restriction for HCW",
+   "Skip flu vaccine; staff use masks"
+  ],
+  "answer": "LAIV ممنوع فقط لمخالطي المرضى شديدي نقص المناعة الذين يحتاجون بيئة محمية (مثل وحدة HSCT). لذلك تُعطى IIV أو RIV. إن أُعطي LAIV خطأً فيجب تجنب رعاية هؤلاء المرضى 7 أيام. التطعيم السنوي للعاملين إلزامي ولا يُستبدل بالكمامة.",
+  "terms": [
+   [
+    "Live attenuated influenza vaccine",
+    "لايف أ-تي-نيو-ايتد إن-فلو-إن-زا"
+   ]
+  ],
+  "ref": "ACIP 2024-25"
  },
  {
   "id": "vint001",
@@ -128,6 +172,30 @@
   "ref": "Saudi MOH Hajj/Umrah requirements"
  },
  {
+  "id": "icx002",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Measles: rituximab, day 5",
+  "scenario": "A 52-year-old woman with granulomatosis with polyangiitis received rituximab 1 g x2 four months ago (CD19 = 0). Her grandson was confirmed with measles; she was exposed at home 5 days ago.",
+  "question": "What should the clinic do today?",
+  "options": [
+   "Give IGIV 400 mg/kg today (deadline day 6)",
+   "Give MMR now; still within window",
+   "Too late for any PEP; quarantine only"
+  ],
+  "answer": "المريضة على anti-CD20 مع استنفاد الخلايا البائية تُعامل كشديدة كبت المناعة: الاستجابة للقاح ضعيفة والـMMR حي ممنوع. IG فعال حتى اليوم السادس بعد التعرض، وعند شديدي الكبت يُفضّل IGIV 400 mg/kg لأن IGIM لا يعطي مستوى كافياً. أحِلها اليوم لمكان إعطاء IGIV، ولا تؤجل لانتظار التحاليل.",
+  "terms": [
+   [
+    "Rituximab",
+    "ري-تُك-سي-ماب"
+   ],
+   [
+    "Granulomatosis",
+    "غرا-نيو-لو-ما-تو-سِس"
+   ]
+  ],
+  "ref": "ACIP 2013 measles PEP"
+ },
+ {
   "id": "vdose002",
   "topic": "Dose-Route",
   "title": "Adolescent 2-dose HepB",
@@ -166,6 +234,26 @@
    ]
   ],
   "ref": "ACIP General Best Practice 2024"
+ },
+ {
+  "id": "ich002",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Sibling of child on chemo wants LAIV",
+  "scenario": "A 4-year-old healthy boy lives with his 7-year-old sister receiving maintenance chemotherapy for ALL at home (not in a protective environment). Parents request nasal LAIV for him.",
+  "question": "Is LAIV acceptable for the brother?",
+  "options": [
+   "Yes; restriction applies only to protective-environment contacts",
+   "No; all contacts of chemo patients need IIV only",
+   "Yes, but the sister must leave home for 21 days"
+  ],
+  "answer": "ACIP: يُمنع LAIV فقط عن مخالطي شديدي نقص المناعة الذين يحتاجون بيئة محمية. المريضة بالعلاج الكيميائي في المنزل ليست كذلك، فـ LAIV مقبول، وإن كان IIV خياراً ممتازاً أيضاً. الأهم أن يُطعَّم جميع أفراد المنزل ≥6 أشهر سنوياً.",
+  "terms": [
+   [
+    "Leukemia",
+    "لو-كي-مي-ا"
+   ]
+  ],
+  "ref": "ACIP 2024-25"
  },
  {
   "id": "vimm002",
@@ -212,6 +300,26 @@
   "ref": "ACIP 2020; CDC Pink Book"
  },
  {
+  "id": "icx003",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Measles: patient on IVIG",
+  "scenario": "A 19-year-old with common variable immunodeficiency receives IVIG 400 mg/kg every 3 weeks; last infusion was 12 days ago. Exposed to measles in a classroom 2 days ago.",
+  "question": "Does he need extra measles PEP?",
+  "options": [
+   "No; IVIG ≥400 mg/kg within 3 weeks before exposure protects",
+   "Yes; give IGIM 0.5 mL/kg now",
+   "Yes; give MMR within 72 h"
+  ],
+  "answer": "من يتلقى IVIG بانتظام بجرعة ≥400 mg/kg وكانت آخر جرعة خلال 3 أسابيع قبل التعرض يُعدّ محمياً ولا يحتاج IG إضافياً. لو مضى أكثر من 3 أسابيع أو الجرعة أقل → IGIV 400 mg/kg خلال 6 أيام. MMR لا فائدة منه في CVID وهو ممنوع. راقبه وأبلغ الطبيب المعالج.",
+  "terms": [
+   [
+    "Common variable immunodeficiency",
+    "كو-من ڤي-ري-ا-بل إ-ميو-نو-دي-في-شن-سي"
+   ]
+  ],
+  "ref": "ACIP 2013 measles PEP"
+ },
+ {
   "id": "vpop002",
   "topic": "Special-Populations",
   "title": "Missed Tdap window",
@@ -252,6 +360,26 @@
   "ref": "Saudi MOH Hajj/Umrah requirements"
  },
  {
+  "id": "ich003",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Varicella vaccine rash in sibling",
+  "scenario": "A 13-month-old girl's brother (6 y) is 4 months post-liver transplant. She received varicella vaccine 18 days ago and now has 6 papulovesicular lesions on her trunk.",
+  "question": "What is the correct advice?",
+  "options": [
+   "Avoid contact with brother until lesions crust",
+   "No action; vaccine virus is never transmitted",
+   "Give her acyclovir and VariZIG to the brother now"
+  ],
+  "answer": "لقاح الحماق مُوصى به لمخالطي ناقصي المناعة لأنه يحميهم من العدوى البرية. انتقال فيروس اللقاح نادر جداً ويحدث تقريباً فقط عند ظهور طفح بعد اللقاح. لذا عند ظهور الطفح: تُغطى الآفات ويُتجنب التلامس مع ناقص المناعة حتى تتقشر. بدون طفح لا قيود.",
+  "terms": [
+   [
+    "Papulovesicular",
+    "با-بيو-لو-ڤي-سي-كيو-لار"
+   ]
+  ],
+  "ref": "CDC Pink Book 2024"
+ },
+ {
   "id": "vdose003",
   "topic": "Dose-Route",
   "title": "Dialysis HepB Engerix",
@@ -290,6 +418,30 @@
    ]
   ],
   "ref": "ACIP General Best Practice 2024"
+ },
+ {
+  "id": "icx004",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Measles: IGIM dose",
+  "scenario": "A 7-year-old girl (20 kg) with JIA on methotrexate 10 mg/week; she never received MMR (family refused). Exposed to a sibling with measles 4 days ago. Not severely immunocompromised.",
+  "question": "Which PEP is correct?",
+  "options": [
+   "IGIM 0.5 mL/kg = 10 mL (max 15 mL)",
+   "MMR today; methotrexate is low-dose",
+   "IGIM 0.25 mL/kg = 5 mL"
+  ],
+  "answer": "بعد 72 ساعة فات وقت MMR، وIG يبقى خياراً حتى اليوم السادس. لغير شديدي كبت المناعة تُعطى IGIM بجرعة 0.5 mL/kg (حد أقصى 15 mL) — الجرعة القديمة 0.25 لم تعد مستخدمة. توزع على أكثر من موضع عضلي. أجّل MMR لاحقاً 6 أشهر بعد IGIM وبالتنسيق مع الروماتيزم.",
+  "terms": [
+   [
+    "Methotrexate",
+    "مِ-ثو-ترِك-سيت"
+   ],
+   [
+    "IGIM",
+    "آي-جي-آي-إم"
+   ]
+  ],
+  "ref": "ACIP 2013 measles PEP"
  },
  {
   "id": "vint002",
@@ -336,6 +488,26 @@
   "ref": "ACIP General Best Practice"
  },
  {
+  "id": "ich004",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: MMR for sibling of HSCT child",
+  "scenario": "A 12-month-old boy lives with his 5-year-old brother who had allogeneic HSCT 7 months ago. Mother wants to delay the baby's MMR until the brother recovers.",
+  "question": "What is the right advice?",
+  "options": [
+   "Give MMR now; vaccine virus is not transmitted",
+   "Delay MMR until brother is 2 years post-HSCT",
+   "Give MMR and isolate the infant for 4 weeks"
+  ],
+  "answer": "MMR لا ينتقل فيروسه من المُطعَّم للمخالطين، لذا يُعطى في موعده دون قيود. تأخير اللقاح يترك المنزل عرضة للحصبة البرية، وهي قاتلة لمريض HSCT. مخالطو ناقصي المناعة يجب أن يكونوا محصنين ضد MMR والحماق والإنفلونزا.",
+  "terms": [
+   [
+    "Hematopoietic stem cell",
+    "هي-ما-تو-بو-ي-تك ستيم سِل"
+   ]
+  ],
+  "ref": "IDSA 2013; ACIP"
+ },
+ {
   "id": "vpop003",
   "topic": "Special-Populations",
   "title": "Influenza vaccine any trimester",
@@ -380,6 +552,26 @@
   "ref": "Saudi MOH Hajj/Umrah requirements"
  },
  {
+  "id": "icx005",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Measles: exclusion after IG",
+  "scenario": "A nonimmune 40-year-old nurse on tacrolimus after liver transplant received IGIV 3 days after a measles exposure (exposure on 1 March). She asks when she can return to work.",
+  "question": "How long should she be excluded?",
+  "options": [
+   "Day 5 through day 28 after exposure",
+   "Day 5 through day 21 after exposure",
+   "No exclusion needed after IG"
+  ],
+  "answer": "العامل الصحي غير المحصّن يُستبعد من اليوم الخامس حتى اليوم 21 بعد التعرض. لكن إعطاء IG قد يطيل فترة الحضانة، لذا من تلقى IG يُستبعد حتى اليوم 28. IG يقلل الخطر لكنه لا يلغي احتمال المرض المعدّل. علّمها أعراض الإنذار والاتصال قبل الحضور.",
+  "terms": [
+   [
+    "Tacrolimus",
+    "تا-كرو-لي-مُس"
+   ]
+  ],
+  "ref": "ACIP 2013; CDC infection control 2019"
+ },
+ {
   "id": "vdose004",
   "topic": "Dose-Route",
   "title": "Dialysis HepB Recombivax",
@@ -418,6 +610,26 @@
    ]
   ],
   "ref": "ACIP 2020"
+ },
+ {
+  "id": "ich005",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Rotavirus in infant with HSCT sibling",
+  "scenario": "A 2-month-old is due for rotavirus vaccine. His 9-year-old sister is 5 months post-allogeneic HSCT and lives at home.",
+  "question": "What should the clinic do?",
+  "options": [
+   "Give rotavirus; strict hand hygiene with diapers ~4 weeks",
+   "Skip rotavirus permanently for this infant",
+   "Delay rotavirus until the sister is off immunosuppression"
+  ],
+  "answer": "يُعطى لقاح الروتا للرضع المخالطين لناقصي المناعة لأن خطر الروتا البري أكبر من خطر فيروس اللقاح. يُطرح الفيروس في البراز خاصة الأسبوع الأول وقد يستمر حتى ~4 أسابيع: غسل اليدين بعد تغيير الحفاضات، ويُفضل ألا تتولى المريضة التغيير. التأخير غير ممكن لأن آخر عمر لبدء السلسلة 14 أسبوعاً و6 أيام.",
+  "terms": [
+   [
+    "Rotavirus",
+    "رو-تا-ڤاي-رس"
+   ]
+  ],
+  "ref": "ACIP rotavirus; CDC Pink Book"
  },
  {
   "id": "vsch004",
@@ -464,6 +676,26 @@
   "ref": "ACIP 2022"
  },
  {
+  "id": "icx006",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Measles: HIV CD4 150",
+  "scenario": "A 29-year-old man with HIV, CD4 150 cells/µL (11%), recently restarted ART. He received MMR x2 as a child. Exposed to measles on a flight 4 days ago.",
+  "question": "What is the right PEP?",
+  "options": [
+   "IGIV 400 mg/kg regardless of past MMR",
+   "None; childhood MMR x2 is enough",
+   "MMR now plus IGIM"
+  ],
+  "answer": "HIV مع CD4 <200 أو <15% يعدّ شديد كبت المناعة، والمناعة الناتجة عن MMR في الطفولة قد تضيع مع تدهور CD4. القاعدة: IGIV 400 mg/kg خلال 6 أيام بغض النظر عن التطعيم أو المصل. MMR ممنوع عند CD4 <200.",
+  "terms": [
+   [
+    "Antiretroviral therapy",
+    "آن-تي-ري-ترو-ڤاي-رال"
+   ]
+  ],
+  "ref": "ACIP 2013 measles PEP"
+ },
+ {
   "id": "vpop004",
   "topic": "Special-Populations",
   "title": "RSV maternal vaccine window",
@@ -508,6 +740,26 @@
   "ref": "WHO IHR polio 2024; Saudi MOH"
  },
  {
+  "id": "ich006",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Transplant mother caring for vaccinated baby",
+  "scenario": "A 31-year-old mother, 3 years post-kidney transplant on tacrolimus/mycophenolate, will care alone for her 2-month-old after rotavirus vaccine.",
+  "question": "What advice fits?",
+  "options": [
+   "Vaccinate; she uses gloves/handwashing for diapers",
+   "Do not give rotavirus to this infant",
+   "Give rotavirus only after mother stops mycophenolate"
+  ],
+  "answer": "الروتا مُوصى به حتى لو كانت الأم ناقصة المناعة. الاحتياط: غسل اليدين جيداً بعد كل حفاض (ويُفضل قفازات) لمدة ~4 أسابيع، وإن وُجد شخص آخر يغير الحفاضات فأفضل. لا يُوقف أي دواء مثبط لأجل لقاح الطفل.",
+  "terms": [
+   [
+    "Mycophenolate",
+    "ماي-كو-في-نو-ليت"
+   ]
+  ],
+  "ref": "ACIP rotavirus; KDIGO transplant"
+ },
+ {
   "id": "vint003",
   "topic": "Schedules-Catchup",
   "title": "✅ Series complete? Adolescent 2-dose HepB",
@@ -548,6 +800,26 @@
   "ref": "ACIP 2018"
  },
  {
+  "id": "icx007",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Varicella: what counts",
+  "scenario": "A kidney transplant recipient, VZV IgG negative, asks about two events: (a) her colleague has localized shingles on the chest, covered by clothing, shared office; (b) she hugged and kissed her nephew whose uncovered facial shingles had fresh vesicles.",
+  "question": "Which is a significant exposure?",
+  "options": [
+   "(b) only: direct contact with uncovered zoster",
+   "(a) only: shared indoor space",
+   "Neither; zoster is never a significant exposure"
+  ],
+  "answer": "التعرض المعتبر للجديري: سكن مشترك، لعب وجهاً لوجه داخل مكان مغلق (يحدده البعض بـ5 دقائق إلى ساعة)، أو نفس غرفة المستشفى. الهربس النطاقي الموضعي المغطى نادر النقل، أما المكشوف مع تماس مباشر (لمس/عناق) أو الهربس المنتشر فيعدّ تعرضاً معتبراً. لذا (b) يستدعي VariZIG.",
+  "terms": [
+   [
+    "Varicella zoster",
+    "ڤا-ري-سِ-لا زوس-تر"
+   ]
+  ],
+  "ref": "CDC VariZIG 2013; CDC Pink Book"
+ },
+ {
   "id": "vsch005",
   "topic": "Schedules-Catchup",
   "title": "28-day live–live rule (no grace)",
@@ -586,6 +858,26 @@
    ]
   ],
   "ref": "ACIP 2024"
+ },
+ {
+  "id": "ich007",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Polio vaccine for household contacts",
+  "scenario": "A family relocating from abroad has a child who received OPV there; the father is on chemotherapy for lymphoma. Their 2-month-old now needs polio vaccine.",
+  "question": "Which polio vaccine for the infant?",
+  "options": [
+   "IPV only",
+   "bOPV per schedule",
+   "OPV now, IPV later"
+  ],
+  "answer": "OPV فيروس حي يُطرح في البراز لأسابيع وقد يسبب شلل مرتبط باللقاح أو VDPV لدى ناقص المناعة. لذلك لا يُعطى OPV لناقص المناعة ولا لمخالطيه المنزليين؛ يُستخدم IPV. ويُنصح بنظافة اليدين بعد آخر جرعة OPV تلقاها الأخ.",
+  "terms": [
+   [
+    "Vaccine-derived poliovirus",
+    "ڤاك-سين دي-رايڤد بو-ليو-ڤاي-رس"
+   ]
+  ],
+  "ref": "WHO polio 2022; ACIP"
  },
  {
   "id": "vpop005",
@@ -632,6 +924,26 @@
   "ref": "ACIP 2013/2019"
  },
  {
+  "id": "icx008",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: VariZIG dose",
+  "scenario": "A 50-kg kidney transplant recipient, VZV IgG negative, had household exposure to chickenpox 3 days ago.",
+  "question": "What dose of VariZIG?",
+  "options": [
+   "625 IU IM (125 IU/10 kg, max 625)",
+   "1250 IU IM (125 IU/5 kg)",
+   "125 IU IM single fixed dose"
+  ],
+  "answer": "جرعة VariZIG هي 125 IU لكل 10 kg (حد أدنى 62.5 IU لمن ≤2 kg)، والحد الأقصى 625 IU تُعطى لمن ≥40 kg. تُعطى عضلياً بأسرع وقت ويُسمح بها حتى 10 أيام بعد التعرض. راقب 28 يوماً لأن VariZIG يطيل الحضانة.",
+  "terms": [
+   [
+    "VariZIG",
+    "ڤا-ري-زِج"
+   ]
+  ],
+  "ref": "CDC VariZIG 2013"
+ },
+ {
   "id": "vtrv005",
   "topic": "Travel-Safety-New",
   "title": "Yellow fever: certificate validity",
@@ -670,6 +982,30 @@
    ]
   ],
   "ref": "ACIP 2023"
+ },
+ {
+  "id": "ich008",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: ACAM2000 and spouse on chemo",
+  "scenario": "A 34-year-old laboratory worker with orthopoxvirus exposure risk is offered pre-exposure smallpox vaccine. His wife is receiving chemotherapy for breast cancer.",
+  "question": "Which vaccine is appropriate?",
+  "options": [
+   "JYNNEOS (MVA-BN), non-replicating",
+   "ACAM2000 with a bandage over the site",
+   "ACAM2000 after wife's chemo cycle ends"
+  ],
+  "answer": "ACAM2000 فيروس vaccinia متكاثر ينتقل باللمس من موضع اللقاح، وأحد موانعه وجود مخالط منزلي ناقص المناعة (أو أكزيما أو حمل). JYNNEOS غير متكاثر فهو آمن للمخالطين ويُعطى جرعتين بفاصل 28 يوماً.",
+  "terms": [
+   [
+    "Vaccinia",
+    "ڤاك-سي-نيا"
+   ],
+   [
+    "Modified vaccinia Ankara",
+    "مو-دي-فايد ڤاك-سي-نيا آن-كا-را"
+   ]
+  ],
+  "ref": "ACIP 2022-23 orthopoxvirus"
  },
  {
   "id": "vsch006",
@@ -712,6 +1048,26 @@
   "ref": "ACIP 2024"
  },
  {
+  "id": "icx009",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: VariZIG: day 8",
+  "scenario": "A 45-year-old woman on R-CHOP chemotherapy, no varicella history, IgG negative. Her son developed chickenpox; she presents 8 days after rash onset in him.",
+  "question": "What is the correct step?",
+  "options": [
+   "Give VariZIG now; allowed up to 10 days",
+   "Too late for VariZIG; give vaccine",
+   "Too late; observe only"
+  ],
+  "answer": "VariZIG مرخص حتى 10 أيام بعد التعرض (الأفضل مبكراً). لقاح الجديري حي وممنوع أثناء العلاج الكيميائي. إن تأخرت أكثر من 10 أيام أو تعذر VariZIG فالبديل IVIG 400 mg/kg أو مضاد الفيروس الوقائي.",
+  "terms": [
+   [
+    "R-CHOP",
+    "آر-تشوب"
+   ]
+  ],
+  "ref": "CDC VariZIG 2013"
+ },
+ {
   "id": "vint004",
   "topic": "Schedules-Catchup",
   "title": "✅ Series complete? Heplisav-B 2 doses",
@@ -752,6 +1108,26 @@
   "ref": "CDC 2024"
  },
  {
+  "id": "ich009",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Yellow fever for contact traveler",
+  "scenario": "A 40-year-old man travels to Uganda next month. His daughter lives with him and is on azathioprine plus infliximab for Crohn disease.",
+  "question": "May he receive yellow fever vaccine?",
+  "options": [
+   "Yes; not spread to household contacts",
+   "No; use a medical waiver letter instead",
+   "Yes, but avoid his daughter for 10 days"
+  ],
+  "answer": "لقاح الحمى الصفراء حي لكنه لا ينتقل من شخص لآخر بالمخالطة (الاستثناء النادر: الرضاعة الطبيعية ونقل الدم/الأعضاء). لذا يُعطى للمخالط دون قيود، ويجب ألا يتبرع بالدم لأسبوعين تقريباً. ناقص المناعة نفسه هو من يُمنع عنه.",
+  "terms": [
+   [
+    "Infliximab",
+    "إن-فلك-سي-ماب"
+   ]
+  ],
+  "ref": "CDC Yellow Book 2026"
+ },
+ {
   "id": "vtrv006",
   "topic": "Travel-Safety-New",
   "title": "Yellow fever: when certificate is valid",
@@ -790,6 +1166,26 @@
    ]
   ],
   "ref": "CDC Best Practices"
+ },
+ {
+  "id": "icx010",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Varicella: acyclovir PEP",
+  "scenario": "A 60-year-old on prednisone 40 mg/day, VZV seronegative, exposed at home 12 days ago. VariZIG and IVIG are not possible now.",
+  "question": "What antiviral prophylaxis is advised?",
+  "options": [
+   "Acyclovir/valacyclovir from day 7–10 for 7 days",
+   "Acyclovir 5 days starting immediately at day 0",
+   "None; antivirals only once rash appears"
+  ],
+  "answer": "عند تعذر VariZIG أو فوات وقته، يُعطى acyclovir (20 mg/kg أربع مرات يومياً، حد أقصى 800 mg) أو valacyclovir (20 mg/kg ثلاث مرات، حد أقصى 1 g) بدءاً من اليوم 7–10 بعد التعرض ولمدة 7 أيام لتغطية فترة التكاثر الفيروسي. علّمه الحضور فوراً إن ظهر طفح للعلاج بجرعة علاجية.",
+  "terms": [
+   [
+    "Valacyclovir",
+    "ڤا-لا-سَي-كلو-ڤير"
+   ]
+  ],
+  "ref": "CDC Pink Book; AAP Red Book 2024"
  },
  {
   "id": "vsch007",
@@ -836,6 +1232,26 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "ich010",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Oral typhoid for contact traveler",
+  "scenario": "A 26-year-old woman travels to Pakistan; her mother at home is 2 years post-lung transplant. She prefers oral Ty21a capsules.",
+  "question": "Is Ty21a acceptable for her?",
+  "options": [
+   "Yes; no restriction for household contacts",
+   "No; use Typhim Vi because of the mother",
+   "Yes, but mother must avoid her 4 weeks"
+  ],
+  "answer": "Ty21a لقاح حي فموي، لكن لا يوجد دليل على انتقاله لمخالطين؛ ACIP لا يمنعه عن مخالطي ناقصي المناعة. المحظور هو إعطاؤه لناقص المناعة نفسه. يُؤخذ 4 كبسولات يوماً بعد يوم، ويُتجنب المضاد الحيوي 72 ساعة حوله. النظافة العامة كافية.",
+  "terms": [
+   [
+    "Ty21a",
+    "تي واي توينتي وان إيه"
+   ]
+  ],
+  "ref": "CDC Yellow Book 2026"
+ },
+ {
   "id": "vimm007",
   "topic": "Immunocompromised",
   "title": "Rituximab and vaccine response",
@@ -874,6 +1290,26 @@
    ]
   ],
   "ref": "ACOG 2025"
+ },
+ {
+  "id": "icx011",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Varicella: HSCT with past chickenpox",
+  "scenario": "A 26-year-old, autologous HSCT 8 months ago, had chickenpox at age 6 and positive VZV IgG before transplant. Household exposure to chickenpox 2 days ago.",
+  "question": "How should she be managed?",
+  "options": [
+   "Treat as nonimmune: give VariZIG",
+   "Immune by history; reassure",
+   "Give varicella vaccine within 3 days"
+  ],
+  "answer": "متلقو زراعة الخلايا الجذعية يُعدّون غير محصنين بغض النظر عن الإصابة أو التطعيم قبل الزراعة، لأن الجهاز المناعي أُعيد بناؤه. لذا يُعطى VariZIG خلال 10 أيام. اللقاح الحي ممنوع قبل سنتين من الزراعة وبشروط. أبلغ فريق الزراعة.",
+  "terms": [
+   [
+    "Autologous",
+    "أو-تو-لو-غَس"
+   ]
+  ],
+  "ref": "CDC VariZIG 2013; IDSA 2013"
  },
  {
   "id": "vtrv007",
@@ -916,6 +1352,26 @@
   "ref": "CDC Pink Book"
  },
  {
+  "id": "ich011",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Shingles vaccine for spouse of HSCT",
+  "scenario": "A 58-year-old woman's husband is 10 months post-allogeneic HSCT. She had chickenpox as a child and asks about shingles vaccine.",
+  "question": "What is correct?",
+  "options": [
+   "Give RZV 2 doses 2–6 months apart; no restriction",
+   "Avoid any zoster vaccine while husband is <2 y post-HSCT",
+   "Give RZV only after husband stops GVHD therapy"
+  ],
+  "answer": "RZV (Shingrix) لقاح غير حي مؤتلف، يُعطى لكل من ≥50 سنة جرعتين بفاصل 2–6 أشهر ولا يشكل أي خطر على المخالطين. القلق النظري كان مع لقاح Zostavax الحي القديم (يتوقف). وقاية الزوجة من الهربس النطاقي تحمي الزوج من التعرض لـ VZV.",
+  "terms": [
+   [
+    "Recombinant zoster vaccine",
+    "ري-كوم-بي-نانت زوس-تر ڤاك-سين"
+   ]
+  ],
+  "ref": "ACIP 2018/2022"
+ },
+ {
   "id": "vint005",
   "topic": "Schedules-Catchup",
   "title": "✅ Series complete? HepA second dose",
@@ -954,6 +1410,26 @@
    ]
   ],
   "ref": "ACIP Rabies 2010"
+ },
+ {
+  "id": "icx012",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Varicella: serology if time allows",
+  "scenario": "A 38-year-old on tofacitinib for RA, uncertain chickenpox history, no varicella vaccine. Classroom exposure to chickenpox 1 day ago. Rapid VZV IgG result available in 24 h.",
+  "question": "What is the best approach?",
+  "options": [
+   "Send VZV IgG; give VariZIG only if negative",
+   "Give VariZIG immediately without testing",
+   "Give varicella vaccine within 3–5 days"
+  ],
+  "answer": "عند وجود وقت كافٍ (VariZIG مسموح حتى 10 أيام) يُفحص VZV IgG أولاً لمن تاريخه غير مؤكد؛ إن كان إيجابياً فلا حاجة لـVariZIG وتوفّر منتجاً نادراً. لكن لا تؤخر إن كانت النتيجة ستتأخر أو الشخص شديد الكبت. اللقاح الحي ممنوع مع JAK inhibitors.",
+  "terms": [
+   [
+    "Tofacitinib",
+    "تو-فا-سي-تي-نِب"
+   ]
+  ],
+  "ref": "CDC VariZIG 2013"
  },
  {
   "id": "vimm008",
@@ -1004,6 +1480,26 @@
   "ref": "ACIP 2022"
  },
  {
+  "id": "ich012",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: COVID vaccine for household contacts",
+  "scenario": "A family of five lives with a grandfather on rituximab for lymphoma. The adults ask if their own COVID-19 vaccination matters given he 'gets his own shots'.",
+  "question": "What is the best advice?",
+  "options": [
+   "Vaccinate contacts; his response to vaccine is poor",
+   "Not needed; only the patient must be vaccinated",
+   "Contacts should get vaccine only if he is positive"
+  ],
+  "answer": "مرضى rituximab (نضوب الخلايا B) يستجيبون ضعيفاً للقاحات، لذلك تطعيم المحيطين (cocooning) بلقاحات COVID-19 والإنفلونزا جزء أساسي من حمايته، إضافة لخطة مضادات الفيروس المبكرة إن أصيب.",
+  "terms": [
+   [
+    "Rituximab",
+    "ري-تك-سي-ماب"
+   ]
+  ],
+  "ref": "CDC/ACIP 2024-25"
+ },
+ {
   "id": "vtrv008",
   "topic": "Travel-Safety-New",
   "title": "Yellow fever: thymus disease",
@@ -1048,6 +1544,30 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "icx013",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Disseminated zoster in contact",
+  "scenario": "A seronegative 55-year-old on mycophenolate after heart transplant visited her husband in hospital daily; he has disseminated zoster (lesions on >3 dermatomes) on airborne precautions.",
+  "question": "How do you classify her exposure?",
+  "options": [
+   "Like varicella: significant, give VariZIG",
+   "Low risk; zoster spreads only by contact",
+   "Give zoster vaccine RZV as PEP"
+  ],
+  "answer": "الهربس النطاقي المنتشر (أو الموضعي عند مكبوت المناعة) ينتقل بالهواء مثل الجديري، فالتعرض له في نفس الغرفة يُعامل كتعرض للجديري ويستحق VariZIG خلال 10 أيام. لقاح RZV ليس وقاية بعد التعرض.",
+  "terms": [
+   [
+    "Mycophenolate",
+    "ماي-كو-فِ-نو-ليت"
+   ],
+   [
+    "Disseminated",
+    "دِ-سِ-مي-نَي-تِد"
+   ]
+  ],
+  "ref": "CDC Pink Book; CDC isolation 2007"
+ },
+ {
   "id": "vdose010",
   "topic": "Dose-Route",
   "title": "Hep A at 18 years",
@@ -1086,6 +1606,26 @@
    ]
   ],
   "ref": "ACIP General Best Practice 2024"
+ },
+ {
+  "id": "ich013",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Pregnant sister of HSCT patient",
+  "scenario": "A 30-year-old woman, 28 weeks pregnant, lives with her brother 6 months post-HSCT. She is rubella non-immune and has no varicella history (IgG negative).",
+  "question": "Which plan is correct now?",
+  "options": [
+   "Tdap + IIV now; MMR and varicella postpartum",
+   "MMR and varicella now to protect the brother",
+   "Tdap only; flu vaccine is unsafe in 3rd trimester"
+  ],
+  "answer": "الحامل تُطعَّم Tdap بين 27–36 أسبوعاً في كل حمل والإنفلونزا المعطلة في أي مرحلة. MMR والحماق ممنوعان في الحمل (لسببها هي لا لسبب الأخ) وتُعطى بعد الولادة مباشرة قبل الخروج، والرضاعة ليست مانعاً.",
+  "terms": [
+   [
+    "Tdap",
+    "تي-داب"
+   ]
+  ],
+  "ref": "ACIP 2024"
  },
  {
   "id": "vimm009",
@@ -1128,6 +1668,26 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "icx014",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Influenza: vaccinated transplant",
+  "scenario": "A 48-year-old kidney transplant recipient received this season's influenza vaccine. Her husband had confirmed influenza A 24 h ago; they share a bedroom.",
+  "question": "What is advised?",
+  "options": [
+   "Oseltamivir 75 mg once daily as PEP",
+   "Nothing; she is vaccinated",
+   "Oseltamivir 75 mg twice daily for 5 days"
+  ],
+  "answer": "اللقاح لا يكفي عند مكبوت المناعة لأن الاستجابة ضعيفة، لذا يوصى بـPEP لمن هو عالي الخطورة خلال 48 ساعة من التعرض. جرعة الوقاية 75 mg مرة يومياً (العلاجية مرتين)، تُعدّل حسب وظائف الكلى. البديل لبعض المرضى: مراقبة وعلاج مبكر.",
+  "terms": [
+   [
+    "Oseltamivir",
+    "أو-سِل-تا-مي-ڤير"
+   ]
+  ],
+  "ref": "CDC influenza antivirals 2024; IDSA 2018"
+ },
+ {
   "id": "vint006",
   "topic": "Schedules-Catchup",
   "title": "⏱️ Min interval: DTaP dose 4",
@@ -1166,6 +1726,26 @@
    ]
   ],
   "ref": "CDC Yellow Book 2024"
+ },
+ {
+  "id": "ich014",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Non-immune HCW on transplant ward",
+  "scenario": "A 24-year-old new nurse on a transplant ward is varicella IgG negative. She received dose 1 of varicella vaccine 4 weeks ago and has no rash.",
+  "question": "What is next?",
+  "options": [
+   "Dose 2 now; if rash, avoid high-risk patients till crusted",
+   "Wait 3 months for dose 2",
+   "No dose 2; recheck IgG first"
+  ],
+  "answer": "البالغ غير المحصن يحتاج جرعتين بفاصل ≥4 أسابيع. لا يُنصح بفحص الأجسام المضادة بعد التطعيم روتينياً. لا يُبعد عن العمل إلا إذا ظهر طفح بعد اللقاح، فيتجنب حينها رعاية المرضى عاليي الخطورة حتى تتقشر الآفات.",
+  "terms": [
+   [
+    "Varicella",
+    "ڤا-ري-سي-لا"
+   ]
+  ],
+  "ref": "ACIP HCP 2011; CDC Pink Book"
  },
  {
   "id": "vdose011",
@@ -1212,6 +1792,26 @@
   "ref": "ACIP General Best Practice 2024"
  },
  {
+  "id": "icx015",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Influenza PEP duration",
+  "scenario": "A 70-year-old on chemotherapy for myeloma starts oseltamivir PEP after his wife developed influenza at home; she is still symptomatic.",
+  "question": "How long should PEP continue?",
+  "options": [
+   "10 days for household (≥7 d after last exposure)",
+   "5 days, like treatment",
+   "Only 48 hours"
+  ],
+  "answer": "مدة الوقاية: 7 أيام بعد آخر تعرض، وفي التعرض المنزلي المستمر مدة الترخيص 10 أيام. أكمل مدة تغطي اليوم السابع بعد آخر يوم عدوى للمريض المصدر. لا تقصّرها لمدة العلاج (5 أيام).",
+  "terms": [
+   [
+    "Myeloma",
+    "ماي-لو-ما"
+   ]
+  ],
+  "ref": "CDC influenza antivirals 2024; FDA label"
+ },
+ {
   "id": "vimm010",
   "topic": "Immunocompromised",
   "title": "Eculizumab meningococcal",
@@ -1256,6 +1856,26 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "ich015",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Visitor after LAIV to HSCT unit",
+  "scenario": "A 15-year-old received LAIV 3 days ago and wants to visit his father in an HSCT unit with protective-environment rooms.",
+  "question": "When can he visit?",
+  "options": [
+   "After 7 days from LAIV",
+   "Immediately with a mask",
+   "After 28 days from LAIV"
+  ],
+  "answer": "بعد LAIV يُطرح فيروس اللقاح المضعف من الأنف لأيام، لذلك يُتجنب الاتصال بمرضى البيئة المحمية لمدة 7 أيام. الكمامة لا تكفي في هذه الوحدات. بعد 7 أيام يمكنه الزيارة.",
+  "terms": [
+   [
+    "Protective environment",
+    "برو-تك-تيڤ إن-ڤاي-رون-منت"
+   ]
+  ],
+  "ref": "ACIP 2024-25"
+ },
+ {
   "id": "vpop010",
   "topic": "Special-Populations",
   "title": "Inadvertent MMR in pregnancy",
@@ -1294,6 +1914,26 @@
    ]
   ],
   "ref": "ACIP General Best Practice"
+ },
+ {
+  "id": "icx016",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Influenza: baloxavir in HSCT",
+  "scenario": "A 30-year-old, allogeneic HSCT 5 months ago, household influenza exposure yesterday. He asks for the 'single-dose pill' (baloxavir) instead of oseltamivir.",
+  "question": "Which is preferred?",
+  "options": [
+   "Oseltamivir; baloxavir not advised in severe IC",
+   "Baloxavir; single dose is equivalent for all",
+   "Zanamivir inhaled is first choice"
+  ],
+  "answer": "baloxavir مرخص كجرعة وقائية واحدة لمن ≥5 سنوات، لكن CDC لا يوصي به منفرداً لشديدي كبت المناعة بسبب خطر ظهور المقاومة مع التكاثر الفيروسي المطول. oseltamivir هو الخيار المفضل هنا، مع علاج مبكر لو ظهرت أعراض.",
+  "terms": [
+   [
+    "Baloxavir",
+    "با-لوك-سا-ڤير"
+   ]
+  ],
+  "ref": "CDC influenza antivirals 2024"
  },
  {
   "id": "vdose012",
@@ -1336,6 +1976,26 @@
   "ref": "ACIP Child Schedule 2025"
  },
  {
+  "id": "ich016",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Visitor after MMR to HSCT unit",
+  "scenario": "A 13-month-old received MMR and varicella vaccines yesterday. Family wants to bring her to visit her mother in an HSCT unit.",
+  "question": "What applies?",
+  "options": [
+   "MMR no restriction; varicella only if rash appears",
+   "Wait 4 weeks after both vaccines",
+   "Wait 7 days, like LAIV"
+  ],
+  "answer": "MMR لا ينتقل للمخالطين فلا قيود. لقاح الحماق كذلك لا قيود إلا إذا ظهر طفح بعده فيُمنع الاتصال حتى التقشر. (قد تمنع سياسة الوحدة دخول الأطفال لأسباب أخرى مثل الأمراض التنفسية.)",
+  "terms": [
+   [
+    "Measles-mumps-rubella",
+    "مي-زلز ممبس رو-بي-لا"
+   ]
+  ],
+  "ref": "IDSA 2013; CDC"
+ },
+ {
   "id": "vint007",
   "topic": "Schedules-Catchup",
   "title": "✅ Series complete? DTaP 5th dose not needed",
@@ -1374,6 +2034,30 @@
    ]
   ],
   "ref": "CDC / REMS"
+ },
+ {
+  "id": "icx017",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Pertussis: on chemotherapy",
+  "scenario": "A 41-year-old woman on breast-cancer chemotherapy, Tdap 2 years ago. Her son was confirmed with pertussis; household exposure ongoing, cough onset 10 days ago.",
+  "question": "What should be offered?",
+  "options": [
+   "Azithromycin PEP now, regardless of vaccination",
+   "No PEP; Tdap 2 years ago is protective",
+   "Tdap booster only"
+  ],
+  "answer": "الوقاية بالمضاد الحيوي لمخالطي الشاهوق المنزليين ومن هم عاليو الخطورة بغض النظر عن التطعيم، لأن مناعة اللقاح تضعف وغير كاملة. تُعطى خلال 21 يوماً من بدء السعال لدى الحالة: azithromycin 500 mg اليوم الأول ثم 250 mg أيام 2–5. Tdap لا يحمي بعد التعرض.",
+  "terms": [
+   [
+    "Azithromycin",
+    "أ-زي-ثرو-ماي-سين"
+   ],
+   [
+    "Pertussis",
+    "پر-تُ-سِس"
+   ]
+  ],
+  "ref": "CDC pertussis PEP 2024"
  },
  {
   "id": "vpop011",
@@ -1420,6 +2104,30 @@
   "ref": "CDC Yellow Book 2024"
  },
  {
+  "id": "ich017",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Pets in HSCT household",
+  "scenario": "A family's son returns home 3 months after allogeneic HSCT. They have a cat and want to buy a pet turtle for him.",
+  "question": "Which advice is right?",
+  "options": [
+   "Keep the cat; others clean litter; no reptiles",
+   "Rehome the cat; turtle is safe",
+   "Both fine with handwashing"
+  ],
+  "answer": "لا يلزم التخلص من القطة السليمة، لكن على غير المريض تنظيف صندوق الفضلات (توكسوبلازما) وتجنب خدش القطط (Bartonella). الزواحف (السلاحف) مصدر عالٍ لـ Salmonella ويُنصح بتجنبها تماماً لمرضى HSCT والأطفال <5 سنوات.",
+  "terms": [
+   [
+    "Toxoplasma",
+    "توك-سو-بلاز-ما"
+   ],
+   [
+    "Bartonella",
+    "بار-تو-نيل-لا"
+   ]
+  ],
+  "ref": "CDC/IDSA HSCT 2009"
+ },
+ {
   "id": "vdose013",
   "topic": "Dose-Route",
   "title": "Hepatitis A immunoglobulin",
@@ -1464,6 +2172,30 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "icx018",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Meningococcal: eculizumab",
+  "scenario": "A 33-year-old with PNH on eculizumab, fully vaccinated with MenACWY and MenB. His roommate was admitted with meningococcal meningitis yesterday.",
+  "question": "What is the correct action?",
+  "options": [
+   "Chemoprophylaxis now (e.g., ciprofloxacin)",
+   "None; he is fully vaccinated",
+   "MenACWY booster only"
+  ],
+  "answer": "مثبطات C5 (eculizumab/ravulizumab) تزيد خطر المكورات السحائية ألف مرة أو أكثر، واللقاحات لا تحمي بشكل كامل. يحتاج وقاية كيميائية فوراً (ciprofloxacin 500 mg جرعة واحدة أو rifampin أو ceftriaxone) مع الحرص على حداثة اللقاحات، وتعليمه أن أي حمى = طوارئ.",
+  "terms": [
+   [
+    "Eculizumab",
+    "إ-كيو-لي-زو-ماب"
+   ],
+   [
+    "Ciprofloxacin",
+    "سي-پرو-فلوك-سا-سين"
+   ]
+  ],
+  "ref": "ACIP 2020 meningococcal; CDC"
+ },
+ {
   "id": "vsch012",
   "topic": "Schedules-Catchup",
   "title": "DTaP 5th dose not needed",
@@ -1502,6 +2234,30 @@
    ]
   ],
   "ref": "ACIP 2020"
+ },
+ {
+  "id": "ich018",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Newborn with sibling who had SCID",
+  "scenario": "A newborn's older brother died of severe combined immunodeficiency (SCID) at 6 months. Newborn screening (TREC) result is pending. Rotavirus is due at 2 months.",
+  "question": "What should the clinic do?",
+  "options": [
+   "Hold live vaccines until immune status confirmed",
+   "Give rotavirus and BCG as scheduled",
+   "Give rotavirus; SCID is not inherited"
+  ],
+  "answer": "تاريخ عائلي لـ SCID يعني احتمال إصابة المولود (وراثة غالباً متنحية). تُؤجل اللقاحات الحية (الروتا، BCG، OPV) حتى تأكيد سلامة المناعة (TREC/لمفاويات) وتحويل لمناعة الأطفال. الروتا قد يسبب إسهالاً مزمناً لدى SCID، وBCG عدوى منتشرة.",
+  "terms": [
+   [
+    "Severe combined immunodeficiency",
+    "سي-ڤير كم-باين-د إميونو-دي-في-شن-سي"
+   ],
+   [
+    "TREC",
+    "تريك"
+   ]
+  ],
+  "ref": "ACIP 2010/IDSA 2013"
  },
  {
   "id": "vpop012",
@@ -1548,6 +2304,26 @@
   "ref": "CDC Yellow Book 2024"
  },
  {
+  "id": "icx019",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: HBV: unvaccinated on chemo",
+  "scenario": "A 37-year-old on chemotherapy for lymphoma, never HBV vaccinated, anti-HBs negative, had condomless sex 2 days ago with a partner newly found HBsAg-positive.",
+  "question": "What is the PEP?",
+  "options": [
+   "HBIG 0.06 mL/kg + start HBV vaccine series",
+   "HBV vaccine alone",
+   "HBIG alone, no vaccine during chemo"
+  ],
+  "answer": "غير المطعّم المتعرض لمصدر HBsAg إيجابي يحتاج HBIG 0.06 mL/kg مع بدء سلسلة اللقاح في موضع مختلف، يُفضّل خلال 24 ساعة ولا يزيد عن 14 يوماً بعد التعرض الجنسي. اللقاح غير حي وآمن أثناء الكيميائي رغم ضعف الاستجابة، لذا افحص anti-HBs بعد السلسلة.",
+  "terms": [
+   [
+    "HBIG",
+    "إتش-بي-آي-جي"
+   ]
+  ],
+  "ref": "CDC 2018 HBV PEP"
+ },
+ {
   "id": "vint008",
   "topic": "Schedules-Catchup",
   "title": "⏱️ Min interval: Td/Tdap catch-up 7–18 y",
@@ -1586,6 +2362,26 @@
    ]
   ],
   "ref": "ACIP 2010"
+ },
+ {
+  "id": "ich019",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Child of parent with HIV CD4 150",
+  "scenario": "A 1-year-old (HIV negative) lives with his father who has HIV, CD4 150 cells/µL, just starting ART. Mother asks to delay MMR and varicella.",
+  "question": "What is correct?",
+  "options": [
+   "Give MMR and varicella now",
+   "Delay until father's CD4 >200",
+   "Give MMR only; defer varicella"
+  ],
+  "answer": "لقاحات MMR والحماق مُوصى بها لمخالطي ناقصي المناعة بمن فيهم مرضى HIV مع CD4 منخفض. MMR لا ينتقل؛ الحماق ينتقل نادراً جداً مع الطفح فقط. التأجيل يعرض الأب للعدوى البرية الأخطر.",
+  "terms": [
+   [
+    "Antiretroviral therapy",
+    "آن-تي-ري-ترو-ڤاي-رال ثيرابي"
+   ]
+  ],
+  "ref": "ACIP; IDSA 2013"
  },
  {
   "id": "vsch013",
@@ -1632,6 +2428,26 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "icx020",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: HBV: known nonresponder",
+  "scenario": "A 50-year-old with CKD stage 4 completed two full HBV vaccine series; anti-HBs remained <10 mIU/mL after each. Needlestick from an HBsAg-positive source 1 day ago.",
+  "question": "What is the PEP?",
+  "options": [
+   "HBIG x2, one month apart",
+   "HBIG x1 plus a third vaccine series",
+   "One vaccine booster dose"
+  ],
+  "answer": "عديم الاستجابة الموثق بعد سلسلتين لا فائدة من مزيد من اللقاح، لذا يُعطى HBIG جرعتين بفاصل شهر (الأولى بأسرع وقت). أما عديم الاستجابة بعد سلسلة واحدة فقط: HBIG جرعة واحدة + بدء سلسلة ثانية. تأكد من فحص HBsAg للمريض.",
+  "terms": [
+   [
+    "Anti-HBs",
+    "آن-تي إتش-بي-إس"
+   ]
+  ],
+  "ref": "CDC 2018 HBV PEP; MMWR 2013"
+ },
+ {
   "id": "vpop013",
   "topic": "Special-Populations",
   "title": "Breastfeeding and vaccines",
@@ -1670,6 +2486,26 @@
    ]
   ],
   "ref": "ACIP 2020"
+ },
+ {
+  "id": "ich020",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Grandparents of child on chemo",
+  "scenario": "A 64-year-old grandmother will babysit her grandson on chemotherapy. She had Td 4 years ago, never Tdap, and has not had this season's flu vaccine.",
+  "question": "What should she receive?",
+  "options": [
+   "Tdap now + high-dose/adjuvanted flu",
+   "Flu only; Td was <10 years ago",
+   "Tdap only after 10 years from Td"
+  ],
+  "answer": "Tdap يُعطى لكل بالغ لم يتلقه سابقاً بغض النظر عن موعد آخر Td. وللمسنين ≥65 تُفضل لقاحات الإنفلونزا عالية الجرعة أو المدعّمة أو المؤتلفة؛ وهي هنا 64 سنة فتأخذ أي IIV/RIV مناسب للعمر. تطعيم المحيطين يحمي الطفل.",
+  "terms": [
+   [
+    "Pertussis",
+    "بير-تو-سس"
+   ]
+  ],
+  "ref": "ACIP 2024-25"
  },
  {
   "id": "vtrv013",
@@ -1712,6 +2548,26 @@
   "ref": "WHO 2018"
  },
  {
+  "id": "icx021",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: HAV: transplant adult",
+  "scenario": "A 30-year-old liver-transplant recipient on tacrolimus ate at a restaurant 5 days ago where a food handler had confirmed hepatitis A. She never had HAV vaccine.",
+  "question": "What PEP is recommended?",
+  "options": [
+   "IG 0.1 mL/kg plus HAV vaccine, same visit",
+   "HAV vaccine alone (she is <40)",
+   "IG alone; vaccine contraindicated"
+  ],
+  "answer": "عادة لمن عمره 12 شهراً–40 سنة يكفي اللقاح وحده. لكن مكبوت المناعة ومريض الكبد المزمن يُعطى IG 0.1 mL/kg مع اللقاح في موضعين مختلفين بغض النظر عن العمر، خلال أسبوعين من التعرض، لأن استجابته للقاح ضعيفة. اللقاح غير حي وآمن.",
+  "terms": [
+   [
+    "Immune globulin",
+    "إ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2018 hepatitis A"
+ },
+ {
   "id": "vsch014",
   "topic": "Schedules-Catchup",
   "title": "Hib/PCV in healthy ≥5 y",
@@ -1750,6 +2606,26 @@
    ]
   ],
   "ref": "ACIP 2020"
+ },
+ {
+  "id": "ich021",
+  "topic": "Immunocompromised",
+  "title": "🏠 Household: Oral cholera vaccine for contact",
+  "scenario": "A 35-year-old aid worker deploying to a cholera outbreak lives with his son, 8 months post-HSCT. He asks about oral live cholera vaccine (CVD 103-HgR).",
+  "question": "What is the best approach?",
+  "options": [
+   "Caution: vaccine shed in stool; strict hygiene/avoid ≥7 d",
+   "No issue; cholera vaccine is inactivated",
+   "Contraindicated absolutely; must not travel"
+  ],
+  "answer": "لقاح CVD 103-HgR (Vaxchora) حي فموي، والنشرة تذكر أنه قد يُطرح في البراز 7 أيام على الأقل مع احتمال نظري للانتقال، لذا يُتعامل بحذر مع مخالطي ناقصي المناعة: نظافة صارمة لليدين والحمام، وتقليل الاتصال الوثيق في تلك الفترة، أو اختيار لقاح معطل حيث يتوفر.",
+  "terms": [
+   [
+    "Vaxchora",
+    "ڤاك-سـ-كو-را"
+   ]
+  ],
+  "ref": "Vaxchora PI; CDC Yellow Book"
  },
  {
   "id": "vint009",
@@ -1792,6 +2668,26 @@
   "ref": "CDC Yellow Book 2024"
  },
  {
+  "id": "icx022",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Tetanus-prone wound in HIV",
+  "scenario": "A 36-year-old with HIV (CD4 90) stepped on a rusty nail on a farm. He has 4 documented tetanus doses; last Td 3 years ago. ED cleaned the wound.",
+  "question": "What does he need?",
+  "options": [
+   "TIG 250 units; no Td needed now",
+   "Nothing; last dose <5 years",
+   "Td booster only"
+  ],
+  "answer": "عادة من تلقى ≥3 جرعات وآخرها خلال 5 سنوات لا يحتاج شيئاً للجرح الملوث. الاستثناء: المصاب بـHIV أو نقص مناعة شديد يُعطى TIG 250 units للجروح الملوثة بغض النظر عن تاريخ التطعيم، لأن استجابته للذوفان غير مضمونة. Td/Tdap حسب القاعدة المعتادة (غير مطلوب هنا).",
+  "terms": [
+   [
+    "Tetanus immune globulin",
+    "تي-تا-نَس إ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2018 tetanus; CDC Pink Book"
+ },
+ {
   "id": "vtrv014",
   "topic": "Travel-Safety-New",
   "title": "Hepatitis A: infant traveller",
@@ -1830,6 +2726,26 @@
    ]
   ],
   "ref": "ACIP 2010"
+ },
+ {
+  "id": "ich022",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Influenza during rituximab",
+  "scenario": "A 52-year-old with ANCA vasculitis received rituximab 2 months ago, next dose in 4 months. It is November; he asks to wait 6 months for all vaccines.",
+  "question": "What about influenza vaccine?",
+  "options": [
+   "Give IIV now; don't wait 6 months for flu",
+   "Wait until 6 months after rituximab",
+   "Give LAIV as it works without B cells"
+  ],
+  "answer": "بعد rituximab تُؤجل اللقاحات المعطلة عموماً ≥6 أشهر لضعف الاستجابة، لكن الإنفلونزا استثناء: تُعطى في موسمها لأن بعض الاستجابة (خاصة الخلوية) أفضل من لا شيء. LAIV ممنوع. لا يُحتسب كجرعة ضعيفة؛ يُعاد سنوياً.",
+  "terms": [
+   [
+    "ANCA vasculitis",
+    "آن-كا ڤاس-كيو-لاي-تس"
+   ]
+  ],
+  "ref": "IDSA 2013; ACR 2022"
  },
  {
   "id": "vsch015",
@@ -1876,6 +2792,26 @@
   "ref": "ACIP 2024"
  },
  {
+  "id": "icx023",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Rabies: kidney transplant",
+  "scenario": "A 44-year-old kidney transplant recipient on tacrolimus/mycophenolate/prednisone, bitten (transdermal) by a stray dog; ED washed the wound. No prior rabies vaccine.",
+  "question": "Which PEP regimen?",
+  "options": [
+   "RIG + 5 IM doses (0,3,7,14,28) + serology",
+   "RIG + 4 IM doses (0,3,7,14)",
+   "Intradermal 1-week WHO regimen, no RIG"
+  ],
+  "answer": "مكبوت المناعة لا يُعطى جدول 4 جرعات: يحتاج RIG + 5 جرعات عضلية (أيام 0،3،7،14،28) ثم فحص الأجسام المضادة المعادلة بعد 1–2 أسبوع من آخر جرعة (هدف ≥0.5 IU/mL)، مع إعادة الجرعات إن لم يستجب. الطريق داخل الأدمة غير مناسب لضعف الاستجابة. يمكن تأجيل المثبطات غير الضرورية بالتنسيق.",
+  "terms": [
+   [
+    "Rabies immune globulin",
+    "رَي-بيز إ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2010; WHO 2018"
+ },
+ {
   "id": "vimm015",
   "topic": "Immunocompromised",
   "title": "MenACWY primary in HIV",
@@ -1920,6 +2856,26 @@
   "ref": "ACIP 2023"
  },
  {
+  "id": "ich023",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Before starting rituximab",
+  "scenario": "A 45-year-old with membranous nephropathy will start rituximab in 3 weeks. She has had no pneumococcal vaccine.",
+  "question": "When should pneumococcal vaccine be given?",
+  "options": [
+   "Now; ≥2 weeks before rituximab",
+   "After the second rituximab infusion",
+   "6 months after rituximab"
+  ],
+  "answer": "اللقاحات المعطلة تُعطى ≥2 أسبوعين قبل بدء العلاج المثبط (خاصة مضادات CD20) لضمان الاستجابة. يُعطى PCV20 أو PCV21 جرعة واحدة الآن. بعد rituximab تضعف الاستجابة لـ ≥6 أشهر. أما الحية فتُعطى ≥4 أسابيع قبل البدء.",
+  "terms": [
+   [
+    "Membranous nephropathy",
+    "مم-بر-نس نف-رو-با-ثي"
+   ]
+  ],
+  "ref": "IDSA 2013; ACIP 2024"
+ },
+ {
   "id": "vtrv015",
   "topic": "Travel-Safety-New",
   "title": "Measles: infant 6–11 months travelling",
@@ -1958,6 +2914,26 @@
    ]
   ],
   "ref": "WHO 2018"
+ },
+ {
+  "id": "icx024",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: TB contact: HIV, IGRA negative",
+  "scenario": "A 32-year-old with HIV (CD4 180) shares a home with his brother who has smear-positive pulmonary TB. He is asymptomatic, chest X-ray normal, IGRA negative.",
+  "question": "What is the correct plan?",
+  "options": [
+   "Treat as LTBI (window prophylaxis) after excluding TB",
+   "No treatment; IGRA negative",
+   "Repeat IGRA in 8–10 weeks before any action"
+  ],
+  "answer": "عند المخالط المصاب بـHIV أو شديد كبت المناعة، قد يكون IGRA/TST سلبياً كاذباً، وخطر التطور السريع للمرض عالٍ. بعد استبعاد السل النشط (أعراض + أشعة، وإحالة إن شك) يُبدأ علاج السل الكامن الكامل بغض النظر عن نتيجة الفحص. انتبه لتداخلات rifamycin مع مضادات HIV.",
+  "terms": [
+   [
+    "Interferon-gamma release assay",
+    "إن-تر-في-رون غا-ما ري-ليس أ-سَي"
+   ]
+  ],
+  "ref": "CDC/NTCA contact investigation; ATS/CDC/IDSA 2020"
  },
  {
   "id": "vint010",
@@ -2004,6 +2980,26 @@
   "ref": "ACIP Catch-up 2025"
  },
  {
+  "id": "ich024",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Live vaccine after high-dose steroid",
+  "scenario": "A 23-year-old woman, rubella non-immune, completed 3 weeks of prednisone 40 mg/day for nephrotic relapse; stopped 10 days ago. She wants MMR before marriage.",
+  "question": "When can MMR be given?",
+  "options": [
+   "≥1 month after stopping prednisone",
+   "Now; steroids stopped",
+   "After 3 months off prednisone"
+  ],
+  "answer": "بريدنيزون ≥20 ملغ/يوم (أو ≥2 ملغ/كغ للأطفال) لمدة ≥14 يوماً يُعد تثبيطاً مناعياً عالي الدرجة؛ تُؤجل اللقاحات الحية ≥1 شهر بعد الإيقاف. الكورسات الأقصر من 14 يوماً لا تستلزم التأجيل. تنصح بمنع الحمل 4 أسابيع بعد MMR.",
+  "terms": [
+   [
+    "Prednisone",
+    "بريد-ني-زون"
+   ]
+  ],
+  "ref": "ACIP General Best Practice"
+ },
+ {
   "id": "vimm016",
   "topic": "Immunocompromised",
   "title": "Elective splenectomy timing",
@@ -2042,6 +3038,30 @@
    ]
   ],
   "ref": "ACIP/CDC Pink Book"
+ },
+ {
+  "id": "icx025",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: COVID-19: HSCT household",
+  "scenario": "A 40-year-old allogeneic HSCT recipient (7 months) asks for a 'preventive Paxlovid' because her husband tested COVID-positive today.",
+  "question": "What is correct?",
+  "options": [
+   "No approved PEP; test early, treat within 5 days",
+   "Start nirmatrelvir/ritonavir as PEP now",
+   "Give tixagevimab/cilgavimab as PEP"
+  ],
+  "answer": "لا يوجد حالياً علاج وقائي بعد التعرض مرخص لـCOVID-19: nirmatrelvir/ritonavir فشل في تجارب PEP، وEvusheld أُوقف ترخيصه لعدم فاعليته ضد المتحورات. pemivibart للوقاية قبل التعرض فقط وليس بعده. الصحيح: فحص مبكر عند الأعراض وبدء العلاج خلال 5 أيام مع مراجعة التداخلات مع مثبطات المناعة.",
+  "terms": [
+   [
+    "Nirmatrelvir",
+    "نير-ما-ترِل-ڤير"
+   ],
+   [
+    "Pemivibart",
+    "پي-مي-ڤي-بارت"
+   ]
+  ],
+  "ref": "CDC/NIH COVID-19 2024; FDA EUA"
  },
  {
   "id": "vtrv016",
@@ -2084,6 +3104,26 @@
   "ref": "ACIP 2024"
  },
  {
+  "id": "ich025",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: RZV before JAK inhibitor",
+  "scenario": "A 48-year-old with rheumatoid arthritis will start tofacitinib in 4 weeks. No prior zoster vaccine.",
+  "question": "What is the best zoster plan?",
+  "options": [
+   "RZV dose 1 now, dose 2 after 1–2 months",
+   "No vaccine; she is under 50",
+   "Live zoster vaccine now, ≥4 weeks before JAK"
+  ],
+  "answer": "مثبطات JAK ترفع خطر الهربس النطاقي بوضوح. RZV مُعتمد لـ ≥19 سنة مع زيادة الخطر بسبب تثبيط المناعة، ويمكن تقصير الفاصل إلى 1–2 شهر. يُفضل البدء قبل العلاج، لكن يمكن الإعطاء أثناءه أيضاً لأنه غير حي.",
+  "terms": [
+   [
+    "Tofacitinib",
+    "تو-فا-سي-تي-نب"
+   ]
+  ],
+  "ref": "ACIP 2022; ACR 2022"
+ },
+ {
   "id": "vdose018",
   "topic": "Dose-Route",
   "title": "HRIG dose",
@@ -2124,6 +3164,30 @@
   "ref": "ACIP Catch-up 2025"
  },
  {
+  "id": "icx026",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Mpox: HIV, CD4 150",
+  "scenario": "A 31-year-old man with HIV (CD4 150) had sexual contact with a confirmed mpox case 3 days ago. No prior mpox vaccine.",
+  "question": "What PEP is appropriate?",
+  "options": [
+   "JYNNEOS now (2 doses, 4 weeks apart)",
+   "ACAM2000, single dose",
+   "No vaccine; contraindicated in HIV"
+  ],
+  "answer": "JYNNEOS لقاح غير متكاثر وآمن لمكبوتي المناعة ويُعطى كوقاية بعد التعرض، الأفضل خلال 4 أيام ويمكن حتى 14 يوماً. ACAM2000 لقاح حي متكاثر وممنوع في HIV وكبت المناعة لخطر اللقاح المنتشر. الاستجابة قد تكون أقل فيستمر الحذر والمراقبة 21 يوماً.",
+  "terms": [
+   [
+    "JYNNEOS",
+    "جِن-يوس"
+   ],
+   [
+    "ACAM2000",
+    "أ-كام ألفين"
+   ]
+  ],
+  "ref": "ACIP 2023 mpox; CDC"
+ },
+ {
   "id": "vimm017",
   "topic": "Immunocompromised",
   "title": "Hib for adult asplenia",
@@ -2162,6 +3226,26 @@
    ]
   ],
   "ref": "ACIP/CDC Pink Book"
+ },
+ {
+  "id": "ich026",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Kidney transplant: flu at 1 month",
+  "scenario": "A 39-year-old man had a kidney transplant 5 weeks ago. It is flu season; he's on tacrolimus, MMF, prednisone 7.5 mg.",
+  "question": "What about influenza vaccine?",
+  "options": [
+   "Give IIV now (≥1 month post-transplant)",
+   "Wait until 6 months post-transplant",
+   "Give LAIV for better mucosal immunity"
+  ],
+  "answer": "بعد زراعة الأعضاء الصلبة تُستأنف اللقاحات المعطلة عادة بعد 2–6 أشهر (غالباً 3)، لكن الإنفلونزا يمكن إعطاؤها مبكراً من شهر واحد في الموسم. الحية ممنوعة بعد الزراعة. لا يزيد اللقاح خطر الرفض.",
+  "terms": [
+   [
+    "Tacrolimus",
+    "تا-كرو-لي-مس"
+   ]
+  ],
+  "ref": "AST IDCOP 2019; IDSA 2013"
  },
  {
   "id": "vint011",
@@ -2208,6 +3292,26 @@
   "ref": "ACIP JE 2019; CDC Yellow Book"
  },
  {
+  "id": "icx027",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Diphtheria: chemo contact",
+  "scenario": "A 9-year-old on maintenance chemotherapy for ALL lives with a cousin hospitalised with toxigenic respiratory diphtheria. Child had 5 DTaP doses; last at age 4.",
+  "question": "What is the clinic's management?",
+  "options": [
+   "Cultures, antibiotic PEP, DTaP/Tdap booster, 7-day watch",
+   "Booster only; he is fully vaccinated",
+   "Diphtheria antitoxin prophylactically"
+  ],
+  "answer": "المخالطون اللصيقون: مسحة أنف وحلق للزرع، مضاد حيوي وقائي (benzathine penicillin جرعة واحدة أو erythromycin 7–10 أيام) بغض النظر عن التطعيم، جرعة معززة إن مضى ≥5 سنوات على آخر جرعة (لقاح ذوفاني آمن مع الكيميائي)، ومراقبة 7 أيام. مضاد الذيفان للمرضى فقط وليس وقاية.",
+  "terms": [
+   [
+    "Diphtheria antitoxin",
+    "دِف-ثي-ريا آن-تي-توك-سِن"
+   ]
+  ],
+  "ref": "CDC diphtheria 2024; AAP Red Book"
+ },
+ {
   "id": "vdose019",
   "topic": "Dose-Route",
   "title": "ERIG dose",
@@ -2246,6 +3350,26 @@
    ]
   ],
   "ref": "ACIP MMR 2013"
+ },
+ {
+  "id": "ich027",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Before kidney transplant: live vaccines",
+  "scenario": "A 30-year-old on hemodialysis is listed for living-donor kidney transplant in 3 weeks. He is varicella IgG negative.",
+  "question": "What about varicella vaccine?",
+  "options": [
+   "Defer; live vaccine needs ≥4 weeks before transplant",
+   "Give now; 3 weeks is enough",
+   "Give 1 month after transplant"
+  ],
+  "answer": "اللقاحات الحية يجب أن تُعطى ≥4 أسابيع قبل الزراعة، وهي ممنوعة بعدها. هنا لا يكفي الوقت؛ إما تأجيل الزراعة إن أمكن (مقرر الفريق) أو الاعتماد على تطعيم المخالطين ووقاية ما بعد التعرض (VariZIG/acyclovir). الأفضل تطعيم مرشحي الزراعة مبكراً عند التشخيص بـ CKD.",
+  "terms": [
+   [
+    "VariZIG",
+    "ڤا-ري-زِج"
+   ]
+  ],
+  "ref": "AST IDCOP 2019"
  },
  {
   "id": "vimm018",
@@ -2292,6 +3416,30 @@
   "ref": "ACIP 2024 adult schedule"
  },
  {
+  "id": "icx028",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Hib: household with IC child",
+  "scenario": "A family of 5 includes a 6-year-old on chemotherapy (fully Hib vaccinated). The 2-year-old sibling was admitted with Hib meningitis.",
+  "question": "Who needs rifampin?",
+  "options": [
+   "All household members, regardless of vaccination",
+   "Only the unvaccinated contacts",
+   "Only the immunocompromised child"
+  ],
+  "answer": "عند وجود فرد مكبوت المناعة في المنزل يُعطى rifampin لجميع أفراد الأسرة (20 mg/kg مرة يومياً، حد أقصى 600 mg، 4 أيام) بغض النظر عن حالة التطعيم، لأن مناعة المكبوت قد لا تكفي. انتبه لتداخلات rifampin (مثل tacrolimus) والحمل.",
+  "terms": [
+   [
+    "Rifampin",
+    "ري-فام-پِن"
+   ],
+   [
+    "Haemophilus influenzae",
+    "هي-مو-في-لس إن-فلو-إن-زي"
+   ]
+  ],
+  "ref": "AAP Red Book 2024; ACIP Hib"
+ },
+ {
   "id": "vpop018",
   "topic": "Special-Populations",
   "title": "Preterm infant: chronological age",
@@ -2330,6 +3478,26 @@
    ]
   ],
   "ref": "ACIP 2022"
+ },
+ {
+  "id": "ich028",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: HSCT live vaccine 2-1-8 rule",
+  "scenario": "A 34-year-old is 26 months post-allogeneic HSCT. No GVHD; stopped tacrolimus 5 months ago; last IVIG 10 months ago. Asks for MMR.",
+  "question": "Can MMR be given now?",
+  "options": [
+   "No; needs ≥1 year off immunosuppression",
+   "Yes; >24 months and >8 months since IVIG",
+   "Yes, if CD4 >200"
+  ],
+  "answer": "قاعدة 2-1-8: ≥24 شهراً بعد الزراعة، و≥1 سنة دون مثبطات مناعة، و≥8 أشهر بعد آخر IVIG، وعدم وجود GVHD نشط. هنا الشرط الثاني غير مكتمل (5 أشهر فقط). يُعطى MMR بعد 7 أشهر أخرى.",
+  "terms": [
+   [
+    "Graft-versus-host disease",
+    "غرافت ڤير-سس هوست دي-زيز"
+   ]
+  ],
+  "ref": "IDSA 2013; ASTCT"
  },
  {
   "id": "vdose020",
@@ -2372,6 +3540,26 @@
   "ref": "ACIP Catch-up 2025"
  },
  {
+  "id": "icx029",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Invasive pneumococcal contact",
+  "scenario": "A 58-year-old splenectomised man asks for antibiotics because his wife was admitted with pneumococcal bacteraemia. He got PCV20 2 years ago.",
+  "question": "What is correct?",
+  "options": [
+   "No chemoprophylaxis; confirm vaccines, fever plan",
+   "Amoxicillin 10 days as PEP",
+   "Ciprofloxacin single dose"
+  ],
+  "answer": "لا يوصى بوقاية كيميائية لمخالطي المكورات الرئوية الغازية، فالمرض ينشأ غالباً من الاستعمار الذاتي وليس العدوى المباشرة. تأكد من اكتمال لقاحه (PCV20 يكفي)، ومراجعة خطة الحمى الطارئة لمستأصل الطحال (قد يحمل amoxicillin-clavulanate احتياطياً).",
+  "terms": [
+   [
+    "Splenectomy",
+    "سپلي-نِك-تو-مي"
+   ]
+  ],
+  "ref": "CDC pneumococcal; ACIP 2024"
+ },
+ {
   "id": "vint012",
   "topic": "Schedules-Catchup",
   "title": "⏱️ Min interval: PCV catch-up 2–4 years",
@@ -2410,6 +3598,26 @@
    ]
   ],
   "ref": "ACIP 2024"
+ },
+ {
+  "id": "ich029",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: CVID on IVIG and MMR",
+  "scenario": "A 28-year-old with CVID receives IVIG 500 mg/kg every 3 weeks. She lacks MMR records and wants MMR before travel.",
+  "question": "What is the right plan?",
+  "options": [
+   "No MMR; regular IVIG gives measles protection",
+   "Give MMR now between IVIG doses",
+   "Check measles IgG then vaccinate if negative"
+  ],
+  "answer": "في CVID لا يُعطى MMR: الاستجابة غير فعالة وIVIG يعادل اللقاح ويوفر أجسام مضادة واقية. فحص IgG مضلل لأنه يعكس IVIG. عند التعرض للحصبة: إن تلقت ≥400 ملغ/كغ خلال 3 أسابيع سابقة فهي محمية؛ وإلا IGIV 400 ملغ/كغ.",
+  "terms": [
+   [
+    "Common variable immunodeficiency",
+    "كو-مُن ڤير-يا-بل إميونو-دي-في-شن-سي"
+   ]
+  ],
+  "ref": "ACIP MMR 2013; IDSA 2013"
  },
  {
   "id": "vpop019",
@@ -2452,6 +3660,26 @@
   "ref": "Saudi MOH Hajj/Umrah requirements"
  },
  {
+  "id": "icx030",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: RSV exposure",
+  "scenario": "A 66-year-old lung transplant recipient's grandchild has RSV bronchiolitis; they spent the weekend together. He received RSV vaccine last year.",
+  "question": "What PEP is recommended?",
+  "options": [
+   "No PEP; monitor and seek early care if symptoms",
+   "Nirsevimab injection within 72 h",
+   "Repeat RSV vaccine dose now"
+  ],
+  "answer": "لا توجد وقاية بعد التعرض للفيروس المخلوي التنفسي للبالغين. nirsevimab للرضع قبل/خلال الموسم وليس PEP، ولا يُعاد لقاح RSV حالياً كجرعة PEP. الصحيح: نظافة اليدين، مراقبة الأعراض، والتواصل المبكر مع فريق الزراعة عند الأعراض للتقييم والعلاج.",
+  "terms": [
+   [
+    "Nirsevimab",
+    "نير-سي-ڤي-ماب"
+   ]
+  ],
+  "ref": "CDC RSV 2024"
+ },
+ {
   "id": "vdose021",
   "topic": "Dose-Route",
   "title": "BCG infant dose",
@@ -2490,6 +3718,26 @@
    ]
   ],
   "ref": "ACIP 2024"
+ },
+ {
+  "id": "ich030",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Hemodialysis HBV schedule",
+  "scenario": "A 55-year-old starting hemodialysis is HBsAg, anti-HBc and anti-HBs negative. Engerix-B is available.",
+  "question": "Which regimen?",
+  "options": [
+   "Engerix-B 40 µg at 0,1,2,6 months",
+   "Engerix-B 20 µg at 0,1,6 months",
+   "Engerix-B 40 µg at 0,1,6 months"
+  ],
+  "answer": "لمرضى الغسيل ≥20 سنة: Engerix-B 40 ميكروغرام (2×20) في 0،1،2،6 أشهر؛ أو Recombivax 40 ميكروغرام 0،1،6؛ أو Heplisav-B 4 جرعات 0،1،2،4. فحص anti-HBs بعد 1–2 شهر وسنوياً، وجرعة منشطة إن هبط <10 mIU/mL.",
+  "terms": [
+   [
+    "Engerix-B",
+    "إن-جي-ريكس بي"
+   ]
+  ],
+  "ref": "ACIP 2018; KDIGO"
  },
  {
   "id": "vsch020",
@@ -2532,6 +3780,30 @@
   "ref": "IDSA 2013"
  },
  {
+  "id": "icx031",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Norovirus / C. difficile at home",
+  "scenario": "A 62-year-old on chemotherapy lives with his daughter who has norovirus gastroenteritis; another relative recently had C. difficile. Family uses alcohol gel only.",
+  "question": "What hygiene advice is key?",
+  "options": [
+   "Soap and water handwashing; bleach for surfaces",
+   "Alcohol gel is sufficient",
+   "Prophylactic oral vancomycin for the patient"
+  ],
+  "answer": "معقم الكحول لا يقتل النوروفيروس ولا أبواغ C. difficile بشكل كافٍ، لذا الغسل بالماء والصابون. تُنظف الأسطح بمحلول الكلور (hypochlorite)، وعدم مشاركة المريض لدورة المياه إن أمكن، وغسل الملابس الملوثة بماء ساخن. لا يوصى بوقاية دوائية.",
+  "terms": [
+   [
+    "Clostridioides difficile",
+    "كلوس-تري-دي-و-يدز دِ-في-سيل"
+   ],
+   [
+    "Hypochlorite",
+    "هاي-پو-كلو-رايت"
+   ]
+  ],
+  "ref": "CDC norovirus/C. diff guidance"
+ },
+ {
   "id": "vpop020",
   "topic": "Special-Populations",
   "title": "HBV birth dose: unknown status, ≥2000 g",
@@ -2570,6 +3842,26 @@
    ]
   ],
   "ref": "WHO 2023; CDC Yellow Book"
+ },
+ {
+  "id": "ich031",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Asplenia: timing around surgery",
+  "scenario": "A 33-year-old man is scheduled for elective splenectomy for ITP in 10 days. No pneumococcal, MenACWY, MenB or Hib vaccines.",
+  "question": "What is the best plan?",
+  "options": [
+   "Vaccinate now; else ≥14 days post-op",
+   "Vaccinate now; 10 days before is ideal",
+   "Wait 3 months after splenectomy"
+  ],
+  "answer": "المثالي التطعيم ≥14 يوماً قبل استئصال الطحال الاختياري. إذا لم يتوفر الوقت يُفضّل الانتظار ≥14 يوماً بعد الجراحة لاستجابة أفضل (أو قبل الخروج إن خيف عدم العودة). الحزمة: PCV20/21، MenACWY جرعتان بفاصل 8 أسابيع، MenB، Hib جرعة.",
+  "terms": [
+   [
+    "Splenectomy",
+    "سبلي-نك-تو-مي"
+   ]
+  ],
+  "ref": "ACIP 2024"
  },
  {
   "id": "vint013",
@@ -2616,6 +3908,26 @@
   "ref": "WHO 2018"
  },
  {
+  "id": "icx032",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Cryptosporidium risk",
+  "scenario": "A 35-year-old with HIV (CD4 80) lives where a Cryptosporidium outbreak is linked to the municipal water. He asks about prevention.",
+  "question": "What is the best advice?",
+  "options": [
+   "Boil water 1 minute (or filter ≤1 µm); refer for ART",
+   "Chlorine tablets are enough",
+   "Alcohol gel after toilet is enough"
+  ],
+  "answer": "Cryptosporidium مقاوم للكلور ومعقمات الكحول. لمن CD4 <200 (خاصة <100): غلي الماء دقيقة واحدة أو فلتر ≤1 µm، تجنب المسابح أثناء التفشي ومخالطة العجول، وغسل اليدين بالماء والصابون. الأهم: رفع المناعة بالعلاج المضاد للفيروسات، فأحِله لمتابعة HIV.",
+  "terms": [
+   [
+    "Cryptosporidium",
+    "كريپ-تو-سپو-ري-ديم"
+   ]
+  ],
+  "ref": "NIH/CDC/IDSA OI guidelines 2024"
+ },
+ {
   "id": "vsch021",
   "topic": "Schedules-Catchup",
   "title": "Td/Tdap catch-up 7–18, first dose ≥1 y",
@@ -2654,6 +3966,26 @@
    ]
   ],
   "ref": "IDSA 2013"
+ },
+ {
+  "id": "ich032",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: HIV CD4 120: MMR timing",
+  "scenario": "A 27-year-old newly diagnosed with HIV, CD4 120 cells/µL, starting ART today. Measles IgG negative.",
+  "question": "When can MMR be given?",
+  "options": [
+   "After CD4 ≥200 for ≥6 months on ART",
+   "Today, before ART starts",
+   "Never in HIV infection"
+  ],
+  "answer": "MMR والحماق ممنوعان عند CD4 <200. يبدأ ART أولاً ثم يُعطى MMR بعد استقرار CD4 ≥200 (أو ≥15%) لمدة ≥6 أشهر. يمكن إعطاء اللقاحات المعطلة الآن، والأفضل إعادة المهمة منها بعد إعادة البناء المناعي. عند التعرض للحصبة: IGIV بغض النظر عن التطعيم.",
+  "terms": [
+   [
+    "CD4",
+    "سي دي فور"
+   ]
+  ],
+  "ref": "ACIP; NIH OI Guidelines 2024"
  },
  {
   "id": "vpop021",
@@ -2696,6 +4028,26 @@
   "ref": "CDC 2013/2018"
  },
  {
+  "id": "icx033",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Pregnant on azathioprine, varicella",
+  "scenario": "A 29-year-old at 20 weeks' gestation on azathioprine for Crohn's disease, VZV IgG negative, had household varicella exposure 4 days ago.",
+  "question": "What should be done?",
+  "options": [
+   "VariZIG now (≤10 days); vaccine contraindicated",
+   "Varicella vaccine within 5 days",
+   "Reassure; azathioprine is low-level"
+  ],
+  "answer": "الحامل غير المحصنة مؤهلة لـVariZIG بغض النظر عن كبت المناعة، والكبت يزيد خطر الالتهاب الرئوي الشديد. يُعطى خلال 10 أيام. لقاح الجديري حي وممنوع في الحمل وكبت المناعة. إن ظهر طفح فأحِلها فوراً لـacyclovir. أعطِ اللقاح بعد الولادة إن سمحت المثبطات.",
+  "terms": [
+   [
+    "Azathioprine",
+    "أ-زا-ثاي-و-پرين"
+   ]
+  ],
+  "ref": "CDC VariZIG 2013; ACOG"
+ },
+ {
   "id": "vtrv021",
   "topic": "Travel-Safety-New",
   "title": "Contraindication vs precaution",
@@ -2736,6 +4088,26 @@
   "ref": "ACIP 2024"
  },
  {
+  "id": "ich033",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Revaccination after chemotherapy",
+  "scenario": "A 6-year-old completed chemotherapy for Wilms tumor (no anti-B-cell agents) 3 months ago. Primary series was complete before diagnosis.",
+  "question": "What is the plan for inactivated vaccines?",
+  "options": [
+   "Give boosters now (≥3 months after chemo)",
+   "Wait 12 months after chemo",
+   "Repeat the entire primary series immediately"
+  ],
+  "answer": "بعد العلاج الكيميائي القياسي تُستأنف اللقاحات المعطلة ≥3 أشهر بعد الانتهاء، عادة بجرعة منشطة لكل لقاح وليس إعادة كامل السلسلة (يختلف عن HSCT). مع علاجات anti-CD20 يُنتظر ≥6 أشهر. تُعطى الإنفلونزا سنوياً حتى أثناء العلاج.",
+  "terms": [
+   [
+    "Wilms tumor",
+    "ويلمز تيو-مَر"
+   ]
+  ],
+  "ref": "IDSA 2013; COG"
+ },
+ {
   "id": "vsch022",
   "topic": "Schedules-Catchup",
   "title": "Unvaccinated 13-year-old",
@@ -2774,6 +4146,26 @@
    ]
   ],
   "ref": "ASTCT / EBMT 2019"
+ },
+ {
+  "id": "icx034",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Infant of mother on infliximab",
+  "scenario": "A 4-month-old (6 kg) whose mother received infliximab until 32 weeks' gestation was exposed to a measles case in a clinic waiting room 3 days ago.",
+  "question": "What PEP should the infant receive?",
+  "options": [
+   "IGIM 0.5 mL/kg = 3 mL",
+   "MMR now within 72 h",
+   "Nothing; maternal antibodies protect"
+  ],
+  "answer": "الرضيع دون 6 أشهر لا يُعطى MMR، وأي رضيع <12 شهراً متعرض للحصبة يُعطى IGIM 0.5 mL/kg خلال 6 أيام. الأجسام المضادة الأمومية لا يُعتمد عليها. التعرض داخل الرحم للبيولوجيات لا يمنع IG. أجّل اللقاحات الحية بالتنسيق (والـMMR يُعطى عند 12 شهراً، بعد 6 أشهر من IGIM).",
+  "terms": [
+   [
+    "Infliximab",
+    "إن-فلِك-سي-ماب"
+   ]
+  ],
+  "ref": "ACIP 2013 measles PEP"
  },
  {
   "id": "vint014",
@@ -2820,6 +4212,26 @@
   "ref": "ACIP 2018/2022"
  },
  {
+  "id": "ich034",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Influenza during active chemotherapy",
+  "scenario": "A 61-year-old woman is on cycle 3 of 6 of R-free chemotherapy (CHOP-like) every 21 days for lymphoma. It is flu season; nurse suggests waiting until chemo ends.",
+  "question": "What is best?",
+  "options": [
+   "Give IIV now, ideally between cycles",
+   "Wait 3 months after chemo ends",
+   "Give LAIV; it is more immunogenic"
+  ],
+  "answer": "الإنفلونزا المعطلة تُعطى سنوياً حتى أثناء العلاج الكيميائي ولا تُؤجل للموسم القادم؛ يُفضل توقيتها بين الدورات بعيداً عن ذروة نقص العدلات إن أمكن. الاستجابة أقل لكن الحماية الجزئية مهمة مع تطعيم المخالطين. LAIV ممنوع.",
+  "terms": [
+   [
+    "Neutropenia",
+    "نيو-ترو-بي-نيا"
+   ]
+  ],
+  "ref": "IDSA 2013; ACIP 2024-25"
+ },
+ {
   "id": "vtrv022",
   "topic": "Travel-Safety-New",
   "title": "Not contraindications",
@@ -2860,6 +4272,26 @@
   "ref": "CDC Yellow Book"
  },
  {
+  "id": "icx035",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Exposed: Rubella: immunosuppressed pregnancy",
+  "scenario": "A 27-year-old at 10 weeks' gestation, kidney transplant recipient, no documented rubella vaccine, was exposed to a confirmed rubella case 2 days ago.",
+  "question": "What is the correct next step?",
+  "options": [
+   "Rubella IgG/IgM now; counsel and refer to fetal medicine",
+   "Give MMR immediately",
+   "Give IG routinely to prevent fetal infection"
+  ],
+  "answer": "افحص IgG فوراً: إن كان إيجابياً فهي محصنة. إن كان سلبياً تُعاد التحاليل (IgG/IgM) بعد 2–3 أسابيع و6 أسابيع لرصد الإصابة، مع الإحالة للطب الجنيني لمناقشة خطر متلازمة الحصبة الألمانية الخلقية. MMR ممنوع في الحمل والزراعة. IG لا يمنع عدوى الجنين ولا يُعطى روتينياً (يُنظر فيه فقط إن رُفض الإنهاء).",
+  "terms": [
+   [
+    "Congenital rubella syndrome",
+    "كون-جي-ني-تَل رو-بي-لا"
+   ]
+  ],
+  "ref": "ACIP 2013; CDC Pink Book"
+ },
+ {
   "id": "vsch023",
   "topic": "Schedules-Catchup",
   "title": "Tdap at 7–9 years",
@@ -2898,6 +4330,26 @@
    ]
   ],
   "ref": "CDC 2018"
+ },
+ {
+  "id": "ich035",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Vaccinating: Infant exposed to infliximab in utero",
+  "scenario": "A 2-month-old's mother received infliximab throughout pregnancy (last dose at 32 weeks) for Crohn disease. Rotavirus and routine inactivated vaccines are due.",
+  "question": "What is correct?",
+  "options": [
+   "Give inactivated vaccines; withhold rotavirus",
+   "Give all vaccines including rotavirus",
+   "Delay all vaccines until 6 months"
+  ],
+  "answer": "infliximab يعبر المشيمة ويبقى في دم الرضيع أشهراً؛ يُوصى بتجنب اللقاحات الحية حتى عمر 6 أشهر (أو انعدام مستوى الدواء)، وبما أن الروتا لا يبدأ بعد 15 أسبوعاً فعملياً يُفوت. اللقاحات المعطلة تُعطى في مواعيدها. حدثت وفيات بـ BCG لدى رضع مشابهين.",
+  "terms": [
+   [
+    "Crohn disease",
+    "كرون دي-زيز"
+   ]
+  ],
+  "ref": "ACG/AGA IBD pregnancy; CDC Pink Book"
  },
  {
   "id": "vimm023",
