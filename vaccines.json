@@ -1,5 +1,1409 @@
 [
  {
+  "id": "tdp001",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Capital vs small letters",
+  "scenario": "Nurse asks why the child vial says DTaP but the adult one says Tdap.",
+  "question": "What do the small letters mean?",
+  "options": [
+   "Reduced diphtheria and pertussis antigen",
+   "Acellular tetanus component",
+   "Same doses, different brand"
+  ],
+  "answer": "🧠 القاعدة: الحرف الكبير = جرعة كاملة، والصغير = جرعة مخفّضة.\n✅ التطبيق: DTaP فيه D و P كاملة للأطفال؛ Tdap فيه d و p مخفّضة للبالغين لتقليل التفاعلات.\n⚠️ الفخ: حرف a يعني acellular للسعال الديكي، وليس للكزاز.",
+  "terms": [
+   [
+    "Diphtheria",
+    "دِف-ثِي-ري-ا"
+   ],
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "CDC Pink Book"
+ },
+ {
+  "id": "sot001",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: The golden window",
+  "scenario": "Man, 52, CKD stage 4, being evaluated for kidney transplant.",
+  "question": "When is the best time to vaccinate him?",
+  "options": [
+   "Now, during transplant evaluation",
+   "Wait until 3 months after transplant",
+   "Only after he starts dialysis"
+  ],
+  "answer": "🧠 القاعدة: قبل الزرع = النافذة الذهبية؛ المناعة أقوى قبل الكبت.\n✅ التطبيق: أكمل كل اللقاحات الآن أثناء التقييم، والاستجابة تضعف مع تقدم الـ CKD.\n⚠️ الفخ: تأجيلها لما بعد الزرع يعني استجابة ضعيفة ومنع اللقاحات الحية للأبد.",
+  "terms": [
+   [
+    "immunosuppression",
+    "إ-ميو-نو-سَب-رِشَن"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp002",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Age cutoff",
+  "scenario": "6-year-11-month-old and a 7-year-old both need a dose today.",
+  "question": "Which product for each?",
+  "options": [
+   "DTaP for the 6 y, Tdap for the 7 y",
+   "DTaP for both",
+   "Tdap for both"
+  ],
+  "answer": "🧠 القاعدة: DTaP قبل عمر 7 سنوات فقط؛ Tdap/Td من 7 سنوات فأكثر.\n✅ التطبيق: الطفل 6 سنوات و11 شهرًا ما زال تحت 7 ← DTaP. من بلغ 7 ← Tdap.\n⚠️ الفخ: إعطاء DTaP بعد 7 سنوات يزيد التفاعلات الموضعية والحمى بسبب الجرعة الكاملة.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot002",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: The 4-and-2 rule",
+  "scenario": "Liver transplant candidate, surgery expected in 3 weeks. Needs MMR and PCV20.",
+  "question": "What can be given now?",
+  "options": [
+   "PCV20 only; skip MMR",
+   "Both MMR and PCV20",
+   "MMR only"
+  ],
+  "answer": "🧠 القاعدة: حي ≥4 أسابيع قبل الزرع، معطّل ≥2 أسبوع.\n✅ التطبيق: باقي 3 أسابيع: PCV20 مسموح (≥2 أسبوع)، أما MMR فلا (أقل من 4 أسابيع).\n⚠️ الفخ: إعطاء MMR قبل الزرع بأيام قد يسبب عدوى لقاحية بعد بدء الكبت.",
+  "terms": [
+   [
+    "PCV20",
+    "بي-سي-في-توِن-تي"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp003",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Routine schedule",
+  "scenario": "Parent asks for the full childhood DTaP plan.",
+  "question": "What is the routine schedule?",
+  "options": [
+   "2, 4, 6, 15–18 months, and 4–6 years",
+   "2, 4, 6 months and 4–6 years only",
+   "2, 4, 6, 12 months and 10 years"
+  ],
+  "answer": "🧠 القاعدة: خمس جرعات: 2-4-6 شهور ثم 15–18 شهرًا ثم 4–6 سنوات.\n✅ التطبيق: ثلاث جرعات أساسية، جرعة رابعة معززة، وخامسة قبل المدرسة. ثم Tdap عند 11–12 سنة.\n⚠️ الفخ: نسيان الجرعة الرابعة أو اعتبار الخامسة اختيارية دائمًا.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot003",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Live vaccine, already suppressed",
+  "scenario": "Kidney candidate with lupus nephritis on mycophenolate + prednisone 30 mg/day. Measles IgG negative.",
+  "question": "Give MMR now?",
+  "options": [
+   "No; live vaccines are contraindicated now",
+   "Yes, 4 weeks before transplant",
+   "Yes, half dose"
+  ],
+  "answer": "🧠 القاعدة: الحي قبل الزرع فقط إذا لم يكن مكبوت المناعة أصلاً.\n✅ التطبيق: هو على mycophenolate و prednisone ≥20 mg، فهو مكبوت الآن؛ لا MMR. اعتمد على تطعيم المخالطين والـ IG عند التعرض.\n⚠️ الفخ: قاعدة \"4 أسابيع قبل الزرع\" لا تكفي وحدها؛ الشرط الأول عدم وجود كبت.",
+  "terms": [
+   [
+    "mycophenolate",
+    "ماي-كو-فِي-نو-ليت"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp004",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Dose 4 minimum age",
+  "scenario": "Child aged 11 months had DTaP doses at 2, 4, 6 months.",
+  "question": "Can dose 4 be given today?",
+  "options": [
+   "No—wait until ≥12 months of age",
+   "Yes, the interval is enough",
+   "Yes, any time after 9 months"
+  ],
+  "answer": "🧠 القاعدة: الجرعة الرابعة: عمر ≥12 شهرًا و≥6 أشهر بعد الثالثة.\n✅ التطبيق: عمره 11 شهرًا، ومرّ 5 أشهر فقط ← انتظر حتى 12 شهرًا.\n⚠️ الفخ: تطبيق قاعدة الفاصل فقط ونسيان الحد الأدنى للعمر.",
+  "terms": [
+   [
+    "Toxoid",
+    "تُك-سُويد"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot004",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Serology checklist",
+  "scenario": "Adult kidney transplant candidate, records unclear.",
+  "question": "Which serologies guide pre-transplant vaccines?",
+  "options": [
+   "Measles, VZV, HBV panel, HAV IgG",
+   "Only HIV and HCV",
+   "Tetanus and diphtheria antibodies"
+  ],
+  "answer": "🧠 القاعدة: افحص ما يغيّر قرارك: الحصبة، الجديري، HBV، HAV.\n✅ التطبيق: سلبي للحصبة/الجديري ← MMR/VAR قبل ≥4 أسابيع. anti-HBs سلبي ← HBV. HAV سلبي ← HepA.\n⚠️ الفخ: فحص أجسام الكزاز لا يغيّر شيئاً؛ أعطِ Tdap حسب السجل.",
+  "terms": [
+   [
+    "anti-HBc",
+    "أنتي-إتش-بي-سي"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp005",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: 4-month rule",
+  "scenario": "Dose 4 was given at 12 months, exactly 4 months after dose 3. Discovered at 18 months.",
+  "question": "Repeat dose 4?",
+  "options": [
+   "No—count it (≥4 months accepted afterward)",
+   "Yes, repeat now",
+   "Yes, repeat 6 months after it"
+  ],
+  "answer": "🧠 القاعدة: الفاصل الموصى به 6 أشهر، لكن إذا أُعطيت بعد ≥4 أشهر تُحتسب ولا تُعاد.\n✅ التطبيق: مرّت 4 أشهر وعمره ≥12 شهرًا ← صالحة بأثر رجعي.\n⚠️ الفخ: لا تتعمد الجدولة بـ4 أشهر؛ القاعدة للقبول بعد الحدوث فقط.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot005",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: VZV seronegative candidate",
+  "scenario": "Woman, 34, heart transplant listing in 3 months, no immunosuppression. VZV IgG negative.",
+  "question": "What do you give?",
+  "options": [
+   "VAR 2 doses 4 weeks apart, done ≥4 wk pre-op",
+   "RZV 2 doses instead",
+   "Nothing; give VariZIG after transplant"
+  ],
+  "answer": "🧠 القاعدة: سلبي الجديري + غير مكبوت + وقت كافٍ = Varivax جرعتان.\n✅ التطبيق: الجرعة الأولى الآن والثانية بعد 4 أسابيع، وتنتهي قبل الزرع بـ ≥4 أسابيع.\n⚠️ الفخ: RZV يحمي من الهربس النطاقي لا من الجديري الأولي في الشخص السلبي.",
+  "terms": [
+   [
+    "Varivax",
+    "فا-ري-فاكس"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp006",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: 5th dose skipped",
+  "scenario": "5-year-old: doses at 2, 4, 6 months and at 4 years 2 months.",
+  "question": "Does she need a 5th dose?",
+  "options": [
+   "No—4th was at ≥4 years",
+   "Yes, at school entry",
+   "Yes, 6 months after dose 4"
+  ],
+  "answer": "🧠 القاعدة: الجرعة الخامسة غير مطلوبة إذا أُعطيت الرابعة بعد عمر 4 سنوات (و≥6 أشهر بعد الثالثة).\n✅ التطبيق: الرابعة عند 4 سنوات وشهرين ← السلسلة مكتملة. التالي Tdap عند 11–12.\n⚠️ الفخ: إعطاء جرعة خامسة روتينيًا دون النظر لعمر الجرعة الرابعة.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot006",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: HBV for CKD candidate",
+  "scenario": "Man, 60, on hemodialysis, awaiting kidney. Anti-HBs <10, HBsAg and anti-HBc negative.",
+  "question": "Which HBV regimen?",
+  "options": [
+   "High-dose: Engerix-B 40 mcg at 0,1,2,6 mo",
+   "Standard Engerix-B 20 mcg at 0,1,6",
+   "No vaccine; dialysis patients don't respond"
+  ],
+  "answer": "🧠 القاعدة: مرضى الغسيل = جرعة عالية (40 mcg).\n✅ التطبيق: Engerix-B 40 mcg (جرعتان 20) في 0,1,2,6 أشهر أو Recombivax dialysis 40 mcg في 0,1,6. ثم anti-HBs بعد 1–2 شهر.\n⚠️ الفخ: الجرعة العادية تعطي استجابة ضعيفة في الـ CKD.",
+  "terms": [
+   [
+    "Engerix-B",
+    "إن-جي-ريكس بي"
+   ]
+  ],
+  "ref": "ACIP 2018; KDIGO"
+ },
+ {
+  "id": "tdp007",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Catch-up under 7",
+  "scenario": "3-year-old: never vaccinated.",
+  "question": "What is the DTaP plan?",
+  "options": [
+   "DTaP now, +4 wk, +4 wk, +6 mo; 4–6 y dose",
+   "DTaP now, +4 wk, +6 mo only",
+   "Tdap now then Td every 10 years"
+  ],
+  "answer": "🧠 القاعدة: تحت 7: فواصل 4 أسابيع، 4 أسابيع، 6 أشهر، ثم 6 أشهر للخامسة.\n✅ التطبيق: 4 جرعات الآن؛ الخامسة عند 4–6 سنوات إلا إن كانت الرابعة بعد عمر 4.\n⚠️ الفخ: استخدام Tdap لطفل عمره 3 سنوات، أو إعادة السلسلة من البداية.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot007",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Anti-HBs target",
+  "scenario": "Dialysis patient finished high-dose HBV series. Anti-HBs 6 mIU/mL at 2 months.",
+  "question": "Next step?",
+  "options": [
+   "Repeat a full HBV series, recheck",
+   "He's protected; stop",
+   "Give HBIG monthly"
+  ],
+  "answer": "🧠 القاعدة: الهدف anti-HBs ≥10 mIU/mL.\n✅ التطبيق: 6 أقل من 10 ← سلسلة كاملة ثانية ثم إعادة الفحص. إن بقي <10 بعدها = non-responder: افحص HBsAg وانصح بالحذر.\n⚠️ الفخ: الاكتفاء بالسلسلة الأولى يترك مريض غسيل عرضة لـ HBV.",
+  "terms": [
+   [
+    "non-responder",
+    "نون-ري-سبون-دَر"
+   ]
+  ],
+  "ref": "ACIP 2018"
+ },
+ {
+  "id": "tdp008",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Never restart",
+  "scenario": "2-year-old: DTaP at 2 months only, 22 months ago.",
+  "question": "What now?",
+  "options": [
+   "Continue: dose 2 now, no restart",
+   "Restart the 5-dose series",
+   "Give 2 doses today"
+  ],
+  "answer": "🧠 القاعدة: لا نعيد السلسلة أبدًا مهما طال الفاصل.\n✅ التطبيق: احتسب الجرعة 1، أعطِ الثانية الآن، ثم الثالثة بعد 4 أسابيع، والرابعة بعد 6 أشهر.\n⚠️ الفخ: إعادة البدء تضيّع الوقت وتزيد الجرعات بلا فائدة.",
+  "terms": [
+   [
+    "Toxoid",
+    "تُك-سُويد"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot008",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Liver candidate: HepA",
+  "scenario": "Man, 45, cirrhosis (MASLD), liver transplant evaluation. HAV IgG negative, HBV immune.",
+  "question": "What does he need?",
+  "options": [
+   "HepA 2 doses 6 months apart",
+   "Nothing; transplant will cure the liver",
+   "HAV immune globulin every 3 months"
+  ],
+  "answer": "🧠 القاعدة: كل مرشح لزراعة الكبد/مريض الكبد المزمن: HAV و HBV.\n✅ التطبيق: HAV سلبي ← HepA جرعتان (0 و6 أشهر). ابدأ الآن ليكتمل قبل الزرع قدر الإمكان.\n⚠️ الفخ: التهاب A على كبد متليف قد يكون قاتلاً قبل الزرع.",
+  "terms": [
+   [
+    "cirrhosis",
+    "سِ-رو-سِس"
+   ]
+  ],
+  "ref": "ACIP; AASLD"
+ },
+ {
+  "id": "tdp009",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: 7–18 catch-up count",
+  "scenario": "Unvaccinated 12-year-old.",
+  "question": "How many doses?",
+  "options": [
+   "3: Tdap, Td/Tdap at 4 wk, Td/Tdap at 6 mo",
+   "1 Tdap only",
+   "5 doses like infants"
+  ],
+  "answer": "🧠 القاعدة: من 7–18 غير مطعّم: 3 جرعات (0، 4 أسابيع، 6 أشهر)، الأولى Tdap.\n✅ التطبيق: Tdap اليوم يُحتسب أيضًا جرعة المراهقة، ثم Td أو Tdap.\n⚠️ الفخ: الاكتفاء بجرعة Tdap واحدة كمراهق مطعّم.",
+  "terms": [
+   [
+    "Toxoid",
+    "تُك-سُويد"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot009",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Pneumococcal pre-transplant",
+  "scenario": "Woman, 40, kidney candidate, never had pneumococcal vaccine.",
+  "question": "What do you give?",
+  "options": [
+   "One dose PCV20 or PCV21",
+   "PPSV23 alone",
+   "PCV15 alone, nothing after"
+  ],
+  "answer": "🧠 القاعدة: أي مكبوت/CKD بالغ: PCV20 أو PCV21 جرعة واحدة تكفي.\n✅ التطبيق: جرعة PCV20 أو PCV21 الآن (≥2 أسبوع قبل الزرع) وانتهى.\n⚠️ الفخ: PPSV23 وحده ضعيف؛ و PCV15 يحتاج PPSV23 بعده بـ ≥8 أسابيع.",
+  "terms": [
+   [
+    "PCV21",
+    "بي-سي-في-توِن-تي-وَن"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "tdp010",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: First dose before age 1",
+  "scenario": "8-year-old: DTaP at 2 and 4 months only.",
+  "question": "What now?",
+  "options": [
+   "Tdap now, Td/Tdap 6 mo later; Tdap at 11–12",
+   "Tdap now and stop",
+   "Td now, +4 wk, +6 mo"
+  ],
+  "answer": "🧠 القاعدة: إذا بدأت السلسلة قبل عمر سنة، يلزم 4 جرعات إجمالًا؛ وإن بدأت بعد السنة يكفي 3.\n✅ التطبيق: معه 2 ← الجرعة 3 (Tdap) الآن، الرابعة بعد 6 أشهر. Tdap عند 8 سنوات لا تُغني عن جرعة 11–12.\n⚠️ الفخ: عدّ 3 جرعات فقط، أو ظن أن Tdap عند 8 سنوات تكفي للمراهقة.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot010",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Shingles before transplant",
+  "scenario": "Man, 38, heart transplant candidate, VZV IgG positive.",
+  "question": "Recombinant zoster vaccine?",
+  "options": [
+   "Yes, RZV 2 doses now (≥19 at risk)",
+   "No, only age ≥50",
+   "Give live zoster vaccine"
+  ],
+  "answer": "🧠 القاعدة: RZV للمكبوتين ≥19 سنة (FDA ≥18)، ولكل من ≥50.\n✅ التطبيق: سيكون مكبوتاً قريباً: RZV جرعتان بفاصل 2–6 أشهر (يجوز 1–2 شهر لتسريعه قبل الزرع).\n⚠️ الفخ: انتظار سن 50 خطأ؛ الهربس شائع جداً بعد الزرع.",
+  "terms": [
+   [
+    "Shingrix",
+    "شِنج-ريكس"
+   ]
+  ],
+  "ref": "ACIP 2022"
+ },
+ {
+  "id": "tdp011",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: First dose after age 1",
+  "scenario": "11-year-old: DTaP at 15 months and 2 years only.",
+  "question": "What does he need today?",
+  "options": [
+   "Tdap now = final catch-up + adolescent dose",
+   "Tdap now, then Td in 6 months",
+   "Td now, Tdap at 12"
+  ],
+  "answer": "🧠 القاعدة: بدأ بعد عمر سنة ← 3 جرعات تكفي، والفاصل الأخير 6 أشهر.\n✅ التطبيق: الفاصل منذ الجرعة الثانية سنوات ← Tdap اليوم تكمل السلسلة وتُحتسب جرعة المراهقة لأنه ≥10.\n⚠️ الفخ: إضافة جرعة رابعة بلا حاجة.",
+  "terms": [
+   [
+    "Toxoid",
+    "تُك-سُويد"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot011",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: HPV in candidates",
+  "scenario": "Woman, 33, kidney candidate, never had HPV vaccine.",
+  "question": "What do you advise?",
+  "options": [
+   "HPV9 3 doses (shared decision 27–45)",
+   "Not indicated after 26",
+   "2 doses only"
+  ],
+  "answer": "🧠 القاعدة: المكبوت: HPV دائماً 3 جرعات (0,1–2,6).\n✅ التطبيق: روتيني حتى 26؛ من 27–45 قرار مشترك، وخطر HPV أعلى بعد الزرع، فالأفضل البدء الآن.\n⚠️ الفخ: جدول الجرعتين للأصحاء دون 15 فقط، لا للمكبوتين.",
+  "terms": [
+   [
+    "Gardasil 9",
+    "غار-دا-سيل ناين"
+   ]
+  ],
+  "ref": "ACIP 2019"
+ },
+ {
+  "id": "tdp012",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Interval check 7–18",
+  "scenario": "9-year-old: DTaP at 18 months, Tdap 2 months ago.",
+  "question": "When is the next dose?",
+  "options": [
+   "Td/Tdap 4 months from now (6 mo gap)",
+   "Td today (4 weeks passed)",
+   "Nothing until age 11"
+  ],
+  "answer": "🧠 القاعدة: إذا بدأت بعد السنة: الجرعة الثالثة بعد 6 أشهر من الثانية.\n✅ التطبيق: الجرعات: 18 شهرًا + Tdap قبل شهرين ← الثالثة بعد 4 أشهر. ثم Tdap عند 11–12 لأن Tdap أُعطيت تحت 10.\n⚠️ الفخ: تطبيق فاصل 4 أسابيع على الجرعة الأخيرة.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot012",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Eculizumab and meningococcus",
+  "scenario": "Kidney candidate with aHUS; eculizumab planned at transplant.",
+  "question": "What is needed?",
+  "options": [
+   "MenACWY 2 doses + MenB series, ≥2 wk before",
+   "MenACWY 1 dose only",
+   "No vaccines; give penicillin only"
+  ],
+  "answer": "🧠 القاعدة: مثبطات المتمم = خطر نيسيريا ×1000: MenACWY + MenB.\n✅ التطبيق: MenACWY جرعتان بفاصل 8 أسابيع + MenB كامل، ≥2 أسبوع قبل eculizumab، مع booster لـ MenACWY كل 5 سنوات.\n⚠️ الفخ: Men لا تُعطى روتينياً لكل مرشح؛ فقط عند دواعٍ كهذه.",
+  "terms": [
+   [
+    "eculizumab",
+    "إ-كو-لي-زو-ماب"
+   ]
+  ],
+  "ref": "ACIP 2020"
+ },
+ {
+  "id": "tdp013",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Tdap at 7–9",
+  "scenario": "Tdap given at age 8 to complete catch-up.",
+  "question": "Adolescent Tdap needed?",
+  "options": [
+   "Yes, at 11–12 years",
+   "No, it counts already",
+   "Only Td at 18"
+  ],
+  "answer": "🧠 القاعدة: Tdap بعمر 7–9 لا تُحتسب جرعة المراهقة.\n✅ التطبيق: أعطِ Tdap روتينيًا عند 11–12.\n⚠️ الفخ: الخلط مع عمر 10 حيث تُحتسب.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2019"
+ },
+ {
+  "id": "sot013",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Men vaccines: not routine",
+  "scenario": "Heart transplant candidate, 50, no asplenia, no complement drugs.",
+  "question": "Does he need MenACWY/MenB?",
+  "options": [
+   "No; only if another indication exists",
+   "Yes, all transplant candidates",
+   "MenB only"
+  ],
+  "answer": "🧠 القاعدة: Men ليست جزءاً من حزمة الزرع؛ تحتاج داعياً آخر.\n✅ التطبيق: لا طحال مفقود، لا eculizumab، لا سفر/حج ← لا حاجة.\n⚠️ الفخ: إضافة كل لقاح لكل مرشح يضيع الوقت عن اللقاحات المهمة.",
+  "terms": [
+   [
+    "meningococcal",
+    "مِ-نِن-جو-كوكَل"
+   ]
+  ],
+  "ref": "ACIP; IDSA 2013"
+ },
+ {
+  "id": "tdp014",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Tdap at 10",
+  "scenario": "Tdap given at age 10 during catch-up.",
+  "question": "Adolescent Tdap at 11–12?",
+  "options": [
+   "Not needed—dose at 10 counts",
+   "Yes, repeat at 11–12",
+   "Yes, plus Td at 16"
+  ],
+  "answer": "🧠 القاعدة: Tdap من عمر 10 فأكثر تُحتسب جرعة المراهقة.\n✅ التطبيق: أُعطيت عند 10 ← لا حاجة لـ Tdap عند 11–12. التالي Td/Tdap بعد 10 سنوات.\n⚠️ الفخ: إعادة الجرعة لأنها أُعطيت قبل 11.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2019"
+ },
+ {
+  "id": "sot014",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: No live vaccines after",
+  "scenario": "Kidney recipient, 2 years post-transplant, stable on tacrolimus.",
+  "question": "Which vaccine is contraindicated?",
+  "options": [
+   "MMR, varicella, LAIV, YF, oral typhoid, BCG",
+   "Tdap",
+   "Influenza injection"
+  ],
+  "answer": "🧠 القاعدة: بعد الزرع: لا حي أبداً (MMR، VAR، LAIV، YF، تيفوئيد فموي، BCG).\n✅ التطبيق: مستقر بعد سنتين لكنه على tacrolimus مدى الحياة ← ما زال ممنوعاً.\n⚠️ الفخ: \"مستقر\" لا يلغي المنع؛ الاستثناءات نادرة جداً وبيد خبراء الزرع (مثل VAR لأطفال مختارين).",
+  "terms": [
+   [
+    "tacrolimus",
+    "تا-كرو-لي-مَس"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp015",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Routine adolescent",
+  "scenario": "12-year-old, full 5-dose DTaP; last at 5 years.",
+  "question": "What is due?",
+  "options": [
+   "One Tdap now",
+   "Td now",
+   "Nothing until 16"
+  ],
+  "answer": "🧠 القاعدة: جرعة Tdap واحدة روتينيًا عند 11–12 سنة.\n✅ التطبيق: سلسلة مكتملة ← Tdap اليوم، ثم Td أو Tdap كل 10 سنوات.\n⚠️ الفخ: إعطاء Td وحده يضيع حماية السعال الديكي.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot015",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: When to restart",
+  "scenario": "Liver recipient, transplanted 6 weeks ago, routine course.",
+  "question": "When to resume inactivated vaccines?",
+  "options": [
+   "2–6 months post-op (usually ~3 months)",
+   "Immediately at 2 weeks",
+   "Only after 1 year"
+  ],
+  "answer": "🧠 القاعدة: المعطّل بعد الزرع: 2–6 أشهر (غالباً ~3)، عندما يقل الكبت المكثّف.\n✅ التطبيق: 6 أسابيع مبكر؛ انتظر حتى ~3 أشهر لـ PCV و Tdap و HBV و RZV.\n⚠️ الفخ: قبل ذلك الاستجابة ضعيفة؛ وتأخيرها سنة يترك فجوة بلا داعٍ.",
+  "terms": [
+   [
+    "induction",
+    "إن-دَك-شَن"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp016",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Adult never had Tdap",
+  "scenario": "45-year-old, childhood series complete; Td 3 years ago.",
+  "question": "What now?",
+  "options": [
+   "One Tdap now, no wait",
+   "Wait 7 more years",
+   "Tdap then Td in 4 weeks"
+  ],
+  "answer": "🧠 القاعدة: كل بالغ لم يأخذ Tdap يأخذ جرعة واحدة فورًا بغض النظر عن آخر Td.\n✅ التطبيق: Tdap اليوم، ثم Td أو Tdap كل 10 سنوات.\n⚠️ الفخ: انتظار 10 سنوات منذ آخر Td — لا يوجد حد أدنى للفاصل.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot016",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Flu exception",
+  "scenario": "Kidney recipient, 5 weeks post-transplant, flu season in November.",
+  "question": "Flu vaccine?",
+  "options": [
+   "Yes, inactivated flu now (≥1 month)",
+   "Wait until 3 months",
+   "Give LAIV nasal"
+  ],
+  "answer": "🧠 القاعدة: الإنفلونزا استثناء: من شهر واحد بعد الزرع في الموسم.\n✅ التطبيق: 5 أسابيع + موسم ← أعطِ inactivated الآن، وفكّر بجرعة إضافية لاحقاً إن كان مبكراً جداً.\n⚠️ الفخ: LAIV حي = ممنوع.",
+  "terms": [
+   [
+    "LAIV",
+    "إل-إيه-آي-في"
+   ]
+  ],
+  "ref": "AST IDCOP 2019"
+ },
+ {
+  "id": "tdp017",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: No minimum interval",
+  "scenario": "Adult got Td last month after a cut; never had Tdap.",
+  "question": "Can Tdap be given now?",
+  "options": [
+   "Yes, no minimum interval after Td",
+   "No, wait 5 years",
+   "No, wait 2 years"
+  ],
+  "answer": "🧠 القاعدة: لا فاصل أدنى بين Td و Tdap.\n✅ التطبيق: أعطِ Tdap اليوم لإضافة حماية السعال الديكي.\n⚠️ الفخ: قاعدة الانتظار سنتين أو 5 سنوات قديمة وأُلغيت.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot017",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: RZV after transplant",
+  "scenario": "Heart recipient, 50, 8 months post-op, no zoster vaccine.",
+  "question": "Give RZV?",
+  "options": [
+   "Yes, RZV 2 doses now",
+   "No, it's adjuvanted—avoid",
+   "Only live zoster"
+  ],
+  "answer": "🧠 القاعدة: RZV معطّل = آمن بعد الزرع.\n✅ التطبيق: 8 أشهر بعد الزرع وحالته مستقرة ← جرعتان بفاصل 2–6 أشهر.\n⚠️ الفخ: الخوف من الـ adjuvant يرفض لقاحاً مهماً؛ بيانات زراعة الكلى تؤكد أمانه.",
+  "terms": [
+   [
+    "adjuvant",
+    "أد-جو-فَنت"
+   ]
+  ],
+  "ref": "ACIP 2022; AST 2019"
+ },
+ {
+  "id": "tdp018",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Adult no primary series",
+  "scenario": "30-year-old migrant, never vaccinated.",
+  "question": "What schedule?",
+  "options": [
+   "Tdap, Td/Tdap at 4 wk, Td/Tdap 6–12 mo later",
+   "Tdap once",
+   "Td ×2, 1 month apart"
+  ],
+  "answer": "🧠 القاعدة: بالغ بلا سلسلة أساسية: 3 جرعات (0، 4 أسابيع، 6–12 شهرًا)، إحداها Tdap ويفضل الأولى.\n✅ التطبيق: ثم Td أو Tdap كل 10 سنوات.\n⚠️ الفخ: جرعة Tdap واحدة لا تكفي غير المطعّم.",
+  "terms": [
+   [
+    "Toxoid",
+    "تُك-سُويد"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot018",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Tdap post-transplant",
+  "scenario": "Kidney recipient, 1 year post-op; last Td 11 years ago.",
+  "question": "What do you give?",
+  "options": [
+   "Tdap now",
+   "Nothing; vaccines don't work now",
+   "Td only, never Tdap"
+  ],
+  "answer": "🧠 القاعدة: Tdap/Td معطّل ويُعطى بعد الزرع كالمعتاد.\n✅ التطبيق: آخر Td قبل >10 سنوات ← Tdap الآن.\n⚠️ الفخ: الامتناع خوفاً من الرفض لا يدعمه دليل.",
+  "terms": [
+   [
+    "Tdap",
+    "تي-داب"
+   ]
+  ],
+  "ref": "AST IDCOP 2019"
+ },
+ {
+  "id": "tdp019",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Td/Tdap interchangeable",
+  "scenario": "50-year-old: Tdap at 40; booster due.",
+  "question": "Which product?",
+  "options": [
+   "Td or Tdap—either is acceptable",
+   "Td only",
+   "Tdap is not allowed again"
+  ],
+  "answer": "🧠 القاعدة: منذ 2019: Td أو Tdap مقبولان للمعززات كل 10 سنوات وللجروح والتطعيم الاستدراكي.\n✅ التطبيق: يمكن إعطاء أي منهما حسب المتاح.\n⚠️ الفخ: الظن أن Tdap مسموح مرة واحدة في العمر.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2019"
+ },
+ {
+  "id": "sot019",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: HBV booster after",
+  "scenario": "Kidney recipient, 1 year post-op; anti-HBs fell from 80 to 4 mIU/mL.",
+  "question": "Next step?",
+  "options": [
+   "HBV booster dose, recheck anti-HBs",
+   "Nothing; he was vaccinated before",
+   "Give HBIG"
+  ],
+  "answer": "🧠 القاعدة: بعد الزرع: إن هبط anti-HBs <10 ← booster.\n✅ التطبيق: 4 <10 ← جرعة booster (high-dose) ثم anti-HBs بعد 1–2 شهر؛ إن بقي منخفضاً سلسلة كاملة.\n⚠️ الفخ: \"تلقّى التطعيم سابقاً\" لا يعني الحماية مع الكبت.",
+  "terms": [
+   [
+    "booster",
+    "بوس-تَر"
+   ]
+  ],
+  "ref": "AST IDCOP 2019"
+ },
+ {
+  "id": "tdp020",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Pregnancy each time",
+  "scenario": "Pregnant at 28 weeks; Tdap given 14 months ago in last pregnancy.",
+  "question": "Tdap now?",
+  "options": [
+   "Yes, every pregnancy",
+   "No, given within 2 years",
+   "Only after delivery"
+  ],
+  "answer": "🧠 القاعدة: Tdap في كل حمل، بين 27–36 أسبوعًا (الأفضل مبكرًا)، حتى لو أُخذت حديثًا.\n✅ التطبيق: الأجسام المضادة تقل سريعًا؛ تنقلها الأم للرضيع ← أعطِ اليوم.\n⚠️ الفخ: تأجيلها لأن الجرعة السابقة حديثة.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot020",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Household contacts",
+  "scenario": "Daughter, 1 year, of a new kidney recipient is due MMR, varicella; sibling 3 months due rotavirus.",
+  "question": "What do you advise?",
+  "options": [
+   "Give all, including MMR/VAR/rotavirus",
+   "Hold all live vaccines in household",
+   "Give only inactivated"
+  ],
+  "answer": "🧠 القاعدة: المخالطون يأخذون كل شيء؛ هم درع المريض.\n✅ التطبيق: MMR و VAR و rotavirus كلها بموعدها، و flu سنوياً. احتياط: غسل اليدين عند الحفاظات 4 أسابيع، وتجنّب ملامسة طفح الـ VAR النادر.\n⚠️ الفخ: منع الحي عن الأسرة يزيد خطر المريض.",
+  "terms": [
+   [
+    "rotavirus",
+    "رو-تا-فاي-رَس"
+   ]
+  ],
+  "ref": "IDSA 2013; AST IDCOP 2019"
+ },
+ {
+  "id": "tdp021",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Missed in pregnancy",
+  "scenario": "Mother delivered; no Tdap during pregnancy or ever.",
+  "question": "What now?",
+  "options": [
+   "Tdap immediately postpartum",
+   "Nothing; too late",
+   "Wait until breastfeeding ends"
+  ],
+  "answer": "🧠 القاعدة: لم تأخذ Tdap أبدًا ولم تأخذه في الحمل ← أعطِه فورًا بعد الولادة.\n✅ التطبيق: يقلل نقل السعال الديكي للرضيع؛ الرضاعة ليست مانعًا.\n⚠️ الفخ: الحماية أقل من التطعيم أثناء الحمل، لكنه أفضل من لا شيء.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot021",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: MMR before Umrah",
+  "scenario": "Kidney recipient, 4 months post-op, wants MMR before Umrah (measles in region).",
+  "question": "What do you say?",
+  "options": [
+   "No MMR; check IgG, IG if exposed",
+   "Give MMR, 4 months is enough",
+   "Give half-dose MMR"
+  ],
+  "answer": "🧠 القاعدة: بعد الزرع لا MMR مهما كانت الأسباب.\n✅ التطبيق: افحص measles IgG؛ إن سلبي: لا حي، طعّم المرافقين، توعية، وعند التعرض IGIV 400 mg/kg خلال 6 أيام. أكمل MenACWY و flu.\n⚠️ الفخ: السفر لا يبرر لقاحاً حياً لمكبوت.",
+  "terms": [
+   [
+    "IGIV",
+    "آي-جي-آي-في"
+   ]
+  ],
+  "ref": "ACIP 2013; AST 2019"
+ },
+ {
+  "id": "tdp022",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Wound: clean minor",
+  "scenario": "Clean small cut; 3+ doses, last Td 8 years ago.",
+  "question": "Vaccine needed?",
+  "options": [
+   "No—booster only if ≥10 years",
+   "Td/Tdap now",
+   "Td/Tdap + TIG"
+  ],
+  "answer": "🧠 القاعدة: جرح نظيف صغير: معزز إذا مضى ≥10 سنوات.\n✅ التطبيق: 8 سنوات فقط ← لا شيء.\n⚠️ الفخ: استخدام قاعدة 5 سنوات للجروح النظيفة.",
+  "terms": [
+   [
+    "Tetanus immune globulin",
+    "تِي-تَ-نَس إِ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot022",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Yellow fever trip",
+  "scenario": "Liver recipient wants to travel to an endemic YF area in Africa.",
+  "question": "What do you do?",
+  "options": [
+   "No YF; exemption letter + advise avoiding",
+   "Give YF, it's required",
+   "Give YF half dose"
+  ],
+  "answer": "🧠 القاعدة: YF حي ← ممنوع؛ الحل خطاب إعفاء طبي.\n✅ التطبيق: انصحه بتأجيل/تجنّب المنطقة؛ إن سافر: medical waiver + وقاية من البعوض.\n⚠️ الفخ: شرط الدخول لا يجعل اللقاح الحي آمناً.",
+  "terms": [
+   [
+    "waiver",
+    "وَي-فَر"
+   ]
+  ],
+  "ref": "CDC Yellow Book 2024"
+ },
+ {
+  "id": "tdp023",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Wound: dirty",
+  "scenario": "Soil-contaminated puncture; 3+ doses, last 6 years ago.",
+  "question": "What does he need?",
+  "options": [
+   "Td/Tdap now, no TIG",
+   "TIG + Td/Tdap",
+   "Nothing (under 10 years)"
+  ],
+  "answer": "🧠 القاعدة: جرح ملوث: معزز إذا مضى ≥5 سنوات.\n✅ التطبيق: 6 سنوات ← Td/Tdap. لا TIG لأنه أخذ ≥3 جرعات.\n⚠️ الفخ: إعطاء TIG لكل جرح ملوث.",
+  "terms": [
+   [
+    "Tetanus immune globulin",
+    "تِي-تَ-نَس إِ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot023",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Typhoid choice",
+  "scenario": "Kidney recipient going to Pakistan.",
+  "question": "Typhoid vaccine?",
+  "options": [
+   "Injectable Vi polysaccharide",
+   "Oral Ty21a capsules",
+   "None available"
+  ],
+  "answer": "🧠 القاعدة: التيفوئيد: الحقن (Vi) معطّل، الفموي Ty21a حي.\n✅ التطبيق: أعطِ Vi IM ≥2 أسبوع قبل السفر مع نظافة الطعام والماء.\n⚠️ الفخ: Ty21a حي ممنوع بعد الزرع.",
+  "terms": [
+   [
+    "Ty21a",
+    "تي-واي توِن-تي-وَن-إيه"
+   ]
+  ],
+  "ref": "CDC Yellow Book 2024"
+ },
+ {
+  "id": "tdp024",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Wound: unknown history",
+  "scenario": "Adult with dirty wound, unknown tetanus vaccination.",
+  "question": "What does he need?",
+  "options": [
+   "Td/Tdap + TIG 250 IU, then finish series",
+   "Td/Tdap only",
+   "TIG only"
+  ],
+  "answer": "🧠 القاعدة: غير معروف أو <3 جرعات + جرح ملوث ← لقاح + TIG.\n✅ التطبيق: TIG 250 IU في موضع مختلف، ثم أكمل 3 جرعات.\n⚠️ الفخ: نسيان إكمال السلسلة بعد الجرح.",
+  "terms": [
+   [
+    "Tetanus immune globulin",
+    "تِي-تَ-نَس إِ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot024",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: After rejection treatment",
+  "scenario": "Kidney recipient treated for rejection with anti-thymocyte globulin 3 weeks ago; due PCV20.",
+  "question": "What now?",
+  "options": [
+   "Delay ~3 months after ATG, then vaccinate",
+   "Give PCV20 today",
+   "Never vaccinate again"
+  ],
+  "answer": "🧠 القاعدة: علاج الرفض المكثّف (ATG/rituximab) يؤجل اللقاحات.\n✅ التطبيق: بعد ATG انتظر ~3 أشهر على الأقل (rituximab ~6) ثم PCV20. flu الموسمي يمكن إعطاؤه ثم إعادة النظر.\n⚠️ الفخ: اللقاح الآن يضيع لأن الخلايا اللمفاوية مستنفدة.",
+  "terms": [
+   [
+    "thymoglobulin",
+    "ثاي-مو-غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "AST IDCOP 2019"
+ },
+ {
+  "id": "tdp025",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Wound: unknown, clean",
+  "scenario": "Clean minor cut; never vaccinated, 20 years old.",
+  "question": "What does he need?",
+  "options": [
+   "Tdap, start series; no TIG",
+   "Tdap + TIG",
+   "Nothing"
+  ],
+  "answer": "🧠 القاعدة: جرح نظيف + <3 جرعات ← لقاح فقط بلا TIG.\n✅ التطبيق: Tdap الآن ثم إكمال السلسلة.\n⚠️ الفخ: TIG فقط للجروح الملوثة.",
+  "terms": [
+   [
+    "Tetanus immune globulin",
+    "تِي-تَ-نَس إِ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot025",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Measles exposure",
+  "scenario": "Heart recipient, measles IgG positive pre-transplant, exposed 3 days ago.",
+  "question": "Next step?",
+  "options": [
+   "IGIV 400 mg/kg now regardless of IgG",
+   "Nothing; he is immune",
+   "MMR within 72 hours"
+  ],
+  "answer": "🧠 القاعدة: المكبوت بشدة المتعرض للحصبة: IGIV بغض النظر عن المناعة السابقة.\n✅ التطبيق: 3 أيام <6 ← IGIV 400 mg/kg بالتنسيق مع فريق الزرع، ومراقبة 28 يوماً.\n⚠️ الفخ: \"IgG إيجابي\" لا يكفي مع الكبت، و MMR ممنوع.",
+  "terms": [
+   [
+    "immune globulin",
+    "إ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2013"
+ },
+ {
+  "id": "tdp026",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: DTaP in error at 9",
+  "scenario": "DTaP given by mistake to a 9-year-old needing catch-up.",
+  "question": "Is it valid?",
+  "options": [
+   "Count it; still Tdap at 11–12",
+   "Repeat with Tdap now",
+   "Invalid; restart series"
+  ],
+  "answer": "🧠 القاعدة: DTaP بالخطأ عمر 7–9 ← تُحتسب جرعة استدراكية.\n✅ التطبيق: لكن يحتاج Tdap عند 11–12.\n⚠️ الفخ: إعادة الجرعة بلا داعٍ.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot026",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Varicella exposure",
+  "scenario": "Kidney recipient, VZV IgG negative, played with a child with chickenpox 5 days ago.",
+  "question": "Action?",
+  "options": [
+   "VariZIG now (≤10 days); refer",
+   "Varivax now",
+   "Reassure"
+  ],
+  "answer": "🧠 القاعدة: سلبي VZV + مكبوت + تعرض ← VariZIG خلال 10 أيام.\n✅ التطبيق: 5 أيام ← VariZIG الآن، وإن لم يتوفر: acyclovir/valacyclovir وقائي حسب فريق الزرع.\n⚠️ الفخ: Varivax حي ممنوع، والطمأنة خطيرة.",
+  "terms": [
+   [
+    "VariZIG",
+    "فاري-زِغ"
+   ]
+  ],
+  "ref": "ACIP 2013"
+ },
+ {
+  "id": "tdp027",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: DTaP in error, adult",
+  "scenario": "DTaP given by mistake to a 35-year-old instead of Tdap.",
+  "question": "What now?",
+  "options": [
+   "Count it as the Tdap dose",
+   "Give Tdap now",
+   "Give Td in 4 weeks"
+  ],
+  "answer": "🧠 القاعدة: DTaP بالخطأ لعمر ≥10 تُحتسب Tdap.\n✅ التطبيق: لا إعادة؛ وثّق الخطأ وابلغ عنه.\n⚠️ الفخ: إعادة الجرعة تزيد خطر Arthus.",
+  "terms": [
+   [
+    "Arthus reaction",
+    "آر-ثَس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot027",
+  "topic": "Immunocompromised",
+  "title": "🫘 Transplant: Living donor",
+  "scenario": "Brother, 30, will donate a kidney in 2 weeks; asks for varicella vaccine now.",
+  "question": "Your advice?",
+  "options": [
+   "Defer live vaccine until after donation",
+   "Give it now",
+   "Give it on surgery day"
+  ],
+  "answer": "🧠 القاعدة: المتبرع الحي: تجنّب الحي خلال 4 أسابيع قبل التبرع.\n✅ التطبيق: الحقن الحي قبل أسبوعين قد يعني viremia لقاحية تنتقل للمريض؛ أجّلها. المعطّلة مسموحة.\n⚠️ الفخ: معاملة المتبرع كشخص عادي تماماً تنسى خطر النقل.",
+  "terms": [
+   [
+    "viremia",
+    "فاي-ري-ميا"
+   ]
+  ],
+  "ref": "AST IDCOP 2019"
+ },
+ {
+  "id": "tdp028",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Tdap in error, infant",
+  "scenario": "4-month-old got Tdap instead of DTaP as dose 2.",
+  "question": "What now?",
+  "options": [
+   "Not valid—give DTaP as soon as possible",
+   "Count it",
+   "Repeat at 15 months"
+  ],
+  "answer": "🧠 القاعدة: Tdap بالخطأ في الجرعات 1–3 لا تُحتسب.\n✅ التطبيق: أعطِ DTaP بدلًا منها في أقرب وقت.\n⚠️ الفخ: احتسابها رغم أنها مخفّضة المضاد.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "CDC Pink Book"
+ },
+ {
+  "id": "sot028",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: Live = ask first",
+  "scenario": "Woman, 29, on a new biologic for Crohn's, asks for MMR.",
+  "question": "Your first move?",
+  "options": [
+   "Ask drug and dose before any live vaccine",
+   "Give MMR; biologics are mild",
+   "Refuse all vaccines"
+  ],
+  "answer": "🧠 القاعدة: أي مكبوت ← \"الحي؟ اسأل أولاً\": ما الدواء والجرعة والمدة؟\n✅ التطبيق: معظم البيولوجيات = كبت عالي ← لا MMR؛ المعطّل مسموح.\n⚠️ الفخ: رفض كل اللقاحات خطأ؛ المعطّلة مطلوبة أكثر.",
+  "terms": [
+   [
+    "biologic",
+    "باي-و-لو-جِك"
+   ]
+  ],
+  "ref": "ACIP 2024; IDSA 2013"
+ },
+ {
+  "id": "tdp029",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Tdap in error at 3",
+  "scenario": "3-year-old got Tdap instead of DTaP as dose 4.",
+  "question": "Is it valid?",
+  "options": [
+   "Yes—counts for dose 4 or 5",
+   "No, repeat DTaP",
+   "No, restart"
+  ],
+  "answer": "🧠 القاعدة: Tdap بالخطأ في الجرعة 4 أو 5 تُحتسب.\n✅ التطبيق: احتسبها وأكمل الجرعة 5 عند 4–6 سنوات.\n⚠️ الفخ: إعادة الجرعة بلا حاجة.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "CDC Pink Book"
+ },
+ {
+  "id": "sot029",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: Steroid 20/14 rule",
+  "scenario": "Man, 50, prednisone 25 mg/day for 3 weeks, stopped 10 days ago. Needs VAR.",
+  "question": "Give it now?",
+  "options": [
+   "No; wait ≥1 month after stopping",
+   "Yes, steroids already stopped",
+   "Yes, he's under 60"
+  ],
+  "answer": "🧠 القاعدة: ≥20 mg/day لمدة ≥14 يوماً = كبت عالي؛ انتظر شهراً بعد التوقف للحي.\n✅ التطبيق: 25 mg × 3 أسابيع ← انتظر حتى شهر من التوقف (بقي ~20 يوماً).\n⚠️ الفخ: \"أوقف الدواء\" ليس كافياً؛ المناعة تحتاج شهراً.",
+  "terms": [
+   [
+    "prednisone",
+    "بريد-ني-زون"
+   ]
+  ],
+  "ref": "ACIP Best Practices"
+ },
+ {
+  "id": "tdp030",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Encephalopathy",
+  "scenario": "Infant had encephalopathy within 7 days of DTaP dose 2, no other cause.",
+  "question": "What next?",
+  "options": [
+   "DT for remaining doses (no pertussis)",
+   "Continue DTaP",
+   "Stop all tetanus vaccines"
+  ],
+  "answer": "🧠 القاعدة: اعتلال دماغي خلال 7 أيام بلا سبب آخر ← مانع لأي لقاح سعال ديكي.\n✅ التطبيق: أكمل بـ DT تحت 7 سنوات.\n⚠️ الفخ: إيقاف الكزاز والدفتيريا أيضًا.",
+  "terms": [
+   [
+    "Encephalopathy",
+    "إِن-سِ-فَ-لو-بَ-ثي"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot030",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: Short steroid burst",
+  "scenario": "Child, 6, prednisone 2 mg/kg (≥20 mg) for 5 days, ended yesterday; due MMR.",
+  "question": "Give MMR?",
+  "options": [
+   "Yes; <14 days isn't high-level",
+   "No; wait 1 month",
+   "No; never after steroids"
+  ],
+  "answer": "🧠 القاعدة: الكبت العالي يتطلب الجرعة العالية والمدة ≥14 يوماً معاً.\n✅ التطبيق: 5 أيام فقط ← ليس كبتاً عالياً ← MMR الآن (بعض الخبراء يفضّلون أسبوعين).\n⚠️ الفخ: حساب الجرعة ونسيان المدة يؤخر اللقاح بلا داعٍ.",
+  "terms": [
+   [
+    "corticosteroid",
+    "كور-تي-كو-ستي-رويد"
+   ]
+  ],
+  "ref": "ACIP Best Practices"
+ },
+ {
+  "id": "tdp031",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Pediarix limit",
+  "scenario": "Child 6 weeks to 6 years; Pediarix stock.",
+  "question": "Which doses can Pediarix give?",
+  "options": [
+   "Doses 1–3 only",
+   "All 5 doses",
+   "Doses 4 and 5"
+  ],
+  "answer": "🧠 القاعدة: Pediarix (DTaP-HepB-IPV): 6 أسابيع إلى 6 سنوات، للجرعات 1–3 فقط.\n✅ التطبيق: استخدمه لجرعات الرضّع الثلاث.\n⚠️ الفخ: استخدامه كجرعة رابعة أو خامسة.",
+  "terms": [
+   [
+    "Pediarix",
+    "بِي-دي-آ-ركس"
+   ]
+  ],
+  "ref": "FDA label"
+ },
+ {
+  "id": "sot031",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: Rituximab clock",
+  "scenario": "Woman, 45, rituximab for RA, last dose 2 months ago, wants HepB vaccine.",
+  "question": "Best advice?",
+  "options": [
+   "Give now but response weak; best ≥6 mo",
+   "Give now, fully effective",
+   "Contraindicated forever"
+  ],
+  "answer": "🧠 القاعدة: rituximab = لا خلايا B لـ ~6 أشهر؛ الاستجابة للمعطّل ضعيفة.\n✅ التطبيق: الأفضل قبل rituximab بـ ≥2 أسبوع أو بعده بـ ≥6 أشهر؛ إن لزم الآن أعطِه وافحص anti-HBs لاحقاً، وكرر إن لزم. flu لا يؤجل.\n⚠️ الفخ: اللقاح المعطّل ليس خطيراً، لكنه قد يضيع؛ لا تحسبه محمياً.",
+  "terms": [
+   [
+    "rituximab",
+    "ري-تُك-سي-ماب"
+   ]
+  ],
+  "ref": "ACR 2022; IDSA 2013"
+ },
+ {
+  "id": "tdp032",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Pentacel limit",
+  "scenario": "Pentacel (DTaP-IPV/Hib) available.",
+  "question": "For which DTaP doses?",
+  "options": [
+   "Doses 1–4, 6 weeks–4 years",
+   "Dose 5 only",
+   "All doses to 7 years"
+  ],
+  "answer": "🧠 القاعدة: Pentacel: من 6 أسابيع إلى 4 سنوات، للجرعات 1–4.\n✅ التطبيق: لا يستخدم للجرعة الخامسة.\n⚠️ الفخ: إعطاؤه عند 5 سنوات.",
+  "terms": [
+   [
+    "Pentacel",
+    "بِن-تَ-سِل"
+   ]
+  ],
+  "ref": "FDA label"
+ },
+ {
+  "id": "sot032",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: Low-dose methotrexate",
+  "scenario": "Woman, 55, methotrexate 15 mg/week for RA, VZV positive, wants zoster vaccine.",
+  "question": "Which and when?",
+  "options": [
+   "RZV now; MTX dose is low-level",
+   "Live zoster vaccine",
+   "Stop MTX for 3 months first"
+  ],
+  "answer": "🧠 القاعدة: MTX ≤0.4 mg/kg/week = كبت منخفض، ليس شديداً.\n✅ التطبيق: RZV جرعتان، يمكن الآن (ACR قد يقترح إيقاف MTX أسبوعاً بعد كل جرعة لتحسين الاستجابة).\n⚠️ الفخ: معاملة MTX منخفض الجرعة كالزرع يحرم المريض من لقاحات.",
+  "terms": [
+   [
+    "methotrexate",
+    "مِ-ثو-ترِك-سيت"
+   ]
+  ],
+  "ref": "IDSA 2013; ACR 2022"
+ },
+ {
+  "id": "tdp033",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Kinrix/Quadracel",
+  "scenario": "5-year-old due school DTaP and IPV.",
+  "question": "Combination option?",
+  "options": [
+   "Kinrix or Quadracel (4–6 y)",
+   "Pentacel",
+   "Pediarix"
+  ],
+  "answer": "🧠 القاعدة: Kinrix وQuadracel (DTaP-IPV) لعمر 4–6 سنوات فقط: الجرعة 5 DTaP والجرعة 4 IPV.\n✅ التطبيق: مناسب لدخول المدرسة.\n⚠️ الفخ: استخدام منتجات الرضّع فوق أعمارها.",
+  "terms": [
+   [
+    "Quadracel",
+    "كوا-دْرَ-سِل"
+   ]
+  ],
+  "ref": "FDA label"
+ },
+ {
+  "id": "sot033",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: Before anti-TNF",
+  "scenario": "Man, 30, psoriasis, adalimumab to start in 6 weeks. Varicella IgG negative.",
+  "question": "Plan?",
+  "options": [
+   "VAR x2 now, start drug ≥4 wk after dose 2",
+   "Start adalimumab first, vaccinate later",
+   "RZV only"
+  ],
+  "answer": "🧠 القاعدة: قبل anti-TNF = نافذة ذهبية أخرى: الحي ≥4 أسابيع قبله.\n✅ التطبيق: VAR الآن ثم بعد 4 أسابيع، ويبدأ adalimumab بعد ≥4 أسابيع من الجرعة الأخيرة (نسّق التأجيل القصير مع الطبيب). افحص TB و HBV أيضاً.\n⚠️ الفخ: بعد البدء يُمنع الحي حتى إيقاف العلاج.",
+  "terms": [
+   [
+    "adalimumab",
+    "أدا-لي-مو-ماب"
+   ]
+  ],
+  "ref": "IDSA 2013; ACR 2022"
+ },
+ {
+  "id": "tdp034",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Healthcare worker",
+  "scenario": "Nurse, 28 y, never had Tdap; Td 2 years ago.",
+  "question": "What now?",
+  "options": [
+   "Tdap now regardless of Td interval",
+   "Wait 8 years",
+   "Only if pregnant"
+  ],
+  "answer": "🧠 القاعدة: العاملون الصحيون: جرعة Tdap واحدة إن لم يأخذوها.\n✅ التطبيق: يعطى فورًا بغض النظر عن آخر Td.\n⚠️ الفخ: تأجيل لأن آخر Td حديث.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot034",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: HIV and live vaccines",
+  "scenario": "Man, 28, HIV on ART, CD4 350 (22%) for 1 year, measles IgG negative.",
+  "question": "MMR?",
+  "options": [
+   "Yes, MMR 2 doses 4 weeks apart",
+   "No, HIV contraindicates MMR",
+   "Only if viral load undetectable 5 yrs"
+  ],
+  "answer": "🧠 القاعدة: HIV: MMR/VAR مسموح إذا CD4 ≥200 (≥15%) لـ ≥6 أشهر.\n✅ التطبيق: 350 و22% لسنة ← MMR جرعتان بفاصل 28 يوماً. CD4 <200 ← ممنوع.\n⚠️ الفخ: منع كل حي عن كل مريض HIV يترك المستقرين بلا حماية.",
+  "terms": [
+   [
+    "CD4",
+    "سي-دي-فور"
+   ]
+  ],
+  "ref": "ACIP; NIH OI 2024"
+ },
+ {
+  "id": "tdp035",
+  "topic": "Schedules-Catchup",
+  "title": "💉 DTaP/Tdap: Cocooning",
+  "scenario": "Grandmother will care for a newborn; never had Tdap.",
+  "question": "Tdap now?",
+  "options": [
+   "Yes, ideally ≥2 weeks before contact",
+   "No, only pregnant women",
+   "Only if the infant is sick"
+  ],
+  "answer": "🧠 القاعدة: المخالطون للرضّع: Tdap قبل التواصل بأسبوعين على الأقل.\n✅ التطبيق: أعطِ Tdap الآن.\n⚠️ الفخ: الاعتماد على تطعيم الأم وحده.",
+  "terms": [
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "sot035",
+  "topic": "Immunocompromised",
+  "title": "🛡️ Immuno: Asplenia package",
+  "scenario": "Man, 35, elective splenectomy in 3 weeks, no prior vaccines.",
+  "question": "What do you give?",
+  "options": [
+   "PCV20, MenACWY, MenB, Hib now (≥2 wk pre-op)",
+   "PCV20 only",
+   "Wait 2 weeks after surgery"
+  ],
+  "answer": "🧠 القاعدة: حزمة الطحال: PCV20/21 + MenACWY + MenB + Hib.\n✅ التطبيق: الآن (≥2 أسبوع قبل): PCV20 + MenACWY (ثانية بعد 8 أسابيع، booster كل 5 سنوات) + MenB + Hib جرعة. flu سنوياً، وخطة مضاد حيوي للحمى.\n⚠️ الفخ: نسيان MenB و Hib شائع؛ الاستئصال الطارئ ← طعّم بعده بـ ≥14 يوماً.",
+  "terms": [
+   [
+    "splenectomy",
+    "سبلي-نِك-تو-مي"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
   "id": "vdose001",
   "topic": "Dose-Route",
   "title": "Adult hepatitis B volume",
