@@ -84,6 +84,26 @@
   "ref": "ACIP 2013/CDC Pink Book"
  },
  {
+  "id": "vint001",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: HepB dose 3 timing",
+  "scenario": "Infant born 1 Jan 2026. HepB dose 1 at birth, dose 2 on 1 Feb 2026. Today 20 Apr 2026 (age ~15.5 weeks), mother asks to give dose 3 now.",
+  "question": "Can HepB dose 3 be given today as a valid dose?",
+  "options": [
+   "No; dose 3 needs age ≥24 weeks (and ≥16 w after d1)",
+   "Yes; 8 weeks have passed since dose 2",
+   "Yes; give it, ACIP accepts ≥12 weeks of age"
+  ],
+  "answer": "الحد الأدنى: د1→د2 = 4 أسابيع، د2→د3 = 8 أسابيع، د1→د3 = 16 أسبوعاً، وعمر الجرعة الأخيرة ≥24 أسبوعاً. هنا مضى 11 أسبوعاً بعد د2 لكن العمر 15.5 أسبوعاً فقط، فالجرعة لو أُعطيت لا تُحتسب وتُعاد. السبب: الاستجابة المناعية والذاكرة أفضل بعد 6 أشهر من العمر. أجّل حتى عمر 24 أسبوعاً.",
+  "terms": [
+   [
+    "Hepatitis B",
+    "هي-با-تاي-تس بي"
+   ]
+  ],
+  "ref": "ACIP 2025 catch-up table"
+ },
+ {
   "id": "vtrv001",
   "topic": "Travel-Safety-New",
   "title": "Umrah: meningococcal certificate type",
@@ -168,6 +188,30 @@
   "ref": "ACIP General Best Practice"
  },
  {
+  "id": "vbst001",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Tetanus-prone wound at 6 years",
+  "scenario": "A 34-year-old man, 4+ documented tetanus doses, last Td on 10 May 2020. Today (20 Oct 2026) ED sutured a soil-contaminated puncture wound and sent him to complete prophylaxis.",
+  "question": "What tetanus prophylaxis now?",
+  "options": [
+   "Tdap (or Td) now; no TIG",
+   "Nothing; booster only every 10 years",
+   "Td plus TIG 250 IU"
+  ],
+  "answer": "القاعدة: جرح ملوّث/خطِر + ≥3 جرعات سابقة → جرعة Td/Tdap إذا مرّ >5 سنوات على آخر جرعة؛ الجرح النظيف البسيط → إذا مرّ >10 سنوات. مرّت هنا ~6.5 سنة فيلزم Tdap (يُفضَّل إن لم يأخذ Tdap سابقاً). لا يُعطى TIG لأن السلسلة الأولية مكتملة؛ TIG فقط إن كانت الجرعات <3 أو مجهولة.",
+  "terms": [
+   [
+    "Tdap",
+    "تي-دي-إيه-بي"
+   ],
+   [
+    "Tetanus immune globulin",
+    "تِ-تا-نَس إِ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2020; CDC Pink Book"
+ },
+ {
   "id": "vpop002",
   "topic": "Special-Populations",
   "title": "Missed Tdap window",
@@ -246,6 +290,30 @@
    ]
   ],
   "ref": "ACIP General Best Practice 2024"
+ },
+ {
+  "id": "vint002",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? HepB d1→d3 16 weeks",
+  "scenario": "Adult health worker: HepB (Engerix-B) dose 1 on 1 Mar, dose 2 on 29 Mar, dose 3 on 24 May. Anti-HBs not yet checked.",
+  "question": "Is this 3-dose series valid?",
+  "options": [
+   "No; d1→d3 only 12 weeks, repeat dose 3 (≥16 w after d1)",
+   "Yes; d2→d3 is 8 weeks, series valid",
+   "Yes; just check anti-HBs, interval irrelevant"
+  ],
+  "answer": "الحد الأدنى: د1→د2 = 4 أسابيع، د2→د3 = 8 أسابيع، د1→د3 = 16 أسبوعاً. من 1 مارس إلى 24 مايو = 12 أسبوعاً فقط، فالجرعة الثالثة غير صالحة رغم تحقق فاصل 8 أسابيع بعد د2. يُعطى د3 مجدداً بعد ≥16 أسبوعاً من د1 (و≥8 أسابيع من الجرعة غير الصالحة)، ثم anti-HBs بعد 1–2 شهر لعامل صحي.",
+  "terms": [
+   [
+    "Engerix-B",
+    "إن-جي-ريكس بي"
+   ],
+   [
+    "anti-HBs",
+    "آن-تاي إتش-بي-إس"
+   ]
+  ],
+  "ref": "ACIP 2025; CDC Pink Book"
  },
  {
   "id": "vimm003",
@@ -330,6 +398,26 @@
    ]
   ],
   "ref": "ACIP 2018"
+ },
+ {
+  "id": "vbst002",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Clean minor wound at 6 years",
+  "scenario": "A 40-year-old woman with a full primary series, last Tdap 7 years ago, has a clean superficial kitchen-knife cut already closed in ED.",
+  "question": "Does she need a tetanus booster today?",
+  "options": [
+   "No; due at 10 years for clean minor wounds",
+   "Yes; any wound >5 years needs a booster",
+   "Yes, plus TIG"
+  ],
+  "answer": "القاعدة: جرح نظيف بسيط → booster إذا >10 سنوات؛ جرح ملوّث/عميق/حرق → إذا >5 سنوات. مرّت 7 سنوات وجرحها نظيف فلا حاجة الآن، وموعد جرعتها الروتينية بعد 3 سنوات. إعطاء جرعات زائدة متقاربة يزيد التفاعلات الموضعية (Arthus).",
+  "terms": [
+   [
+    "Arthus reaction",
+    "آر-ثَس ري-آك-شَن"
+   ]
+  ],
+  "ref": "ACIP 2020"
  },
  {
   "id": "vsch004",
@@ -420,6 +508,26 @@
   "ref": "WHO IHR polio 2024; Saudi MOH"
  },
  {
+  "id": "vint003",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Adolescent 2-dose HepB",
+  "scenario": "13-year-old boy got Recombivax HB adult formulation (1.0 mL, 10 mcg) on 5 Jan; today 10 May he returns for dose 2.",
+  "question": "How should this series be completed?",
+  "options": [
+   "Give adult-formulation dose 2 now; ≥4 months has passed",
+   "Too early; 2-dose schedule needs 6 months",
+   "Restart a 3-dose pediatric-formulation series"
+  ],
+  "answer": "الحد الأدنى: Recombivax HB بتركيبة البالغين (10 mcg) لعمر 11–15 سنة = جرعتان، د1→د2 ≥4 أشهر (المعتاد 4–6 أشهر). من 5 يناير إلى 10 مايو أكثر من 4 أشهر فتُعطى د2 الآن وتكتمل السلسلة. الاستثناء: إذا أُعطيت أي جرعة بتركيبة الأطفال (5 mcg) فيجب إكمال 3 جرعات. لا داعي لإعادة البدء.",
+  "terms": [
+   [
+    "Recombivax HB",
+    "ري-كوم-بي-فاكس"
+   ]
+  ],
+  "ref": "ACIP 2025"
+ },
+ {
   "id": "vdose005",
   "topic": "Dose-Route",
   "title": "Heplisav-B schedule",
@@ -498,6 +606,30 @@
    ]
   ],
   "ref": "ACIP/CDC 2023"
+ },
+ {
+  "id": "vbst003",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Tdap in every pregnancy",
+  "scenario": "A 29-year-old at 28 weeks' gestation received Tdap at 30 weeks in her previous pregnancy, 14 months ago.",
+  "question": "Should she receive Tdap again now?",
+  "options": [
+   "Yes; Tdap every pregnancy, ideally 27–36 weeks",
+   "No; one Tdap within 2 years is enough",
+   "No; give it postpartum instead"
+  ],
+  "answer": "القاعدة: Tdap في كل حمل بغضّ النظر عن الفاصل عن الجرعة السابقة، ويُفضَّل بين الأسبوع 27 و36. السبب: أضداد الأم تهبط بسرعة، والهدف نقل IgG عبر المشيمة لحماية الرضيع من الشاهوق قبل تطعيمه. الإعطاء بعد الولادة لا يحمي الرضيع بالقدر نفسه.",
+  "terms": [
+   [
+    "Transplacental",
+    "ترانس-بلا-سين-تَل"
+   ],
+   [
+    "Pertussis",
+    "بِر-تَ-سِس"
+   ]
+  ],
+  "ref": "ACIP 2013/2019"
  },
  {
   "id": "vtrv005",
@@ -580,6 +712,26 @@
   "ref": "ACIP 2024"
  },
  {
+  "id": "vint004",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Heplisav-B 2 doses",
+  "scenario": "40-year-old diabetic got Heplisav-B on 1 Sep and dose 2 on 22 Sep (21 days later). Today 30 Sep.",
+  "question": "Is his Heplisav-B series valid?",
+  "options": [
+   "No; dose 2 <4 weeks, repeat ≥4 weeks after invalid dose",
+   "Yes; 4-day grace makes 21 days acceptable",
+   "Yes; Heplisav-B needs no minimum interval"
+  ],
+  "answer": "الحد الأدنى: Heplisav-B (CpG adjuvant) = جرعتان، د1→د2 ≥4 أسابيع. 21 يوماً أقل من 24 يوماً (حد السماح 4 أيام)، فالجرعة غير صالحة. تُعاد جرعة بعد ≥4 أسابيع من الجرعة غير الصالحة. لو خُلطت مع منتج آخر ثلاثي الجرعات فيُكمل كسلسلة 3 جرعات.",
+  "terms": [
+   [
+    "Heplisav-B",
+    "هيب-لي-ساف بي"
+   ]
+  ],
+  "ref": "ACIP 2018/2025"
+ },
+ {
   "id": "vpop006",
   "topic": "Special-Populations",
   "title": "RSV vaccine in a second pregnancy",
@@ -660,6 +812,30 @@
   "ref": "ACIP Rabies 2010"
  },
  {
+  "id": "vbst004",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: MenACWY in asplenia (adult)",
+  "scenario": "A 32-year-old splenectomised man received a 2-dose MenACWY primary series (8 weeks apart) completed in September 2021. Today is 20 October 2026.",
+  "question": "What does he need for MenACWY now?",
+  "options": [
+   "One MenACWY booster now; then every 5 years",
+   "Nothing; the 2-dose series is lifelong",
+   "Repeat the full 2-dose primary series"
+  ],
+  "answer": "القاعدة: خطر مستمر (asplenia، نقص complement، HIV، استخدام eculizumab/ravulizumab) → سلسلة أولية جرعتان بفاصل ≥8 أسابيع، ثم booster كل 5 سنوات طوال استمرار الخطر إذا كانت الجرعة الأخيرة في عمر ≥7 سنوات. مرّت 5 سنوات فيستحق جرعة واحدة فقط.",
+  "terms": [
+   [
+    "Asplenia",
+    "أَ-سبلي-نيا"
+   ],
+   [
+    "Eculizumab",
+    "إِ-كيو-لِي-زو-ماب"
+   ]
+  ],
+  "ref": "ACIP 2020"
+ },
+ {
   "id": "vimm007",
   "topic": "Immunocompromised",
   "title": "Rituximab and vaccine response",
@@ -738,6 +914,26 @@
    ]
   ],
   "ref": "CDC Pink Book"
+ },
+ {
+  "id": "vint005",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? HepA second dose",
+  "scenario": "Child 1st HepA at 13 months on 10 Feb; dose 2 given 10 Jun same year (4 months).",
+  "question": "Is the HepA series complete?",
+  "options": [
+   "No; repeat dose ≥6 months after dose 1",
+   "Yes; minimum interval is 4 months",
+   "Yes; one HepA dose is lifelong"
+  ],
+  "answer": "الحد الأدنى: HepA د1→د2 = 6 أشهر (الحد الأدنى للعمر 12 شهراً). 4 أشهر لا تكفي، فتُعاد جرعة بعد ≥6 أشهر من د1. جرعة واحدة تحمي قصير المدى، لكن الجرعة الثانية بعد 6 أشهر ضرورية للحماية طويلة الأمد.",
+  "terms": [
+   [
+    "Havrix",
+    "ها-فريكس"
+   ]
+  ],
+  "ref": "ACIP 2020/2025"
  },
  {
   "id": "vsch008",
@@ -832,6 +1028,26 @@
   "ref": "CDC Yellow Book 2024"
  },
  {
+  "id": "vbst005",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: MenACWY primary before age 7",
+  "scenario": "A 7-year-old girl with complement C5 deficiency completed her MenACWY primary series at age 4 years (Oct 2023). Today is 20 Oct 2026.",
+  "question": "When is her first MenACWY booster due?",
+  "options": [
+   "Now (3 years after primary); then every 5 years",
+   "At 5 years after primary",
+   "At age 11–12 with routine adolescent dose"
+  ],
+  "answer": "القاعدة: إذا أُكملت السلسلة الأولية قبل عمر 7 سنوات → أول booster بعد 3 سنوات، ثم كل 5 سنوات؛ إذا كانت في عمر ≥7 → كل 5 سنوات. مرّت 3 سنوات فالجرعة مستحقة الآن. السبب: الأضداد تتلاشى أسرع عند الأطفال الصغار.",
+  "terms": [
+   [
+    "Complement deficiency",
+    "كوم-بلي-مِنت دي-في-شِن-سي"
+   ]
+  ],
+  "ref": "ACIP 2020"
+ },
+ {
   "id": "vdose010",
   "topic": "Dose-Route",
   "title": "Hep A at 18 years",
@@ -910,6 +1126,26 @@
    ]
   ],
   "ref": "ACIP 2020"
+ },
+ {
+  "id": "vint006",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: DTaP dose 4",
+  "scenario": "Toddler: DTaP doses at 2, 4, 6 months (3rd on 1 Mar 2026). Now 12 months old on 15 Jul 2026.",
+  "question": "Can DTaP dose 4 be given today?",
+  "options": [
+   "Yes; age ≥12 m and ≥4 months since d3 is accepted",
+   "No; needs 6 full months, wait until 1 Sep",
+   "No; dose 4 not before 15 months ever"
+  ],
+  "answer": "الحد الأدنى: DTaP د1→د2→د3 = 4 أسابيع، د3→د4 = 6 أشهر وعمر ≥12 شهراً. لكن ACIP تقبل د4 إذا أُعطيت بعد ≥4 أشهر من د3 عند عمر ≥12 شهراً (دون الحاجة لإعادتها). هنا 4.5 شهر، تُقبل ولا تُعاد، والأفضل الالتزام بـ6 أشهر عند الجدولة.",
+  "terms": [
+   [
+    "DTaP",
+    "دي-تاب"
+   ]
+  ],
+  "ref": "ACIP 2025 catch-up notes"
  },
  {
   "id": "vtrv009",
@@ -1000,6 +1236,26 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "vbst006",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Microbiologist and meningococcus",
+  "scenario": "A 38-year-old microbiologist routinely handles Neisseria meningitidis isolates. She had MenACWY 5 years ago and a MenB series 2 years ago.",
+  "question": "Which meningococcal boosters are due today?",
+  "options": [
+   "MenACWY now and MenB now",
+   "MenACWY only; MenB never needs boosting",
+   "None; lab workers need only a primary series"
+  ],
+  "answer": "القاعدة: المخبري المعرّض باستمرار لعزلات N. meningitidis: MenACWY كل 5 سنوات، وMenB جرعة booster بعد سنة من إكمال السلسلة ثم كل 2–3 سنوات. مرّت 5 سنوات على MenACWY وسنتان على MenB فكلاهما مستحق. التعرض المخبري يحمل خطراً عالياً للمرض الغازي.",
+  "terms": [
+   [
+    "Neisseria meningitidis",
+    "ناي-سي-ريا مِ-نِن-جي-تي-دِس"
+   ]
+  ],
+  "ref": "ACIP 2020"
+ },
+ {
   "id": "vpop010",
   "topic": "Special-Populations",
   "title": "Inadvertent MMR in pregnancy",
@@ -1078,6 +1334,26 @@
    ]
   ],
   "ref": "ACIP Child Schedule 2025"
+ },
+ {
+  "id": "vint007",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? DTaP 5th dose not needed",
+  "scenario": "5-year-old: DTaP doses at 2, 4, 6 months and 4th at age 4 y 2 m. School entry form asks for DTaP 5.",
+  "question": "Does he need DTaP dose 5?",
+  "options": [
+   "No; 4th dose at ≥4 years completes the series",
+   "Yes; 5 doses always required for school",
+   "Yes; give Tdap instead of DTaP 5"
+  ],
+  "answer": "القاعدة: سلسلة DTaP خمس جرعات، لكن الجرعة 5 غير مطلوبة إذا أُعطيت الجرعة 4 عند عمر ≥4 سنوات وبعد ≥6 أشهر من د3. هنا الجرعة الرابعة بعمر 4 سنوات وشهرين فالسلسلة مكتملة. إعطاء جرعة إضافية يزيد التفاعلات الموضعية دون فائدة.",
+  "terms": [
+   [
+    "Diphtheria",
+    "دِف-ثي-ريا"
+   ]
+  ],
+  "ref": "ACIP 2025"
  },
  {
   "id": "vimm011",
@@ -1159,6 +1435,30 @@
    [
     "GamaSTAN",
     "غا-ما-ستان"
+   ]
+  ],
+  "ref": "ACIP 2020"
+ },
+ {
+  "id": "vbst007",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: MenB after primary series",
+  "scenario": "A 20-year-old with functional asplenia (sickle cell) completed MenB-4C 2 doses on 1 Oct 2025. Today is 20 Oct 2026.",
+  "question": "What is the MenB plan now?",
+  "options": [
+   "Booster now; then every 2–3 years",
+   "Booster only at 5 years like MenACWY",
+   "No booster; MenB is a one-off series"
+  ],
+  "answer": "القاعدة: MenB لخطر مستمر → booster بعد سنة واحدة من إكمال السلسلة، ثم كل 2–3 سنوات ما دام الخطر قائماً. استخدم نفس منتج السلسلة الأولية (Bexsero وTrumenba غير قابلين للتبادل). السبب: أضداد MenB تهبط خلال 1–2 سنة.",
+  "terms": [
+   [
+    "Bexsero",
+    "بِك-سي-رو"
+   ],
+   [
+    "Trumenba",
+    "ترو-مين-با"
    ]
   ],
   "ref": "ACIP 2020"
@@ -1248,6 +1548,26 @@
   "ref": "CDC Yellow Book 2024"
  },
  {
+  "id": "vint008",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: Td/Tdap catch-up 7–18 y",
+  "scenario": "10-year-old migrant with no records. Tdap given 1 Mar, Td 29 Mar. Today 1 Jun.",
+  "question": "When is the 3rd tetanus-diphtheria dose due?",
+  "options": [
+   "≥6 months after dose 2 (≈29 Sep)",
+   "Now; 8 weeks after dose 2 suffices",
+   "After 12 months, like infant dose 4"
+  ],
+  "answer": "الحد الأدنى للاستدراك عمر 7–18 سنة: د1→د2 = 4 أسابيع، د2→د3 = 6 أشهر (إذا كانت الجرعة الأولى بعمر ≥12 شهراً). أول جرعة يفضل أن تكون Tdap. ملاحظة: إذا أُعطيت Tdap بعمر 7–9 سنوات يُعطى Tdap المراهقين أيضاً بعمر 11–12 سنة.",
+  "terms": [
+   [
+    "Tdap",
+    "تي-داب"
+   ]
+  ],
+  "ref": "ACIP 2025 catch-up"
+ },
+ {
   "id": "vdose014",
   "topic": "Dose-Route",
   "title": "Rabies vaccine volume",
@@ -1332,6 +1652,26 @@
   "ref": "ACIP General Best Practice"
  },
  {
+  "id": "vbst008",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: MenB in a campus outbreak",
+  "scenario": "A university declares a serogroup B outbreak. A 19-year-old student completed MenB (Trumenba 2 doses) 14 months ago.",
+  "question": "What do you advise?",
+  "options": [
+   "One MenB booster now (≥1 year since series)",
+   "No booster; series completed",
+   "Restart the 3-dose Trumenba schedule"
+  ],
+  "answer": "القاعدة: في فاشية serogroup B → جرعة booster واحدة لمن أكمل السلسلة منذ ≥1 سنة (ويجوز ≥6 أشهر حسب تقدير الصحة العامة). مرّ 14 شهراً فيستحق جرعة واحدة من نفس المنتج. لا تُعاد السلسلة.",
+  "terms": [
+   [
+    "Serogroup",
+    "سي-رو-غروب"
+   ]
+  ],
+  "ref": "ACIP 2020"
+ },
+ {
   "id": "vtrv013",
   "topic": "Travel-Safety-New",
   "title": "Hepatitis A: last-minute traveller",
@@ -1412,6 +1752,26 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "vint009",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? IPV final dose rules",
+  "scenario": "4.5-year-old: IPV at 2 m; dose 2 delayed to age 3 y 11 m; dose 3 at 4 y 1 m (2 months later).",
+  "question": "Is her polio series complete?",
+  "options": [
+   "No; give a final dose ≥6 months after dose 3",
+   "Yes; 3rd dose at ≥4 years completes it",
+   "Yes; 3 IPV doses always suffice"
+  ],
+  "answer": "الحد الأدنى: IPV د1→د2→د3 = 4 أسابيع، والجرعة الأخيرة بعمر ≥4 سنوات وبعد ≥6 أشهر من السابقة. د4 غير مطلوبة فقط إذا كانت د3 بعمر ≥4 سنوات و≥6 أشهر بعد د2. هنا الفاصل شهران فقط، فيلزم د4 بعد ≥6 أشهر من د3. السبب: ضمان استجابة معززة قبل دخول المدرسة.",
+  "terms": [
+   [
+    "Poliovirus",
+    "بو-ليو-فاي-رس"
+   ]
+  ],
+  "ref": "ACIP 2025"
+ },
+ {
   "id": "vpop014",
   "topic": "Special-Populations",
   "title": "Yellow fever while breastfeeding",
@@ -1490,6 +1850,30 @@
    ]
   ],
   "ref": "ACIP Catch-up 2025"
+ },
+ {
+  "id": "vbst009",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: PPSV23-only adult now 66",
+  "scenario": "A 66-year-old received PPSV23 alone at age 60 (no conjugate vaccine ever).",
+  "question": "What pneumococcal vaccine is indicated?",
+  "options": [
+   "One PCV20 or PCV21 now (≥1 year after PPSV23)",
+   "PPSV23 again (5 years since first)",
+   "Nothing; PPSV23 at ≥60 is final"
+  ],
+  "answer": "القاعدة الحالية: من أخذ PPSV23 فقط → جرعة واحدة PCV20 أو PCV21 بعد ≥1 سنة، وبها تكتمل السلسلة. قاعدة 'إعادة PPSV23 بعد 5 سنوات' استُبدلت عملياً بالـ conjugate. السبب: PPSV23 لا يولّد ذاكرة مناعية ومناعته تتلاشى.",
+  "terms": [
+   [
+    "PCV20",
+    "بي-سي-في عشرين"
+   ],
+   [
+    "Polysaccharide",
+    "بو-لي-سا-كا-رايد"
+   ]
+  ],
+  "ref": "ACIP 2024"
  },
  {
   "id": "vimm015",
@@ -1576,6 +1960,30 @@
   "ref": "WHO 2018"
  },
  {
+  "id": "vint010",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? PedvaxHIB primary",
+  "scenario": "15-month-old: PedvaxHIB (PRP-OMP) at 2 and 4 months, then booster PedvaxHIB at 12 months.",
+  "question": "Is the Hib series complete?",
+  "options": [
+   "Yes; PRP-OMP = 2 primary doses + booster ≥12 m",
+   "No; needs a 6-month primary dose",
+   "No; booster must be ≥15 months"
+  ],
+  "answer": "القاعدة: PedvaxHIB (PRP-OMP) سلسلة أولية من جرعتين (2 و4 أشهر) ثم معززة بعمر 12–15 شهراً = 3 جرعات إجمالاً. منتجات PRP-T (ActHIB, Pentacel) تحتاج 3 جرعات أولية + معززة. الحد الأدنى: د1→د2 = 4 أسابيع، والمعززة بعد ≥8 أسابيع من السابقة وبعمر ≥12 شهراً. إذا خُلط منتجان في السلسلة الأولية فيلزم 3 جرعات أولية.",
+  "terms": [
+   [
+    "PRP-OMP",
+    "بي-آر-بي أو-إم-بي"
+   ],
+   [
+    "PedvaxHIB",
+    "بيد-فاكس-هِب"
+   ]
+  ],
+  "ref": "ACIP 2025"
+ },
+ {
   "id": "vsch016",
   "topic": "Schedules-Catchup",
   "title": "PCV catch-up 24–59 months",
@@ -1656,6 +2064,26 @@
   "ref": "CDC Yellow Book 2024"
  },
  {
+  "id": "vbst010",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? PCV13 + PPSV23 done after 65",
+  "scenario": "A 72-year-old had PCV13 at 66 and PPSV23 at 67 (5 years ago). Healthy.",
+  "question": "What is the pneumococcal recommendation?",
+  "options": [
+   "Shared decision: PCV20/21 ≥5 years after last dose",
+   "Mandatory PPSV23 revaccination",
+   "Series complete; nothing may be offered"
+  ],
+  "answer": "القاعدة: PCV13 + PPSV23 بعد عمر 65 = سلسلة مكتملة، لكن يجوز بقرار مشترك جرعة PCV20 أو PCV21 بعد ≥5 سنوات من آخر لقاح pneumococcal. لا تُعاد PPSV23 روتينياً.",
+  "terms": [
+   [
+    "Pneumococcal",
+    "نيو-مو-كو-كَل"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
   "id": "vdose018",
   "topic": "Dose-Route",
   "title": "HRIG dose",
@@ -1734,6 +2162,26 @@
    ]
   ],
   "ref": "ACIP/CDC Pink Book"
+ },
+ {
+  "id": "vint011",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: Hib catch-up by first-dose age",
+  "scenario": "Healthy boy, 18 months, never vaccinated against Hib. Parents ask how many Hib doses he needs.",
+  "question": "How many Hib doses does he need?",
+  "options": [
+   "One dose only (first dose at 15–59 months)",
+   "Two doses 8 weeks apart",
+   "Full 3 doses + booster"
+  ],
+  "answer": "قاعدة الاستدراك حسب عمر الجرعة الأولى: إذا كانت الجرعة الأولى بعمر 15–59 شهراً = جرعة واحدة فقط. بعمر 12–14 شهراً = جرعتان بينهما 8 أسابيع. بعمر 7–11 شهراً = جرعتان بفاصل 4 أسابيع ثم معززة بعمر 12–15 شهراً. الأصحاء ≥5 سنوات لا يحتاجون Hib. السبب: الأطفال الأكبر يستجيبون جيداً للقاح المقترن بجرعة واحدة.",
+  "terms": [
+   [
+    "Haemophilus influenzae",
+    "هي-مو-في-لس إن-فلو-إن-زي"
+   ]
+  ],
+  "ref": "ACIP 2025 catch-up"
  },
  {
   "id": "vtrv017",
@@ -1820,6 +2268,30 @@
   "ref": "IDSA 2013 / ACIP"
  },
  {
+  "id": "vbst011",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Hib after stem-cell transplant",
+  "scenario": "A 45-year-old fully vaccinated in childhood had allogeneic HSCT 7 months ago and is referred for re-vaccination.",
+  "question": "What Hib schedule is recommended?",
+  "options": [
+   "3 Hib doses ≥4 weeks apart, from 6–12 months post-HSCT",
+   "No Hib; adults never need it",
+   "Single Hib booster only"
+  ],
+  "answer": "القاعدة: Hib لا يحتاج booster عند البالغين، والاستثناء الأهم: بعد HSCT تُعطى 3 جرعات بفاصل ≥4 أسابيع تبدأ 6–12 شهراً بعد الزرع، بغضّ النظر عن التطعيم السابق، لأن الزرع يمحو الذاكرة المناعية.",
+  "terms": [
+   [
+    "HSCT",
+    "إتش-إس-سي-تي"
+   ],
+   [
+    "Haemophilus",
+    "هي-مو-في-لَس"
+   ]
+  ],
+  "ref": "ACIP 2024 adult schedule"
+ },
+ {
   "id": "vpop018",
   "topic": "Special-Populations",
   "title": "Preterm infant: chronological age",
@@ -1898,6 +2370,26 @@
    ]
   ],
   "ref": "ACIP Catch-up 2025"
+ },
+ {
+  "id": "vint012",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: PCV catch-up 2–4 years",
+  "scenario": "Healthy 3-year-old girl, no PCV doses, no chronic conditions.",
+  "question": "What PCV catch-up does she need?",
+  "options": [
+   "A single PCV15 or PCV20 dose",
+   "Two doses 8 weeks apart",
+   "None; PCV stops at 24 months"
+  ],
+  "answer": "قاعدة الاستدراك: الأصحاء بعمر 24–59 شهراً غير المكتملين = جرعة PCV واحدة فقط. الأطفال ذوو الخطورة (فقر الدم المنجلي، نقص المناعة، زراعة القوقعة) بعمر 24–71 شهراً بأقل من 3 جرعات = جرعتان بفاصل ≥8 أسابيع. الأصحاء ≥5 سنوات لا يحتاجون PCV.",
+  "terms": [
+   [
+    "Pneumococcal",
+    "نو-مو-كوك-ال"
+   ]
+  ],
+  "ref": "ACIP 2025"
  },
  {
   "id": "vimm019",
@@ -1980,6 +2472,26 @@
   "ref": "WHO 2018"
  },
  {
+  "id": "vbst012",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Hib in adult asplenia",
+  "scenario": "A 30-year-old scheduled for elective splenectomy has a record of full infant Hib series.",
+  "question": "Does he need Hib?",
+  "options": [
+   "No; documented childhood series is sufficient",
+   "Yes; 3 doses as after HSCT",
+   "Yes; booster every 5 years"
+  ],
+  "answer": "القاعدة: asplenia أو قبل استئصال الطحال → جرعة Hib واحدة فقط لغير المطعّم (≥14 يوماً قبل الجراحة)؛ من لديه سلسلة طفولة موثقة لا يحتاج شيئاً، ولا يوجد booster دوري. السلسلة الثلاثية خاصة بـ HSCT.",
+  "terms": [
+   [
+    "Splenectomy",
+    "سبلي-نِك-تو-مي"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
   "id": "vsch020",
   "topic": "Schedules-Catchup",
   "title": "Varicella interval by age",
@@ -2058,6 +2570,30 @@
    ]
   ],
   "ref": "WHO 2023; CDC Yellow Book"
+ },
+ {
+  "id": "vint013",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: Rotavirus maximum ages",
+  "scenario": "Infant aged 16 weeks, never vaccinated, arrives for first vaccines. Mother asks for rotavirus.",
+  "question": "Should rotavirus dose 1 be started today?",
+  "options": [
+   "No; max age for dose 1 is 14 weeks 6 days",
+   "Yes; any time before 8 months",
+   "Yes; give one dose of RV1 only"
+  ],
+  "answer": "الحد الأدنى للعمر 6 أسابيع، والفاصل بين الجرعات 4 أسابيع. الحد الأقصى: د1 حتى 14 أسبوعاً و6 أيام، وآخر جرعة حتى عمر 8 أشهر و0 يوم. لا يبدأ بعد 15 أسبوعاً لأن مأمونية البدء المتأخر (الانغلاف المعوي intussusception) غير مدروسة. إذا بدأت سهواً بعد ذلك تُكمل السلسلة كالمعتاد.",
+  "terms": [
+   [
+    "Intussusception",
+    "إن-تس-سس-سب-شن"
+   ],
+   [
+    "Rotavirus",
+    "رو-تا-فاي-رس"
+   ]
+  ],
+  "ref": "ACIP 2025; Pink Book"
  },
  {
   "id": "vdose022",
@@ -2140,6 +2676,26 @@
   "ref": "ACIP 2018"
  },
  {
+  "id": "vbst013",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: HCW responder, now low titre",
+  "scenario": "A 35-year-old nurse had anti-HBs 120 mIU/mL after her 3-dose HepB series in 2012. Pre-employment screening today shows anti-HBs <10.",
+  "question": "What next?",
+  "options": [
+   "No booster or testing needed; she is protected",
+   "One HepB booster and retest",
+   "Repeat full 3-dose series"
+  ],
+  "answer": "القاعدة: المستجيب المناعي الموثق (anti-HBs ≥10 بعد السلسلة) يبقى محمياً بالذاكرة المناعية حتى لو هبط التيتر لاحقاً؛ لا booster ولا فحص دوري للأصحاء مناعياً. الـ booster مطلوب فقط عند غياب توثيق الاستجابة.",
+  "terms": [
+   [
+    "Anti-HBs",
+    "آنتي إتش-بي-إس"
+   ]
+  ],
+  "ref": "CDC 2013/2018"
+ },
+ {
   "id": "vtrv021",
   "topic": "Travel-Safety-New",
   "title": "Contraindication vs precaution",
@@ -2218,6 +2774,26 @@
    ]
   ],
   "ref": "ASTCT / EBMT 2019"
+ },
+ {
+  "id": "vint014",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? MMR before first birthday",
+  "scenario": "Child got MMR at 11 months before Hajj travel (1 Jun 2025), and second MMR on 20 Aug 2025 at 13.5 months.",
+  "question": "How many valid MMR doses does she have?",
+  "options": [
+   "One; a dose before 12 months doesn't count",
+   "Two; series complete",
+   "None; the 2nd was too close to the 1st"
+  ],
+  "answer": "الحد الأدنى للعمر 12 شهراً، وفاصل MMR د1→د2 = 28 يوماً. الجرعة قبل 12 شهراً (للسفر أو التفشي) لا تُحتسب في السلسلة، فهي جرعة صفرية. الجرعة بعمر 13.5 شهراً تُعد د1، ويلزم د2 بعد ≥28 يوماً منها (عادة بعمر 4–6 سنوات). السبب: الأجسام المضادة الأمومية تثبط الاستجابة قبل 12 شهراً.",
+  "terms": [
+   [
+    "MMR",
+    "إم-إم-آر"
+   ]
+  ],
+  "ref": "ACIP 2025"
  },
  {
   "id": "vpop022",
@@ -2304,6 +2880,26 @@
   "ref": "ACIP Catch-up 2025"
  },
  {
+  "id": "vbst014",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Hemodialysis anti-HBs",
+  "scenario": "A 58-year-old on haemodialysis, previous responder to a Recombivax HB 40 µg dialysis series, has annual anti-HBs today of 7 mIU/mL.",
+  "question": "What is the correct action?",
+  "options": [
+   "Give one booster dose now; keep annual testing",
+   "No action; previous responder",
+   "Restart a full series"
+  ],
+  "answer": "القاعدة: مرضى الغسيل الكلوي (والمثبطين مناعياً) → فحص anti-HBs سنوياً، وbooster عند هبوطه <10 mIU/mL. السبب: الذاكرة المناعية غير موثوقة عندهم وخطر التعرض في وحدة الغسيل مرتفع. الجرعة بصيغة الغسيل (40 µg).",
+  "terms": [
+   [
+    "Hemodialysis",
+    "هي-مو-داي-آ-لِ-سِس"
+   ]
+  ],
+  "ref": "CDC 2018"
+ },
+ {
   "id": "vimm023",
   "topic": "Immunocompromised",
   "title": "Pre-transplant live vaccines",
@@ -2388,6 +2984,26 @@
   "ref": "CDC Pink Book"
  },
  {
+  "id": "vint015",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? MMR 2 doses 3 weeks apart",
+  "scenario": "22-year-old nursing student: MMR dose 1 on 1 Feb, dose 2 on 22 Feb (21 days later). She needs evidence of immunity.",
+  "question": "Is her MMR series valid?",
+  "options": [
+   "No; dose 2 <24 days, repeat ≥28 days after it",
+   "Yes; any interval after 2 weeks",
+   "Yes; just check rubella IgG"
+  ],
+  "answer": "الحد الأدنى: MMR د1→د2 = 28 يوماً (يسمح بحد سماح 4 أيام = 24 يوماً). 21 يوماً غير صالحة، فتُعاد الجرعة الثانية بعد ≥28 يوماً من الجرعة غير الصالحة. لا يُعتمد على فحص الأجسام بعد تطعيم موثق لإثبات المناعة. السبب: تداخل الفيروس الحي من الجرعة الأولى (تداخل الإنترفيرون).",
+  "terms": [
+   [
+    "Interferon",
+    "إن-تر-في-رون"
+   ]
+  ],
+  "ref": "ACIP; CDC Pink Book"
+ },
+ {
   "id": "vsch024",
   "topic": "Schedules-Catchup",
   "title": "DTaP inadvertently at ≥7 y",
@@ -2466,6 +3082,30 @@
    ]
   ],
   "ref": "CDC Yellow Book; ACIP"
+ },
+ {
+  "id": "vbst015",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? HepB non-responder after 2 series",
+  "scenario": "A 27-year-old doctor received two complete HepB series; anti-HBs 1–2 months after each was <10. HBsAg and anti-HBc are negative.",
+  "question": "What is the next step?",
+  "options": [
+   "Stop vaccinating; counsel as susceptible, HBIG after exposure",
+   "Third full series",
+   "Booster every year"
+  ],
+  "answer": "القاعدة: فحص anti-HBs بعد 1–2 شهر من السلسلة؛ إذا <10 → سلسلة ثانية ثم إعادة الفحص. بعد سلسلتين دون استجابة = non-responder: لا مزيد من الجرعات، يُتأكد من HBsAg سلبي، ويُعامل كمعرّض للخطر ويحتاج HBIG عند التعرض.",
+  "terms": [
+   [
+    "HBIG",
+    "إتش-بي-آي-جي"
+   ],
+   [
+    "Non-responder",
+    "نون-ري-سبون-دَر"
+   ]
+  ],
+  "ref": "CDC 2018"
  },
  {
   "id": "vdose026",
@@ -2548,6 +3188,26 @@
   "ref": "ACIP 2024"
  },
  {
+  "id": "vint016",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Varicella interval <13 vs ≥13 y",
+  "scenario": "8-year-old: varicella dose 1 on 1 Mar, dose 2 on 2 Apr (32 days) at another clinic.",
+  "question": "Does dose 2 need repeating?",
+  "options": [
+   "No; 4 weeks accepted if already given",
+   "Yes; must be ≥3 months for <13 years",
+   "Yes; must be ≥6 months"
+  ],
+  "answer": "الحد الأدنى للعمر 12 شهراً. لعمر 12 شهراً–12 سنة: الفاصل الموصى به 3 أشهر، لكن إذا أُعطيت د2 بعد ≥4 أسابيع تُقبل ولا تُعاد. لعمر ≥13 سنة: الفاصل الأدنى 4 أسابيع أصلاً. لا تجدول عمداً بفاصل 4 أسابيع للطفل الصغير.",
+  "terms": [
+   [
+    "Varicella",
+    "فا-ري-سي-لا"
+   ]
+  ],
+  "ref": "ACIP 2025"
+ },
+ {
   "id": "vtrv025",
   "topic": "Travel-Safety-New",
   "title": "Gelatin allergy",
@@ -2626,6 +3286,26 @@
    ]
   ],
   "ref": "CDC Yellow Book 2026"
+ },
+ {
+  "id": "vbst016",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: HepA and HPV after full series",
+  "scenario": "A 30-year-old completed HepA 2 doses in 2010 and HPV 3 doses in 2011; she travels to an endemic region next month.",
+  "question": "Which booster is needed?",
+  "options": [
+   "Neither; both series give long-term protection",
+   "HepA booster only before travel",
+   "HPV booster every 10 years"
+  ],
+  "answer": "القاعدة: HepA (جرعتان بفاصل ≥6 أشهر) وHPV (سلسلة مكتملة حسب العمر) لا يحتاجان booster؛ الحماية تمتد ≥20 سنة مع ذاكرة مناعية. لا فحص أضداد روتيني.",
+  "terms": [
+   [
+    "Hepatitis A",
+    "هي-با-تاي-تِس إيه"
+   ]
+  ],
+  "ref": "ACIP 2020/2019"
  },
  {
   "id": "vpop026",
@@ -2716,6 +3396,26 @@
   "ref": "ACIP Meningococcal 2020"
  },
  {
+  "id": "vint017",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: MMRV age limit",
+  "scenario": "13-year-old boy received one MMR and no varicella. Nurse plans to give MMRV (ProQuad) today.",
+  "question": "Is MMRV appropriate?",
+  "options": [
+   "No; MMRV licensed 12 m–12 y; give MMR + VAR",
+   "Yes; MMRV any age to complete both",
+   "Yes; but only as dose 1"
+  ],
+  "answer": "القاعدة: MMRV (ProQuad) مرخص من 12 شهراً إلى 12 سنة فقط. لعمر ≥13 يُعطى MMR وVAR منفصلين، وVAR جرعتان بفاصل ≥4 أسابيع. لعمر 12–47 شهراً كجرعة أولى يُفضل MMR+VAR منفصلين لتقليل الاختلاج الحموي ما لم يفضّل الوالدان MMRV.",
+  "terms": [
+   [
+    "ProQuad",
+    "برو-كواد"
+   ]
+  ],
+  "ref": "ACIP 2010/2025"
+ },
+ {
   "id": "vimm027",
   "topic": "Immunocompromised",
   "title": "Single kidney",
@@ -2798,6 +3498,26 @@
    ]
   ],
   "ref": "ACIP 2009"
+ },
+ {
+  "id": "vbst017",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: MMR third dose in mumps outbreak",
+  "scenario": "A 22-year-old university student with 2 documented MMR doses; public health declares a mumps outbreak and lists her residence hall as a risk group.",
+  "question": "What do you advise?",
+  "options": [
+   "Third MMR dose now",
+   "No dose; 2 MMR doses are complete",
+   "Check mumps IgG first, vaccinate if negative"
+  ],
+  "answer": "القاعدة: في فاشية النكاف، من حددته الصحة العامة ضمن مجموعة خطر مرتفع ولديه جرعتان → جرعة MMR ثالثة. لا حاجة لفحص المناعة قبلها (IgG لا يعكس الحماية بدقة). خارج الفاشيات لا جرعة ثالثة.",
+  "terms": [
+   [
+    "Mumps",
+    "مَمبس"
+   ]
+  ],
+  "ref": "ACIP 2017"
  },
  {
   "id": "vsch028",
@@ -2884,6 +3604,26 @@
   "ref": "ACIP General Best Practice"
  },
  {
+  "id": "vint018",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? HPV 2-dose <5 months",
+  "scenario": "12-year-old: HPV dose 1 on 10 Jan, dose 2 on 15 May (4 months 5 days).",
+  "question": "Is the HPV series complete?",
+  "options": [
+   "No; give dose 3 ≥12 w after d2 and ≥5 m after d1",
+   "Yes; started <15 y, 2 doses enough",
+   "No; restart the series"
+  ],
+  "answer": "الحد الأدنى للجدول الثنائي (البدء قبل 15 سنة): د1→د2 ≥5 أشهر (الموصى 6–12 شهراً). إذا كان الفاصل <5 أشهر (مع حد السماح 4 أيام) تُعطى جرعة ثالثة بعد ≥12 أسبوعاً من د2 و≥5 أشهر من د1. لا تُعاد السلسلة.",
+  "terms": [
+   [
+    "Gardasil 9",
+    "غار-دا-سيل ناين"
+   ]
+  ],
+  "ref": "ACIP 2016/2025"
+ },
+ {
   "id": "vdose030",
   "topic": "Dose-Route",
   "title": "LAIV dose",
@@ -2962,6 +3702,30 @@
    ]
   ],
   "ref": "ACIP 2024/ADA 2025"
+ },
+ {
+  "id": "vbst018",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Varicella and BCG revaccination",
+  "scenario": "A 25-year-old health worker has 2 documented varicella doses and a BCG scar; she asks for boosters of both before a hospital job.",
+  "question": "What do you advise?",
+  "options": [
+   "No booster for either",
+   "Third varicella dose and BCG revaccination",
+   "BCG only if TST is negative"
+  ],
+  "answer": "القاعدة: varicella جرعتان موثقتان = مناعة دون booster أو فحص IgG. BCG لا يُعاد (WHO 2018) حتى لو كان TST/IGRA سلبياً أو لا توجد ندبة، لعدم وجود فائدة إضافية مثبتة.",
+  "terms": [
+   [
+    "Varicella",
+    "ڤا-ري-سِ-لا"
+   ],
+   [
+    "BCG",
+    "بي-سي-جي"
+   ]
+  ],
+  "ref": "ACIP 2007; WHO 2018"
  },
  {
   "id": "vtrv029",
@@ -3048,6 +3812,26 @@
   "ref": "ACIP 2018"
  },
  {
+  "id": "vint019",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: HPV 3-dose spacing",
+  "scenario": "19-year-old (started HPV at 17): dose 1 on 1 Jan, dose 2 on 1 Feb. Today 1 Apr she wants dose 3.",
+  "question": "Can dose 3 be given today as valid?",
+  "options": [
+   "No; d1→d3 must be ≥5 months (≈1 Jun)",
+   "Yes; 8 weeks after dose 2 suffices",
+   "Yes; 12 weeks since dose 1"
+  ],
+  "answer": "الحد الأدنى للجدول الثلاثي (البدء ≥15 سنة أو نقص المناعة): د1→د2 = 4 أسابيع، د2→د3 = 12 أسبوعاً، د1→د3 = 5 أشهر. اليوم 3 أشهر فقط من د1 و8 أسابيع من د2، فكلا الشرطين غير متحقق. الموعد الصالح ≈1 يونيو (يتحقق الشرطان).",
+  "terms": [
+   [
+    "Papillomavirus",
+    "با-بي-لو-ما-فاي-رس"
+   ]
+  ],
+  "ref": "ACIP 2025"
+ },
+ {
   "id": "vpop030",
   "topic": "Special-Populations",
   "title": "Chronic liver disease vaccines",
@@ -3132,6 +3916,30 @@
   "ref": "ACIP HPV 2019"
  },
  {
+  "id": "vbst019",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Adult polio booster for travel",
+  "scenario": "A 40-year-old engineer with a complete childhood polio series travels to work in a country with circulating poliovirus.",
+  "question": "What polio vaccine does he need?",
+  "options": [
+   "One lifetime adult IPV booster",
+   "Full 3-dose IPV series",
+   "Nothing; childhood series suffices"
+  ],
+  "answer": "القاعدة: البالغ المكتمل التطعيم والمسافر إلى منطقة بها poliovirus نشط → جرعة IPV واحدة مدى الحياة للبالغ. غير المطعّم → سلسلة 3 جرعات IPV. لا تُكرر جرعة البالغ في كل سفرة (ما لم تنطبق توصيات IHR).",
+  "terms": [
+   [
+    "IPV",
+    "آي-بي-ڤي"
+   ],
+   [
+    "Poliovirus",
+    "بو-ليو-ڤاي-رَس"
+   ]
+  ],
+  "ref": "ACIP 2023; CDC Yellow Book"
+ },
+ {
   "id": "vimm031",
   "topic": "Immunocompromised",
   "title": "Early CKD vaccination",
@@ -3210,6 +4018,26 @@
    ]
   ],
   "ref": "CDC Pink Book"
+ },
+ {
+  "id": "vint020",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? MenACWY adolescent booster",
+  "scenario": "17-year-old going to university. MenACWY dose 1 at age 11; dose 2 given at age 15 y 6 m.",
+  "question": "Does he need another MenACWY dose?",
+  "options": [
+   "Yes; booster dose should be at ≥16 years",
+   "No; 2 doses ≥8 weeks apart is complete",
+   "No; boosters only for Hajj pilgrims"
+  ],
+  "answer": "القاعدة: MenACWY د1 بعمر 11–12 سنة ومعززة بعمر 16 سنة. المعززة قبل 16 سنة لا تغطي سنوات الخطورة القصوى (16–21)، لذا يُعطى معزز بعمر 16–18 (الحد الأدنى 8 أسابيع بين الجرعات). إذا كانت د1 بعمر ≥16 سنة فلا حاجة لمعززة روتينية.",
+  "terms": [
+   [
+    "Meningococcal",
+    "مي-نين-جو-كوك-ال"
+   ]
+  ],
+  "ref": "ACIP 2020/2025"
  },
  {
   "id": "vsch032",
@@ -3292,6 +4120,26 @@
   "ref": "ACIP General Best Practice"
  },
  {
+  "id": "vbst020",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: IHR polio rule for long stays",
+  "scenario": "A resident of a polio-exporting country who has lived there 6 months plans to travel to Saudi Arabia; his last polio dose was 18 months ago.",
+  "question": "What do the IHR temporary recommendations require?",
+  "options": [
+   "Polio dose 4 weeks–12 months before departure",
+   "No dose; any lifetime dose counts",
+   "Dose only if staying <4 weeks"
+  ],
+  "answer": "القاعدة (IHR المؤقتة): المقيم أو الزائر لأكثر من 4 أسابيع في دولة مصدِّرة لـ polio → جرعة OPV أو IPV بين 4 أسابيع و12 شهراً قبل المغادرة، موثقة في الشهادة الدولية. جرعته قبل 18 شهراً لا تكفي.",
+  "terms": [
+   [
+    "IHR",
+    "آي-إتش-آر"
+   ]
+  ],
+  "ref": "WHO IHR Emergency Committee"
+ },
+ {
   "id": "vdose034",
   "topic": "Dose-Route",
   "title": "Typhim Vi",
@@ -3372,6 +4220,26 @@
   "ref": "ACIP 2024"
  },
  {
+  "id": "vint021",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? MenB Bexsero spacing",
+  "scenario": "18-year-old: Bexsero (MenB-4C) on 1 Sep and 2nd Bexsero on 6 Oct.",
+  "question": "Is the MenB series complete?",
+  "options": [
+   "Yes; Bexsero 2 doses ≥1 month apart",
+   "No; needs a 3rd dose at 6 months",
+   "No; must be 6 months apart"
+  ],
+  "answer": "الحد الأدنى: Bexsero (MenB-4C) = جرعتان، د1→د2 ≥1 شهر. 35 يوماً كافية فالسلسلة مكتملة. المنتجان Bexsero وTrumenba غير قابلين للتبادل؛ تُكمل السلسلة بنفس المنتج. لذوي الخطورة: معززة بعد سنة ثم كل 2–3 سنوات.",
+  "terms": [
+   [
+    "Bexsero",
+    "بيك-سي-رو"
+   ]
+  ],
+  "ref": "ACIP 2020/2025"
+ },
+ {
   "id": "vtrv033",
   "topic": "Travel-Safety-New",
   "title": "GBS history and influenza",
@@ -3450,6 +4318,30 @@
    ]
   ],
   "ref": "ACIP"
+ },
+ {
+  "id": "vbst021",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Rabies PrEP risk category 3",
+  "scenario": "A 30-year-old veterinarian (category 3 risk, >3 years) received 2-dose rabies PrEP (day 0, 7) in 2024.",
+  "question": "What is the follow-up for sustained protection?",
+  "options": [
+   "Titre once at 1–3 years, or a booster by year 3",
+   "Titre every 6 months",
+   "Booster every 2 years regardless"
+  ],
+  "answer": "القاعدة (ACIP 2022): PrEP جرعتان يوم 0 و7. الفئة 1 (مختبر فيروس مركّز): titre كل 6 أشهر؛ الفئة 2: titre كل سنتين؛ الفئة 3 (خطر >3 سنوات كالأطباء البيطريين): titre واحد بين سنة و3 سنوات أو booster قبل نهاية السنة الثالثة. booster عند titre <0.5 IU/mL.",
+  "terms": [
+   [
+    "RFFIT",
+    "آر-فِت"
+   ],
+   [
+    "Pre-exposure prophylaxis",
+    "بري-إكس-بو-جَر بروفي-لاك-سِس"
+   ]
+  ],
+  "ref": "ACIP 2022"
  },
  {
   "id": "vpop034",
@@ -3540,6 +4432,26 @@
   "ref": "ACIP HepA 2020"
  },
  {
+  "id": "vint022",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Trumenba 2 vs 3 doses",
+  "scenario": "Healthy 17-year-old: Trumenba (MenB-FHbp) on 1 Feb and dose 2 on 1 May (3 months).",
+  "question": "Is the Trumenba series complete?",
+  "options": [
+   "No; give dose 3 ≥4 months after dose 2",
+   "Yes; 2 doses any interval",
+   "No; restart with Bexsero"
+  ],
+  "answer": "القاعدة: Trumenba للأصحاء = جرعتان 0 و6 أشهر. إذا أُعطيت د2 قبل 6 أشهر تُعطى د3 بعد ≥4 أشهر من د2. لذوي الخطورة أو التفشي = 3 جرعات 0، 1–2، 6 أشهر. لا تبدّل إلى Bexsero أثناء السلسلة.",
+  "terms": [
+   [
+    "Trumenba",
+    "ترو-مِن-با"
+   ]
+  ],
+  "ref": "ACIP 2020/2025"
+ },
+ {
   "id": "vimm035",
   "topic": "Immunocompromised",
   "title": "Sickle cell child",
@@ -3618,6 +4530,26 @@
    ]
   ],
   "ref": "ACIP 2019"
+ },
+ {
+  "id": "vbst022",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Rabies PEP in previously vaccinated",
+  "scenario": "A 26-year-old with documented full rabies PrEP 4 years ago is bitten by a stray dog; ED cleaned the wound and sent him today (day 0).",
+  "question": "What PEP is needed?",
+  "options": [
+   "Vaccine day 0 and 3 only; no RIG",
+   "4 doses plus RIG",
+   "No PEP; PrEP protects"
+  ],
+  "answer": "القاعدة: المطعّم سابقاً (PrEP أو PEP كامل موثق) → جرعتان فقط يوم 0 ويوم 3، دون RIG (قد يثبّط استجابة الذاكرة). لا يحتاج فحص titre قبل البدء، مهما طال الزمن.",
+  "terms": [
+   [
+    "Rabies immune globulin",
+    "ري-بيز إِ-ميون غلو-بيو-لِن"
+   ]
+  ],
+  "ref": "ACIP 2022"
  },
  {
   "id": "vsch036",
@@ -3700,6 +4632,26 @@
   "ref": "ACIP; Pink Book"
  },
  {
+  "id": "vint023",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? RZV dose 2 at 3 weeks",
+  "scenario": "62-year-old healthy man: Shingrix on 1 Mar, dose 2 on 22 Mar (21 days).",
+  "question": "What should be done?",
+  "options": [
+   "Repeat dose 2 ≥4 weeks after the invalid dose",
+   "Nothing; series valid (≥2 doses)",
+   "Restart the full 2-dose series"
+  ],
+  "answer": "الحد الأدنى: RZV (Shingrix) الموصى به 2–6 أشهر للأصحاء، والحد الأدنى المطلق 4 أسابيع. إذا أُعطيت د2 بعد <4 أسابيع فهي غير صالحة وتُعاد بعد ≥4 أسابيع منها. إذا تأخرت د2 بعد 6 أشهر فلا تُعاد السلسلة.",
+  "terms": [
+   [
+    "Shingrix",
+    "شين-جريكس"
+   ]
+  ],
+  "ref": "ACIP 2022/2025"
+ },
+ {
   "id": "vdose038",
   "topic": "Dose-Route",
   "title": "Qdenga route",
@@ -3780,6 +4732,26 @@
   "ref": "ACIP 2018/CDC 2013"
  },
  {
+  "id": "vbst023",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Typhoid: injectable vs oral",
+  "scenario": "Two travellers: A had typhoid Vi injection 25 months ago; B completed oral Ty21a 4 years ago. Both travel to South Asia next week.",
+  "question": "Who needs revaccination?",
+  "options": [
+   "A only (Vi every 2 years; Ty21a every 5)",
+   "Both",
+   "Neither; typhoid gives lifelong cover"
+  ],
+  "answer": "القاعدة: Vi polysaccharide → booster كل سنتين مع استمرار الخطر؛ Ty21a الفموي (4 كبسولات يوماً بعد يوم) → إعادة السلسلة كل 5 سنوات (CDC). A مرّ عليه 25 شهراً فيحتاج، B لم يتجاوز 5 سنوات.",
+  "terms": [
+   [
+    "Ty21a",
+    "تي-واي توينتي-ون إيه"
+   ]
+  ],
+  "ref": "CDC Yellow Book 2026"
+ },
+ {
   "id": "vtrv037",
   "topic": "Travel-Safety-New",
   "title": "Arthus reaction",
@@ -3858,6 +4830,26 @@
    ]
   ],
   "ref": "ACIP / IDSA 2013"
+ },
+ {
+  "id": "vint024",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: RZV in immunocompromised",
+  "scenario": "45-year-old kidney transplant candidate needs Shingrix; transplant planned in 6 weeks.",
+  "question": "What interval should be used for RZV dose 2?",
+  "options": [
+   "1–2 months after dose 1 (shortened schedule)",
+   "Always 6 months",
+   "2 weeks, as transplant is near"
+  ],
+  "answer": "القاعدة: RZV لعمر ≥19 سنة ذوي نقص المناعة (أو سيصبحون كذلك). الجدول المختصر د1→د2 = 1–2 شهر لتحقيق الحماية قبل التثبيط المناعي، مع حد أدنى 4 أسابيع. للأصحاء ≥50 سنة: 2–6 أشهر.",
+  "terms": [
+   [
+    "Recombinant zoster",
+    "ري-كوم-بي-نانت زوس-تر"
+   ]
+  ],
+  "ref": "ACIP 2022"
  },
  {
   "id": "vpop038",
@@ -3948,6 +4940,30 @@
   "ref": "ACIP General Best Practice 2024"
  },
  {
+  "id": "vbst024",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Japanese encephalitis booster",
+  "scenario": "A 35-year-old completed Ixiaro (days 0 and 28) 18 months ago and is returning for a further year in rural Asia.",
+  "question": "What JE dose is needed?",
+  "options": [
+   "One Ixiaro booster now (≥1 year after primary)",
+   "None; primary series is lifelong",
+   "Repeat the 2-dose primary series"
+  ],
+  "answer": "القاعدة: Ixiaro للبالغين جرعتان (0 و28، أو 0 و7 لعمر 18–65)، وbooster واحد بعد ≥1 سنة من السلسلة إذا استمر الخطر أو تكرر التعرض. مرّت 18 شهراً فيستحق الآن.",
+  "terms": [
+   [
+    "Ixiaro",
+    "إك-سي-آ-رو"
+   ],
+   [
+    "Encephalitis",
+    "إِن-سِ-فا-لاي-تِس"
+   ]
+  ],
+  "ref": "ACIP 2019"
+ },
+ {
   "id": "vimm039",
   "topic": "Immunocompromised",
   "title": "LAIV for contacts",
@@ -4023,6 +5039,30 @@
    [
     "bronchopulmonary",
     "برون-كو-بول-مو-نا-ري"
+   ]
+  ],
+  "ref": "ACIP 2024"
+ },
+ {
+  "id": "vint025",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: PCV15 → PPSV23",
+  "scenario": "66-year-old: healthy woman, PCV15 given 6 months ago. Her brother, 50, with cochlear implant who got PCV15 10 weeks ago.",
+  "question": "When is PPSV23 due for each?",
+  "options": [
+   "Healthy: ≥1 year; cochlear implant: ≥8 weeks",
+   "Both ≥1 year",
+   "Both ≥8 weeks"
+  ],
+  "answer": "القاعدة: بعد PCV15 يُعطى PPSV23 بعد ≥1 سنة، ويمكن بعد ≥8 أسابيع لنقص المناعة، زراعة القوقعة، أو تسريب CSF. إذا أُعطي PCV20 أو PCV21 فلا حاجة لـPPSV23. لا يُعطى PPSV23 قبل PCV، والفاصل العكسي PPSV23→PCV ≥1 سنة.",
+  "terms": [
+   [
+    "PPSV23",
+    "بي-بي-إس-في 23"
+   ],
+   [
+    "Cochlear",
+    "كوك-لي-ار"
    ]
   ],
   "ref": "ACIP 2024"
@@ -4106,6 +5146,26 @@
    ]
   ],
   "ref": "ACIP General Best Practice"
+ },
+ {
+  "id": "vbst025",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Yellow fever in HIV",
+  "scenario": "A 33-year-old with HIV (CD4 520) received yellow fever vaccine 11 years ago and travels to an endemic region.",
+  "question": "What do you advise?",
+  "options": [
+   "Booster dose now (HIV: every 10 years)",
+   "Nothing; one dose is lifelong for all",
+   "Contraindicated at any CD4"
+  ],
+  "answer": "القاعدة: YF جرعة واحدة مدى الحياة عموماً (IHR منذ 2016)، مع استثناءات تحتاج booster: HIV (كل 10 سنوات مع خطر مستمر)، HSCT بعد الزرع حين يسمح المناعة، الحامل وقت الجرعة الأولى (جرعة أخرى قبل السفر التالي)، عمال المختبر مع wild-type (titre أو booster كل 10 سنوات). CD4 ≥200 يسمح بالحقن.",
+  "terms": [
+   [
+    "Yellow fever",
+    "يِلو فِيڤَر"
+   ]
+  ],
+  "ref": "ACIP 2015; CDC Yellow Book"
  },
  {
   "id": "vdose042",
@@ -4192,6 +5252,26 @@
   "ref": "ACIP 2020"
  },
  {
+  "id": "vint026",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Influenza 2 doses <9 years",
+  "scenario": "7-year-old receiving influenza vaccine for the first time ever on 1 Oct.",
+  "question": "How many doses this season?",
+  "options": [
+   "Two doses ≥4 weeks apart",
+   "One dose",
+   "Two doses ≥8 weeks apart"
+  ],
+  "answer": "القاعدة: الأطفال 6 أشهر–8 سنوات الذين لم يتلقوا ≥2 جرعة إنفلونزا قبل 1 يوليو من الموسم الحالي يحتاجون جرعتين بفاصل ≥4 أسابيع. عمر الطفل يُحسب عند الجرعة الأولى: إذا بلغ 9 بين الجرعتين تُعطى الثانية. السبب: الجهاز المناعي غير المهيأ يحتاج جرعة تحضيرية.",
+  "terms": [
+   [
+    "Influenza",
+    "إن-فلو-إن-زا"
+   ]
+  ],
+  "ref": "ACIP 2025–26"
+ },
+ {
   "id": "vtrv041",
   "topic": "Travel-Safety-New",
   "title": "Error: minimum interval / grace period",
@@ -4270,6 +5350,26 @@
    ]
   ],
   "ref": "ECCO 2021"
+ },
+ {
+  "id": "vbst026",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: YF first dose during pregnancy",
+  "scenario": "A 31-year-old received her only yellow fever dose while pregnant 3 years ago; she now plans travel to an endemic area (not pregnant).",
+  "question": "Does she need another dose?",
+  "options": [
+   "Yes; one additional dose before travel",
+   "No; YF is lifelong",
+   "Only if serology is negative and travel >1 year"
+  ],
+  "answer": "القاعدة: من تلقت YF أثناء الحمل → جرعة إضافية واحدة قبل السفر التالي، لأن الاستجابة المناعية في الحمل أضعف. بعدها تُعامل كباقي الناس (مدى الحياة).",
+  "terms": [
+   [
+    "Seroconversion",
+    "سي-رو-كون-ڤير-جَن"
+   ]
+  ],
+  "ref": "ACIP 2015"
  },
  {
   "id": "vpop042",
@@ -4356,6 +5456,30 @@
   "ref": "ACIP General Best Practice 2024"
  },
  {
+  "id": "vint027",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? JYNNEOS delayed dose 2",
+  "scenario": "35-year-old got JYNNEOS (mpox) dose 1 on 1 Jan; returns 1 Jun for dose 2.",
+  "question": "What is the correct action?",
+  "options": [
+   "Give dose 2 now; no restart needed",
+   "Restart; interval exceeded 35 days",
+   "Give dose 2 only if exposure recurs"
+  ],
+  "answer": "الحد الأدنى: JYNNEOS جرعتان بفاصل 28 يوماً (يسمح حد السماح 4 أيام). إذا تأخرت د2 تُعطى في أقرب وقت دون إعادة السلسلة، فالفواصل الطويلة لا تقلل الاستجابة. الحماية الكاملة بعد 14 يوماً من د2.",
+  "terms": [
+   [
+    "JYNNEOS",
+    "جين-نيوس"
+   ],
+   [
+    "Mpox",
+    "إم-بوكس"
+   ]
+  ],
+  "ref": "ACIP 2023"
+ },
+ {
   "id": "vimm043",
   "topic": "Immunocompromised",
   "title": "Chemotherapy timing",
@@ -4434,6 +5558,30 @@
    ]
   ],
   "ref": "ACIP 2013"
+ },
+ {
+  "id": "vbst027",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Cholera (Dukoral) booster",
+  "scenario": "A 40-year-old aid worker completed Dukoral 2 doses 20 months ago and deploys again to a cholera area.",
+  "question": "What is recommended?",
+  "options": [
+   "A single booster dose (adults after 2 years)",
+   "Repeat the full primary series",
+   "Nothing; protection is lifelong"
+  ],
+  "answer": "القاعدة (Dukoral، WHO): البالغ وطفل ≥6 سنوات: سلسلة جرعتان، booster واحد خلال سنتين؛ إذا تجاوز سنتين → إعادة السلسلة الأولية. الطفل 2–5 سنوات: booster بعد 6 أشهر. هنا مرّ 20 شهراً (<سنتين) فتكفي جرعة booster واحدة. Vaxchora: لا booster محدد.",
+  "terms": [
+   [
+    "Dukoral",
+    "دو-كو-رال"
+   ],
+   [
+    "Vaxchora",
+    "ڤاك-كو-را"
+   ]
+  ],
+  "ref": "WHO 2017; Dukoral SmPC"
  },
  {
   "id": "vsch044",
@@ -4524,6 +5672,30 @@
   "ref": "ACIP 2023; FDA"
  },
  {
+  "id": "vint028",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: Qdenga (TAK-003) interval",
+  "scenario": "27-year-old (travel to endemic area) received Qdenga dose 1 on 1 Feb abroad; asks when dose 2 is due.",
+  "question": "Minimum interval for Qdenga dose 2?",
+  "options": [
+   "3 months after dose 1",
+   "4 weeks after dose 1",
+   "6 months after dose 1"
+  ],
+  "answer": "الحد الأدنى: Qdenga (TAK-003) جرعتان تحت الجلد بفاصل 3 أشهر (WHO SAGE 2023). WHO توصي به في المناطق عالية الانتقال لعمر 6–16 سنة. لا يُعطى للحوامل والمرضعات أو ناقصي المناعة لأنه حي مضعف. Dengvaxia مختلف: 3 جرعات وتشترط عدوى سابقة.",
+  "terms": [
+   [
+    "Qdenga",
+    "كيو-دين-جا"
+   ],
+   [
+    "Dengvaxia",
+    "دين-جا-فاكسيا"
+   ]
+  ],
+  "ref": "WHO 2024"
+ },
+ {
   "id": "vdose046",
   "topic": "Dose-Route",
   "title": "Measles IG",
@@ -4602,6 +5774,26 @@
    ]
   ],
   "ref": "ACIP 2020"
+ },
+ {
+  "id": "vbst028",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Why influenza every year",
+  "scenario": "A 50-year-old diabetic received influenza vaccine in March 2026 and asks in October 2026 whether he needs another dose.",
+  "question": "What do you advise?",
+  "options": [
+   "Yes; vaccinate now for the new season",
+   "No; wait 12 months from the last dose",
+   "No; once in 2026 is enough"
+  ],
+  "answer": "القاعدة: لقاح influenza سنوياً لكل موسم جديد، دون حد أدنى للفاصل عن جرعة الموسم السابق. السبب: antigenic drift يغيّر السلالات وتتحدث تركيبة اللقاح، والأضداد تتلاشى خلال أشهر.",
+  "terms": [
+   [
+    "Antigenic drift",
+    "آن-تي-جِ-نِك دريفت"
+   ]
+  ],
+  "ref": "ACIP 2025–26"
  },
  {
   "id": "vtrv045",
@@ -4684,6 +5876,30 @@
   "ref": "CDC Pink Book"
  },
  {
+  "id": "vint029",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: Ixiaro accelerated",
+  "scenario": "40-year-old travelling to rural Asia in 10 days; no JE vaccine. Wants Ixiaro.",
+  "question": "Which schedule fits?",
+  "options": [
+   "Accelerated: days 0 and 7 (age 18–65)",
+   "Standard 0 and 28 days only",
+   "Single dose suffices for short trip"
+  ],
+  "answer": "الحد الأدنى: Ixiaro (JE) جرعتان بفاصل 28 يوماً، ويجوز الجدول المُسرّع 0 و7 أيام لعمر 18–65 سنة. تُستكمل السلسلة قبل السفر بأسبوع على الأقل. معززة بعد ≥1 سنة إذا استمر الخطر.",
+  "terms": [
+   [
+    "Japanese encephalitis",
+    "إن-سي-فا-لاي-تس"
+   ],
+   [
+    "Ixiaro",
+    "إك-سي-آرو"
+   ]
+  ],
+  "ref": "ACIP 2019; CDC Yellow Book"
+ },
+ {
   "id": "vpop046",
   "topic": "Special-Populations",
   "title": "Typhoid revaccination",
@@ -4762,6 +5978,30 @@
    ]
   ],
   "ref": "ACIP Influenza 2025"
+ },
+ {
+  "id": "vbst029",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: RZV and RSV in older adult",
+  "scenario": "A 77-year-old completed Shingrix 2 doses in 2019 and received one RSV vaccine (Arexvy) in 2023.",
+  "question": "Which needs repeating now?",
+  "options": [
+   "Neither; no booster recommended",
+   "RSV vaccine every season",
+   "Shingrix booster at 5 years"
+  ],
+  "answer": "القاعدة: RZV جرعتان = سلسلة مكتملة دون booster (الحماية >7–10 سنوات). RSV للبالغين جرعة واحدة فقط حالياً؛ لا يُعاد سنوياً ولا بعد سنتين حسب توصيات ACIP الحالية.",
+  "terms": [
+   [
+    "Shingrix",
+    "شينغ-ريكس"
+   ],
+   [
+    "Arexvy",
+    "أرِك-ڤي"
+   ]
+  ],
+  "ref": "ACIP 2024/2025"
  },
  {
   "id": "vimm047",
@@ -4848,6 +6088,26 @@
   "ref": "CDC Best Practices"
  },
  {
+  "id": "vint030",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Rabies PEP missed day",
+  "scenario": "Unvaccinated healthy man bitten by stray dog; ED gave HRIG + rabies vaccine day 0, clinic gave day 3. He returns on day 10 (missed day 7).",
+  "question": "How should PEP continue?",
+  "options": [
+   "Give dose now, then 4th dose 7 days later",
+   "Restart the whole PEP series",
+   "Stop; 2 doses are enough"
+  ],
+  "answer": "قاعدة PEP لغير المطعّمين ذوي المناعة السليمة: HRIG + لقاح في الأيام 0، 3، 7، 14 (5 جرعات لناقصي المناعة: 0، 3، 7، 14، 28). التأخير بضعة أيام لا يستلزم إعادة السلسلة؛ تُستأنف مع الحفاظ على الفواصل بين الجرعات. HRIG لا يُعطى بعد اليوم 7.",
+  "terms": [
+   [
+    "HRIG",
+    "إتش-آر-آي-جي"
+   ]
+  ],
+  "ref": "ACIP 2010; WHO 2018"
+ },
+ {
   "id": "vsch048",
   "topic": "Schedules-Catchup",
   "title": "Child turns 9 between flu doses",
@@ -4930,6 +6190,30 @@
    ]
   ],
   "ref": "ACIP 2023/2025"
+ },
+ {
+  "id": "vbst030",
+  "topic": "Schedules-Catchup",
+  "title": "🔁 Booster: Mpox/orthopox lab worker",
+  "scenario": "A 36-year-old lab scientist working with replication-competent monkeypox virus completed JYNNEOS 2 doses 2 years ago.",
+  "question": "What does she need?",
+  "options": [
+   "JYNNEOS booster now (every 2 years)",
+   "Booster every 10 years",
+   "No booster ever"
+  ],
+  "answer": "القاعدة (ACIP 2022): من يعمل مختبرياً مع orthopoxviruses أكثر ضراوة (مثل monkeypox) → booster JYNNEOS كل سنتين؛ مع vaccinia أو cowpox فقط → كل 10 سنوات. الجمهور العام لا يحتاج booster.",
+  "terms": [
+   [
+    "JYNNEOS",
+    "جِن-يوس"
+   ],
+   [
+    "Orthopoxvirus",
+    "أور-ثو-بوكس-ڤاي-رَس"
+   ]
+  ],
+  "ref": "ACIP 2022"
  },
  {
   "id": "vdose050",
@@ -5016,6 +6300,26 @@
   "ref": "ACIP 2023"
  },
  {
+  "id": "vint031",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: Rabies PrEP & re-exposure",
+  "scenario": "Vet student completed rabies PrEP (days 0 and 7). 2 years later bitten by a fox.",
+  "question": "What PEP is needed?",
+  "options": [
+   "2 vaccine doses days 0 and 3; no RIG",
+   "Full 4 doses + HRIG",
+   "No PEP; PrEP is protective"
+  ],
+  "answer": "القاعدة: PrEP حسب ACIP 2022 جرعتان يوم 0 و7. عند التعرض لاحقاً للمطعّم سابقاً: جرعتا لقاح في اليومين 0 و3 دون RIG. السبب: الذاكرة المناعية تعطي استجابة سريعة، وRIG قد يثبطها.",
+  "terms": [
+   [
+    "Pre-exposure prophylaxis",
+    "بري-إك-سبو-جر"
+   ]
+  ],
+  "ref": "ACIP 2022"
+ },
+ {
   "id": "vtrv049",
   "topic": "Travel-Safety-New",
   "title": "Ixchiq chikungunya live vaccine",
@@ -5098,6 +6402,30 @@
    ]
   ],
   "ref": "ACIP 2020/2022"
+ },
+ {
+  "id": "vint032",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Oral typhoid Vivotif timing",
+  "scenario": "Traveller to Pakistan departs 5 Mar. Started Vivotif capsules 28 Feb (days 0,2,4,6 → last 6 Mar).",
+  "question": "Will the series be complete in time?",
+  "options": [
+   "No; 4 capsules must finish ≥1 week before travel",
+   "Yes; 2 capsules give partial protection",
+   "Yes; can finish capsules abroad"
+  ],
+  "answer": "القاعدة: Vivotif (Ty21a) = 4 كبسولات في أيام متبادلة (0، 2، 4، 6) قبل الأكل بساعة، وتنتهي السلسلة ≥1 أسبوع قبل السفر. لا تُعطى مع المضادات الحيوية (فاصل ≥72 ساعة). البديل لمن يسافر قريباً: Typhim Vi حقنة واحدة ≥2 أسبوع قبل السفر.",
+  "terms": [
+   [
+    "Ty21a",
+    "تي-واي 21 إيه"
+   ],
+   [
+    "Typhim Vi",
+    "تاي-فِم في-آي"
+   ]
+  ],
+  "ref": "ACIP 2015; CDC Yellow Book"
  },
  {
   "id": "vtrv050",
@@ -5184,6 +6512,30 @@
   "ref": "ACIP Pneumococcal 2024"
  },
  {
+  "id": "vint033",
+  "topic": "Schedules-Catchup",
+  "title": "⏱️ Min interval: Vaxchora before travel",
+  "scenario": "30-year-old travelling to a cholera outbreak area in 5 days; started chloroquine malaria prophylaxis yesterday.",
+  "question": "What is the correct plan?",
+  "options": [
+   "Vaxchora ≥10 days before chloroquine; adjust",
+   "Give Vaxchora with chloroquine today",
+   "Vaxchora 2 doses 1 week apart"
+  ],
+  "answer": "القاعدة: Vaxchora (CVD 103-HgR) جرعة فموية واحدة ≥10 أيام قبل السفر. يجب إعطاؤه قبل chloroquine بـ≥10 أيام (يقلل الاستجابة)، ولا يُعطى خلال 14 يوماً من المضادات الحيوية. الحل: تغيير الوقاية من الملاريا إن أمكن، والاعتماد على وقاية الغذاء والماء.",
+  "terms": [
+   [
+    "Vaxchora",
+    "فاكس-كو-را"
+   ],
+   [
+    "Chloroquine",
+    "كلو-رو-كوين"
+   ]
+  ],
+  "ref": "ACIP 2022; CDC Yellow Book"
+ },
+ {
   "id": "vtrv052",
   "topic": "Travel-Safety-New",
   "title": "Mpox vaccine JYNNEOS",
@@ -5268,6 +6620,26 @@
   "ref": "ACIP Zoster 2022"
  },
  {
+  "id": "vint034",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? Twinrix accelerated incomplete",
+  "scenario": "Traveller had Twinrix on days 0, 7 and 25 before Hajj trip 1 year ago. Records show nothing else.",
+  "question": "Is his HepA/HepB series complete?",
+  "options": [
+   "No; needs the 12-month booster dose",
+   "Yes; 3 doses complete",
+   "No; restart standard 0,1,6 schedule"
+  ],
+  "answer": "القاعدة: Twinrix الجدول المعياري 0، 1، 6 أشهر. الجدول المُسرّع 0، 7، 21–30 يوماً ثم جرعة رابعة عند 12 شهراً لتكتمل الحماية طويلة الأمد. الحد الأدنى للمعياري: د1→د2 = 4 أسابيع، د2→د3 = 5 أشهر. تُعطى الجرعة الرابعة الآن دون إعادة.",
+  "terms": [
+   [
+    "Twinrix",
+    "توين-ريكس"
+   ]
+  ],
+  "ref": "FDA label; ACIP 2007"
+ },
+ {
   "id": "vtrv054",
   "topic": "Travel-Safety-New",
   "title": "Influenza ≥65: preferential products",
@@ -5346,5 +6718,25 @@
    ]
   ],
   "ref": "ACIP Polio 2023"
+ },
+ {
+  "id": "vint035",
+  "topic": "Schedules-Catchup",
+  "title": "✅ Series complete? IPV catch-up adult traveler",
+  "scenario": "Adult previously completed 3 IPV doses in childhood, now travelling to polio-affected country.",
+  "question": "What is needed?",
+  "options": [
+   "Single lifetime IPV booster before travel",
+   "Full 3-dose series again",
+   "No vaccine; childhood series enough"
+  ],
+  "answer": "القاعدة: البالغون المكتمل تطعيمهم ويسافرون إلى مناطق الخطورة يحتاجون جرعة IPV معززة واحدة مدى الحياة. غير المطعمين: 3 جرعات (د1→د2 = 4–8 أسابيع، د2→د3 = 6–12 شهراً). بعض الدول تشترط جرعة خلال 4 أسابيع–12 شهراً قبل المغادرة.",
+  "terms": [
+   [
+    "Inactivated poliovirus",
+    "إن-آك-تي-في-تد بو-ليو"
+   ]
+  ],
+  "ref": "ACIP 2009; CDC Yellow Book"
  }
 ]
