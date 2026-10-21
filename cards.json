@@ -1,5 +1,653 @@
 [
  {
+  "id": "cxr001",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Who needs a film",
+  "scenario": "35-year-old, positive IGRA, no symptoms.",
+  "question": "Next step before LTBI treatment?",
+  "options": [
+   "Chest X-ray first",
+   "Start rifampin today",
+   "Repeat the IGRA"
+  ],
+  "answer": "🧠 القاعدة: كل IGRA/TST إيجابي = CXR قبل أي علاج LTBI.\n✅ التطبيق: إيجابي + بلا أعراض ← CXR لاستبعاد TB نشط ثم نقرر العلاج.\n⚠️ الفخ: البدء مباشرة قد يعطي علاجاً أحادياً لـ TB نشط فتنشأ مقاومة. وإعادة IGRA لا تغيّر شيئاً.",
+  "terms": [
+   [
+    "Interferon-gamma release assay",
+    "إن-تر-في-رون جا-ما ري-ليس أ-ساي"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr002",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Symptom screen not enough",
+  "scenario": "Positive TST 15 mm; denies cough, fever, weight loss.",
+  "question": "Can you skip the CXR?",
+  "options": [
+   "No — CXR still required",
+   "Yes, symptom screen suffices",
+   "Yes, if TST <20 mm"
+  ],
+  "answer": "🧠 القاعدة: غياب الأعراض لا يكفي؛ TB النشط قد يكون صامتاً.\n✅ التطبيق: في العيادة: أعراض سلبية + CXR طبيعي معاً قبل LTBI.\n⚠️ الفخ: WHO يسمح بالاعتماد على الأعراض في برامج محدودة الموارد، لكن الممارسة المعيارية في العيادة تشترط CXR.",
+  "terms": [
+   [
+    "Tuberculin skin test",
+    "تو-بر-كيو-لين سكِن تست"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr003",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Child under 5",
+  "scenario": "3-year-old household contact, positive TST.",
+  "question": "Which CXR views?",
+  "options": [
+   "PA and lateral",
+   "PA view only",
+   "No CXR; children are low risk"
+  ],
+  "answer": "🧠 القاعدة: طفل <5 سنوات = PA + Lateral.\n✅ التطبيق: الصورة الجانبية تكشف تضخم العقد السرية (hilar) الأكثر شيوعاً عند الصغار.\n⚠️ الفخ: PA وحدها قد تُفوِّت العقد خلف القلب؛ والصغار أعلى خطراً لا أقل.",
+  "terms": [
+   [
+    "Posteroanterior",
+    "بوس-تي-رو-أن-تي-ري-ور"
+   ],
+   [
+    "Hilar",
+    "هاي-لار"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr004",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Window prophylaxis",
+  "scenario": "2-year-old contact of smear+ case; TST 0 mm.",
+  "question": "Before window prophylaxis?",
+  "options": [
+   "CXR to exclude active TB",
+   "No CXR; test is negative",
+   "Wait 8 weeks, retest"
+  ],
+  "answer": "🧠 القاعدة: اختبار سلبي ≠ لا يحتاج CXR إذا سنعالج.\n✅ التطبيق: طفل <5 مخالط ← ابدأ window prophylaxis بعد CXR طبيعي، ثم أعد TST بعد 8–10 أسابيع.\n⚠️ الفخ: الاختبار قد يكون سلبياً في فترة النافذة أو مع مرض نشط؛ الانتظار خطر على الصغير.",
+  "terms": [
+   [
+    "Prophylaxis",
+    "بروفي-لاك-سس"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr005",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: HIV",
+  "scenario": "HIV-positive man, positive IGRA, CD4 180.",
+  "question": "Imaging before TPT?",
+  "options": [
+   "CXR now, do not delay",
+   "Skip CXR; treat empirically",
+   "Wait for CD4 >350"
+  ],
+  "answer": "🧠 القاعدة: HIV = CXR فوري؛ الخطر عالٍ والتأجيل ممنوع.\n✅ التطبيق: اطلب CXR الآن مع سؤال الأعراض؛ ولو غير طبيعية ← بلغم وتحويل.\n⚠️ الفخ: TB في HIV قد يظهر بصورة شبه طبيعية؛ لذا لا يغني العلاج التجريبي عن الفحص الدقيق.",
+  "terms": [
+   [
+    "CD4",
+    "سي-دي-فور"
+   ]
+  ],
+  "ref": "WHO 2024"
+ },
+ {
+  "id": "cxr006",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Pregnancy, low risk",
+  "scenario": "12 weeks pregnant, positive IGRA from remote exposure; well.",
+  "question": "CXR timing?",
+  "options": [
+   "May defer CXR until after 1st trimester",
+   "Never X-ray in pregnancy",
+   "CXR today without shielding"
+  ],
+  "answer": "🧠 القاعدة: الحامل: CXR آمن بالتظليل؛ يجوز التأجيل بعد الثلث الأول إن لا أعراض ولا خطر عالٍ.\n✅ التطبيق: تعرض قديم + سليمة ← تأجيل مقبول، والعلاج غالباً بعد الولادة.\n⚠️ الفخ: منع الأشعة نهائياً خطأ؛ الجرعة ضئيلة جداً على الجنين.",
+  "terms": [
+   [
+    "Trimester",
+    "تراي-مِس-تر"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr007",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Pregnancy, high risk",
+  "scenario": "20 weeks pregnant, HIV, household contact of active TB; positive IGRA.",
+  "question": "CXR now?",
+  "options": [
+   "Yes, with abdominal shielding",
+   "Defer until delivery",
+   "Only if she coughs"
+  ],
+  "answer": "🧠 القاعدة: حامل + HIV أو مخالطة حديثة = CXR الآن مع التظليل.\n✅ التطبيق: هنا خطر التقدم إلى المرض عالٍ، فلا تأجيل.\n⚠️ الفخ: التأجيل الروتيني للحمل يناسب منخفضة الخطر فقط.",
+  "terms": [
+   [
+    "Abdominal shielding",
+    "أب-دو-مي-نال شيل-دنغ"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr008",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Radiation counselling",
+  "scenario": "Anxious patient asks how much radiation a CXR gives.",
+  "question": "Best answer?",
+  "options": [
+   "~0.02 mSv, a few days' background",
+   "Same as a CT chest",
+   "~10 mSv, avoid if possible"
+  ],
+  "answer": "🧠 القاعدة: CXR ≈ 0.02 mSv ≈ أيام قليلة من الإشعاع الطبيعي.\n✅ التطبيق: طمئنه: الفائدة (استبعاد TB نشط) تفوق الخطر بمراحل.\n⚠️ الفخ: خلطها مع CT (~7 mSv) يخيف المريض بلا مبرر.",
+  "terms": [
+   [
+    "Millisievert",
+    "مِلي-سي-فرت"
+   ]
+  ],
+  "ref": "WHO/IAEA"
+ },
+ {
+  "id": "cxr009",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: 5-week-old film",
+  "scenario": "Positive IGRA; normal CXR 5 weeks ago; asymptomatic; no new exposure.",
+  "question": "Repeat the CXR?",
+  "options": [
+   "No, accept it and start LTBI",
+   "Yes, always repeat",
+   "Yes, any film >1 week old"
+  ],
+  "answer": "🧠 القاعدة: CXR طبيعية خلال ~3 أشهر + لا أعراض + لا تعرض جديد = مقبولة (ممارسة برامج شائعة؛ راجع سياسة MOH المحلية).\n✅ التطبيق: 5 أسابيع ضمن المدة ← ابدأ العلاج.\n⚠️ الفخ: لا توجد قاعدة عالمية واحدة؛ الإعادة الآلية تزيد الإشعاع والتكلفة بلا فائدة.",
+  "terms": [
+   [
+    "Latent TB infection",
+    "لا-تنت تي-بي إن-فك-شن"
+   ]
+  ],
+  "ref": "Programme practice"
+ },
+ {
+  "id": "cxr010",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Two-year-old film",
+  "scenario": "Positive TST; 'normal CXR' from 2 years ago at pre-employment.",
+  "question": "Use it?",
+  "options": [
+   "No, repeat CXR",
+   "Yes, it was normal",
+   "Yes, if TST <10 mm"
+  ],
+  "answer": "🧠 القاعدة: صورة عمرها سنة–سنتان = غير مقبولة (ممارسة برامج شائعة؛ راجع سياسة MOH المحلية).\n✅ التطبيق: اطلب CXR جديدة قبل LTBI.\n⚠️ الفخ: ما كان طبيعياً قبل سنتين لا يستبعد مرضاً نشأ بعدها.",
+  "terms": [
+   [
+    "Pre-employment",
+    "بري-إم-بلوي-منت"
+   ]
+  ],
+  "ref": "Programme practice"
+ },
+ {
+  "id": "cxr011",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Film before exposure",
+  "scenario": "Normal CXR 6 weeks ago; then household exposure; now IGRA positive.",
+  "question": "Valid?",
+  "options": [
+   "No, new CXR after the exposure",
+   "Yes, under 3 months",
+   "Yes, if IGRA low titre"
+  ],
+  "answer": "🧠 القاعدة: الصورة يجب أن تكون بعد التعرض/الاختبار الإيجابي الجديد.\n✅ التطبيق: الصورة سبقت التعرض ← لا تقيّم العدوى الجديدة؛ أعد.\n⚠️ الفخ: حساب الأشهر فقط دون النظر للتسلسل الزمني خطأ شائع.",
+  "terms": [
+   [
+    "Exposure",
+    "إكس-بو-جر"
+   ]
+  ],
+  "ref": "Programme practice"
+ },
+ {
+  "id": "cxr012",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Symptoms after film",
+  "scenario": "Normal CXR 3 weeks ago; now 2-week cough and night sweats.",
+  "question": "Next?",
+  "options": [
+   "Repeat CXR and sputum; hold LTBI",
+   "Start LTBI; film is recent",
+   "Give antibiotics only"
+  ],
+  "answer": "🧠 القاعدة: الأعراض الجديدة تُلغي صلاحية أي صورة.\n✅ التطبيق: أوقف قرار LTBI، اطلب CXR + بلغم، وحوّل إن اشتبه.\n⚠️ الفخ: الاتكال على حداثة الصورة يُفوِّت TB مبكراً.",
+  "terms": [
+   [
+    "Night sweats",
+    "نايت سويتس"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr013",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: 4-month-old film",
+  "scenario": "Asymptomatic; normal CXR 4 months ago; positive IGRA; no new exposure.",
+  "question": "Best approach?",
+  "options": [
+   "Check local policy; many accept ≤6 months",
+   "Always valid up to 2 years",
+   "Never valid beyond 1 month"
+  ],
+  "answer": "🧠 القاعدة: المدى المقبول 3–6 أشهر حسب البرنامج.\n✅ التطبيق: 4 أشهر في المنطقة الرمادية ← اتبع سياسة MOH المحلية.\n⚠️ الفخ: اختراع قاعدة ثابتة غير موجودة في الإرشادات.",
+  "terms": [
+   [
+    "Asymptomatic",
+    "إي-سمب-تو-ما-تك"
+   ]
+  ],
+  "ref": "Programme practice"
+ },
+ {
+  "id": "cxr014",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Immunocompromised",
+  "scenario": "On infliximab planning; positive IGRA; normal CXR 10 weeks ago.",
+  "question": "Repeat?",
+  "options": [
+   "Yes, fresh film",
+   "No, <3 months",
+   "No CXR needed for biologics"
+  ],
+  "answer": "🧠 القاعدة: مثبط المناعة/HIV/مخالط حديث = صورة جديدة.\n✅ التطبيق: قبل anti-TNF نريد أحدث تقييم ممكن.\n⚠️ الفخ: تطبيق قاعدة الـ3 أشهر على عالي الخطر يتجاهل سرعة تقدم المرض لديه.",
+  "terms": [
+   [
+    "Infliximab",
+    "إن-فلِك-سي-ماب"
+   ]
+  ],
+  "ref": "Programme practice"
+ },
+ {
+  "id": "cxr015",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Normal film",
+  "scenario": "Positive IGRA; CXR: clear lungs, normal hila.",
+  "question": "Next step?",
+  "options": [
+   "Start LTBI regimen",
+   "Collect 3 sputum samples",
+   "Refer to TB clinic"
+  ],
+  "answer": "🧠 القاعدة: CXR طبيعية + بلا أعراض = عالج LTBI.\n✅ التطبيق: اختر نظاماً قصيراً مثل 3HP أو 4R.\n⚠️ الفخ: طلب البلغم مع صورة طبيعية وبلا أعراض لا فائدة منه.",
+  "terms": [
+   [
+    "Rifapentine",
+    "ري-فا-بن-تين"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr016",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Calcified granuloma",
+  "scenario": "Positive IGRA; CXR: single calcified nodule, right mid-zone.",
+  "question": "Next step?",
+  "options": [
+   "Treat LTBI; no sputum needed",
+   "3 sputum samples first",
+   "Refer as active TB"
+  ],
+  "answer": "🧠 القاعدة: Granuloma متكلسة وحدها = خطر منخفض.\n✅ التطبيق: لا بلغم مطلوب، ابدأ LTBI.\n⚠️ الفخ: التكلّس علامة شفاء قديم، ليس مرضاً نشطاً.",
+  "terms": [
+   [
+    "Granuloma",
+    "غرا-نيو-لو-ما"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr017",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Ghon complex",
+  "scenario": "Positive TST; CXR: calcified peripheral nodule plus calcified hilar node.",
+  "question": "Interpretation?",
+  "options": [
+   "Healed primary TB; treat LTBI",
+   "Active primary TB; refer",
+   "Lymphoma; urgent CT"
+  ],
+  "answer": "🧠 القاعدة: Ghon/Ranke المتكلس = عدوى أولية شُفيت.\n✅ التطبيق: خطر منخفض ← LTBI بلا بلغم.\n⚠️ الفخ: الخلط بين عقد متكلسة وعقد متضخمة غير متكلسة (نشطة).",
+  "terms": [
+   [
+    "Ghon focus",
+    "غون فو-كس"
+   ],
+   [
+    "Ranke complex",
+    "رانكه كوم-بلكس"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr018",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Apical cap",
+  "scenario": "Positive IGRA; CXR: thin bilateral apical pleural thickening only.",
+  "question": "Next?",
+  "options": [
+   "Treat LTBI; minor finding",
+   "3 sputum samples",
+   "Refer for pleural biopsy"
+  ],
+  "answer": "🧠 القاعدة: سماكة جنبية قمية بسيطة = موجودة ثانوية.\n✅ التطبيق: لا أعراض ← عالج LTBI.\n⚠️ الفخ: معاملتها كندبة ليفية يؤخر العلاج بلا داعٍ.",
+  "terms": [
+   [
+    "Pleural thickening",
+    "بلو-رال ثي-كنِنغ"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr019",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Fibrotic scar",
+  "scenario": "Positive IGRA; CXR: fibronodular upper-lobe scarring 'consistent with old healed TB'.",
+  "question": "Before LTBI?",
+  "options": [
+   "3 sputum: smear, culture, NAAT",
+   "Start LTBI now",
+   "Start 4-drug therapy"
+  ],
+  "answer": "🧠 القاعدة: ندبة ليفية قمية = بلغم ×3 قبل أي علاج.\n✅ التطبيق: AFB smear + culture + NAAT؛ إن سلبية الزراعة ← LTBI (أو TB غير نشط).\n⚠️ الفخ: البدء مباشرة قد يُعالج TB نشطاً منخفض البكتيريا بعلاج أحادي.",
+  "terms": [
+   [
+    "Fibronodular",
+    "فاي-برو-نو-ديو-لار"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr020",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Scar, cultures negative",
+  "scenario": "Upper-lobe fibrotic scar; 3 sputum smear, NAAT, cultures all negative.",
+  "question": "Plan?",
+  "options": [
+   "Treat as LTBI/inactive TB",
+   "Discharge, no treatment",
+   "Full 6-month TB regimen"
+  ],
+  "answer": "🧠 القاعدة: زراعة سلبية بعد ندبة = عالج LTBI.\n✅ التطبيق: انتظر نتائج الزراعة النهائية ثم ابدأ النظام.\n⚠️ الفخ: الخروج بلا علاج خطأ: الندبة ترفع خطر التنشيط.",
+  "terms": [
+   [
+    "Culture",
+    "كَل-تشر"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr021",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Upper-lobe infiltrate",
+  "scenario": "Positive IGRA; CXR: patchy consolidation right upper lobe.",
+  "question": "Clinic action?",
+  "options": [
+   "Hold LTBI; sputum and refer",
+   "Start LTBI",
+   "Amoxicillin then repeat IGRA"
+  ],
+  "answer": "🧠 القاعدة: ارتشاح قمي = اشتباه TB نشط.\n✅ التطبيق: لا LTBI؛ بلغم ×3 مع NAAT وتحويل لعيادة الدرن.\n⚠️ الفخ: العيادة الوقائية لا تعالج TB نشط ولا تعطي LTBI عليه.",
+  "terms": [
+   [
+    "Consolidation",
+    "كون-سو-لي-دي-شن"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr022",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Cavity",
+  "scenario": "Positive TST; CXR: thick-walled left apical cavity.",
+  "question": "Next?",
+  "options": [
+   "Isolate, sputum, refer urgently",
+   "Start LTBI",
+   "Repeat CXR in 3 months"
+  ],
+  "answer": "🧠 القاعدة: التجويف = TB نشط معدٍ حتى يثبت العكس.\n✅ التطبيق: كمامة/عزل، بلغم، تحويل عاجل، وإبلاغ صحة عامة.\n⚠️ الفخ: التأجيل ينشر العدوى للمخالطين.",
+  "terms": [
+   [
+    "Cavity",
+    "كا-في-تي"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr023",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Child hilar nodes",
+  "scenario": "4-year-old contact; CXR: enlarged non-calcified right hilar nodes.",
+  "question": "Next?",
+  "options": [
+   "Treat as possible active TB; refer",
+   "Start isoniazid LTBI",
+   "Window prophylaxis"
+  ],
+  "answer": "🧠 القاعدة: عقد سرية متضخمة عند طفل = TB أولي نشط.\n✅ التطبيق: لا LTBI؛ تحويل لطب أطفال/درن (قد يحتاج gastric aspirate).\n⚠️ الفخ: اعتبارها طبيعية لأن الطفل بلا أعراض خطأ شائع.",
+  "terms": [
+   [
+    "Lymphadenopathy",
+    "ليمف-أدي-نو-با-ثي"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr024",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Pleural effusion",
+  "scenario": "Positive IGRA; CXR: moderate left pleural effusion.",
+  "question": "Next?",
+  "options": [
+   "Hold LTBI; refer for evaluation",
+   "Start LTBI",
+   "Repeat CXR in 6 months"
+  ],
+  "answer": "🧠 القاعدة: انصباب جنبي = احتمال TB جنبي نشط.\n✅ التطبيق: أوقف LTBI وحوّل للتقييم (بزل/تحاليل).\n⚠️ الفخ: البلغم قد يكون سلبياً في TB الجنبي، فلا يطمئنك.",
+  "terms": [
+   [
+    "Pleural effusion",
+    "بلو-رال إي-فيو-جن"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr025",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Miliary",
+  "scenario": "HIV patient; CXR: diffuse tiny 1–3 mm nodules both lungs.",
+  "question": "Action?",
+  "options": [
+   "Urgent referral; suspect miliary TB",
+   "Start LTBI",
+   "Repeat CXR in 1 month"
+  ],
+  "answer": "🧠 القاعدة: نمط دخني منتشر = TB منتشر طارئ.\n✅ التطبيق: حوّل فوراً للطوارئ/الأمراض المعدية.\n⚠️ الفخ: اعتبارها 'تفاصيل خفيفة' يؤخر علاجاً منقذاً للحياة.",
+  "terms": [
+   [
+    "Miliary",
+    "ميل-يا-ري"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr026",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Incidental nodule",
+  "scenario": "Positive IGRA; CXR: solitary 12 mm non-calcified RLL nodule, smoker.",
+  "question": "Plan?",
+  "options": [
+   "Refer for CT/nodule work-up",
+   "Ignore; treat LTBI",
+   "Label as Ghon focus"
+  ],
+  "answer": "🧠 القاعدة: عقدة غير متكلسة = تحتاج متابعة (CT)، ليست granuloma.\n✅ التطبيق: حوّل لتقييم العقدة، وأجّل LTBI حتى تتضح.\n⚠️ الفخ: تسميتها 'درن قديم' قد يُفوِّت سرطان رئة.",
+  "terms": [
+   [
+    "Non-calcified",
+    "نون-كال-سي-فايد"
+   ]
+  ],
+  "ref": "Fleischner/ATS"
+ },
+ {
+  "id": "cxr027",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Sputum timing",
+  "scenario": "Fibrotic scar on CXR; you order sputum.",
+  "question": "Correct collection?",
+  "options": [
+   "3 samples 8–24 h apart, ≥1 morning",
+   "3 samples in one hour",
+   "One sample is enough"
+  ],
+  "answer": "🧠 القاعدة: 3 عينات بفاصل 8–24 ساعة، واحدة صباحية على الأقل.\n✅ التطبيق: NAAT (Xpert) على عينة واحدة على الأقل + زراعة للجميع.\n⚠️ الفخ: جمعها بنفس الجلسة يقلل الحساسية.",
+  "terms": [
+   [
+    "Xpert MTB/RIF",
+    "إكس-بيرت"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr028",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Can't produce sputum",
+  "scenario": "Upper-lobe scar; patient cannot expectorate.",
+  "question": "Next?",
+  "options": [
+   "Arrange induced sputum",
+   "Skip sputum; start LTBI",
+   "Use saliva sample"
+  ],
+  "answer": "🧠 القاعدة: لا بلغم = induced sputum بمحلول ملحي مفرط التوتر.\n✅ التطبيق: تُجرى في غرفة تهوية مناسبة لأنها تولد رذاذاً.\n⚠️ الفخ: اللعاب ليس عينة صالحة؛ والتخطي قد يُفوِّت TB.",
+  "terms": [
+   [
+    "Hypertonic saline",
+    "هاي-بر-تو-نك سا-لين"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr029",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Smear negative",
+  "scenario": "Upper-lobe infiltrate; 3 AFB smears negative, cultures pending.",
+  "question": "Start LTBI?",
+  "options": [
+   "No; await culture, refer",
+   "Yes, smears negative",
+   "Yes, if NAAT not done"
+  ],
+  "answer": "🧠 القاعدة: Smear سلبي لا يستبعد TB.\n✅ التطبيق: الصورة مشبوهة ← انتظر الزراعة وحوّل.\n⚠️ الفخ: اللطاخة حساسيتها ~50% فقط.",
+  "terms": [
+   [
+    "Acid-fast bacilli",
+    "أسِد فاست با-سي-لاي"
+   ]
+  ],
+  "ref": "ATS/CDC/IDSA 2017"
+ },
+ {
+  "id": "cxr030",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: Child sample",
+  "scenario": "4-year-old with hilar nodes, cannot give sputum.",
+  "question": "Specimen?",
+  "options": [
+   "Refer for gastric aspirate",
+   "Throat swab",
+   "No sample; treat LTBI"
+  ],
+  "answer": "🧠 القاعدة: الطفل الصغير = gastric aspirate صباحي (مرجعي).\n✅ التطبيق: حوّله؛ تُؤخذ 3 أيام صباحاً قبل الأكل.\n⚠️ الفخ: مسحة الحلق لا قيمة لها في TB.",
+  "terms": [
+   [
+    "Gastric aspirate",
+    "غاس-ترك أس-بي-ريت"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr031",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: CXR during LTBI",
+  "scenario": "Month 2 of 4R; asymptomatic, good adherence.",
+  "question": "Repeat CXR?",
+  "options": [
+   "No; only if symptoms",
+   "Yes, monthly",
+   "Yes, at end of treatment"
+  ],
+  "answer": "🧠 القاعدة: لا CXR روتينية أثناء/بعد LTBI.\n✅ التطبيق: تابع الأعراض والالتزام والآثار الجانبية فقط.\n⚠️ الفخ: صورة نهاية العلاج روتينياً إشعاع وتكلفة بلا فائدة.",
+  "terms": [
+   [
+    "Rifampin",
+    "ري-فام-بِن"
+   ]
+  ],
+  "ref": "CDC/NTCA 2020"
+ },
+ {
+  "id": "cxr032",
+  "topic": "TB-Contacts",
+  "title": "🩻 CXR: HCW annual",
+  "scenario": "Nurse, positive IGRA treated 3 years ago; annual screening.",
+  "question": "What annually?",
+  "options": [
+   "Symptom screen, no CXR",
+   "Annual CXR",
+   "Repeat IGRA yearly"
+  ],
+  "answer": "🧠 القاعدة: عامل صحي باختبار سابق إيجابي = استبيان أعراض سنوي.\n✅ التطبيق: CXR فقط إذا ظهرت أعراض.\n⚠️ الفخ: IGRA يبقى إيجابياً؛ والصورة السنوية غير مستحسنة.",
+  "terms": [
+   [
+    "Health care personnel",
+    "هِلث كير بير-سو-نل"
+   ]
+  ],
+  "ref": "CDC 2019 HCP"
+ },
+ {
   "id": "lcbc001",
   "topic": "Labs-Prevention",
   "title": "🩸 CBC: Reading order",
