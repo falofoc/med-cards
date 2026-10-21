@@ -1,5 +1,685 @@
 [
  {
+  "id": "bbv001",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Rule of 3s",
+  "scenario": "Nurse asks: risk after a hollow-needle stick from an untreated source?",
+  "question": "Which ranking is right (HBV/HCV/HIV)?",
+  "options": [
+   "HBV ~30% > HCV ~3%(1.8) > HIV ~0.3%",
+   "HIV highest, then HCV, then HBV",
+   "All three ~1%"
+  ],
+  "answer": "🧠 القاعدة: قاعدة الـ3: HBV ‏30% ، HCV ‏3% (فعلياً ~1.8%) ، HIV ‏0.3%.\n✅ التطبيق: الخطر الأعلى لـ HBV (المصدر HBeAg+ وغير مطعّم)، ثم HCV، وأقلها HIV.\n⚠️ الفخ: الخوف الشعبي من HIV لا يعكس الأرقام؛ HBV أعدى بمئة مرة تقريباً.",
+  "terms": [
+   [
+    "HBeAg",
+    "إتش-بي-إي-أنتي-جين"
+   ]
+  ],
+  "ref": "CDC 2001 MMWR / Pink Book"
+ },
+ {
+  "id": "bbv002",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: HBeAg status",
+  "scenario": "Unvaccinated worker stuck by needle; source HBsAg+, HBeAg negative.",
+  "question": "Approximate HBV transmission risk?",
+  "options": [
+   "~1–6%",
+   "~22–31%",
+   "~0.3%"
+  ],
+  "answer": "🧠 القاعدة: HBeAg+ يعني تكاثر عالٍ: ~22–31% إصابة سريرية؛ HBeAg− حوالي 1–6%.\n✅ التطبيق: المصدر هنا HBeAg سلبي فالخطر ~6% أو أقل، ومع ذلك يحتاج HBIG + vaccine.\n⚠️ الفخ: استخدام 30% لكل مصدر HBsAg+ يبالغ؛ لكن لا تهمل الوقاية لأن 6% ليست قليلة.",
+  "terms": [
+   [
+    "HBIG",
+    "إتش-بي-آي-جي"
+   ]
+  ],
+  "ref": "CDC MMWR 2001/2013"
+ },
+ {
+  "id": "bbv003",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: HCV needlestick number",
+  "scenario": "Doctor stuck by needle from HCV RNA+ patient.",
+  "question": "What risk do you quote?",
+  "options": [
+   "~0.2–1.8% (older figure 1.8%)",
+   "~30%",
+   "Zero, HCV isn't bloodborne"
+  ],
+  "answer": "🧠 القاعدة: الرقم الكلاسيكي 1.8%، والدراسات الأحدث ~0.2–0.5%.\n✅ التطبيق: طمئنه أن الخطر أقل من 2%، ولا يوجد PEP؛ افحص HCV RNA بعد 3–6 أسابيع وأحِل إن ظهر.\n⚠️ الفخ: إعطاء interferon أو DAA وقائياً غير موصى به كـ PEP.",
+  "terms": [
+   [
+    "HCV RNA",
+    "إتش-سي-في-آر-إن-إيه"
+   ]
+  ],
+  "ref": "CDC MMWR 2020 (HCV exposure)"
+ },
+ {
+  "id": "bbv004",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: HIV percutaneous vs mucosal",
+  "scenario": "Blood splash into the eye from HIV+ source vs needlestick.",
+  "question": "Risk of mucosal splash?",
+  "options": [
+   "~0.09% (vs ~0.3% needle)",
+   "~3%",
+   "Same as needlestick"
+  ],
+  "answer": "🧠 القاعدة: HIV: إبرة 0.3% ، غشاء مخاطي 0.09% ، جلد سليم ≈ 0.\n✅ التطبيق: تعرّض العين = 0.09%؛ ما زال يستحق تقييم PEP خلال 72 ساعة.\n⚠️ الفخ: تجاهل رذاذ العين لأنه «قليل» خطأ؛ PEP يُعطى عند تعرض مخاطي لدم مصدر HIV+.",
+  "terms": [
+   [
+    "PEP",
+    "بِب"
+   ]
+  ],
+  "ref": "CDC/USPHS 2013"
+ },
+ {
+  "id": "bbv005",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Intact skin",
+  "scenario": "Blood from HIV+ patient spilled on intact forearm skin.",
+  "question": "What is needed?",
+  "options": [
+   "Wash with soap; no PEP",
+   "Start 28-day PEP",
+   "Test HIV at 0, 6, 12 wk"
+  ],
+  "answer": "🧠 القاعدة: الجلد السليم حاجز كامل: الخطر ≈ صفر.\n✅ التطبيق: اغسل بالماء والصابون، طمئن، ولا PEP ولا متابعة مخبرية.\n⚠️ الفخ: المبالغة بإعطاء PEP تعرّض لأعراض جانبية بلا فائدة.",
+  "terms": [
+   [
+    "intact",
+    "إن-تاكت"
+   ]
+  ],
+  "ref": "CDC/USPHS 2013"
+ },
+ {
+  "id": "bbv006",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Risk amplifiers",
+  "scenario": "Two needlesticks: solid suture needle superficial vs blood-filled hollow needle from artery, deep.",
+  "question": "Which raises HIV risk?",
+  "options": [
+   "Deep, hollow-bore, visible blood, in vessel",
+   "Solid suture needle",
+   "Gloved superficial scratch"
+  ],
+  "answer": "🧠 القاعدة: الخطر يزيد مع: إبرة مجوفة، جرح عميق، دم مرئي، أداة كانت في وريد/شريان، حمل فيروسي عالٍ.\n✅ التطبيق: الحالة الثانية أعلى خطورة بوضوح وتستحق PEP فوراً.\n⚠️ الفخ: القفاز يقلل حجم الدم لكن لا يلغي الخطر؛ لا تؤخر PEP بحجته.",
+  "terms": [
+   [
+    "hollow-bore",
+    "هولو-بور"
+   ]
+  ],
+  "ref": "Cardo NEJM 1997 / CDC"
+ },
+ {
+  "id": "bbv007",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Survival on surfaces",
+  "scenario": "Lab bench had dried blood 5 days ago.",
+  "question": "Which virus may still be infectious?",
+  "options": [
+   "HBV (survives ≥7 days)",
+   "HIV (survives weeks dried)",
+   "None after 24 h"
+  ],
+  "answer": "🧠 القاعدة: HBV يعيش ≥7 أيام على الأسطح؛ HCV أيام–أسابيع؛ HIV يموت سريعاً خارج الجسم.\n✅ التطبيق: الدم الجاف عمره 5 أيام قد ينقل HBV؛ نظف وطهّر.\n⚠️ الفخ: HIV في الدم الجاف عملياً غير معدٍ؛ الخطر الحقيقي HBV.",
+  "terms": [
+   [
+    "HBV",
+    "إتش-بي-في"
+   ]
+  ],
+  "ref": "CDC Pink Book"
+ },
+ {
+  "id": "bbv008",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: HCV in syringes",
+  "scenario": "PWID reuses a syringe left at room temperature for 3 weeks.",
+  "question": "Can HCV still transmit?",
+  "options": [
+   "Yes, HCV survives weeks in syringes",
+   "No, HCV dies in hours",
+   "Only if refrigerated"
+  ],
+  "answer": "🧠 القاعدة: HCV داخل السرنجة يبقى معدياً حتى ~أسابيع (≈ 63 يوماً تجريبياً).\n✅ التطبيق: لا إعادة استخدام إطلاقاً؛ وفّر إبر جديدة وافحص HCV.\n⚠️ الفخ: الظن أن الدم القديم «ميت» يفسر انتشار HCV بين متعاطي المخدرات.",
+  "terms": [
+   [
+    "PWID",
+    "بي-دبليو-آي-دي"
+   ]
+  ],
+  "ref": "Paintsil JID 2010"
+ },
+ {
+  "id": "bbv009",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Disinfectant",
+  "scenario": "Clinic cleaner asks how to clean a blood spill on the floor.",
+  "question": "Best instruction?",
+  "options": [
+   "Gloves, absorb, then 1:10 bleach",
+   "Alcohol hand gel only",
+   "Water and detergent alone"
+  ],
+  "answer": "🧠 القاعدة: الانسكاب الدموي: قفاز، امتصاص، ثم bleach مخفف 1:10 (~5000 ppm) لمدة كافية.\n✅ التطبيق: اترك المطهر ~10 دقائق ثم امسح، والأدوات القابلة لإعادة الاستخدام تُعقم بالحرارة.\n⚠️ الفخ: الكحول لا يكفي لانسكابات كبيرة لأن البروتين يحمي الفيروس.",
+  "terms": [
+   [
+    "hypochlorite",
+    "هايبو-كلورايت"
+   ]
+  ],
+  "ref": "CDC Disinfection Guideline 2008"
+ },
+ {
+  "id": "bbv010",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Barber razor",
+  "scenario": "Man got a nick from a barber's reused straight razor.",
+  "question": "Main viruses to consider?",
+  "options": [
+   "HBV and HCV (HIV very low)",
+   "HIV mainly",
+   "None; razors are sterile"
+  ],
+  "answer": "🧠 القاعدة: الأدوات الحادة المشتركة تنقل HBV وHCV؛ HIV نادر جداً لأنه يموت سريعاً.\n✅ التطبيق: تحقق من تطعيم HBV، افحص الأساس، ونصِح بشفرة جديدة لكل زبون.\n⚠️ الفخ: التركيز على HIV فقط ونسيان HBV الأكثر عدوى.",
+  "terms": [
+   [
+    "straight razor",
+    "سترايت-ريزر"
+   ]
+  ],
+  "ref": "WHO / CDC"
+ },
+ {
+  "id": "bbv011",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Barber safety",
+  "scenario": "Owner of new barber shop asks for infection-control advice.",
+  "question": "Key advice?",
+  "options": [
+   "Single-use blade per client; disinfect tools",
+   "Rinse blade in water between clients",
+   "Use alcohol on blade once a day"
+  ],
+  "answer": "🧠 القاعدة: شفرة جديدة لكل زبون + تعقيم/تطهير المقص والماكينة + تطعيم العاملين HBV.\n✅ التطبيق: اطلب صندوق أدوات حادة، مناشف نظيفة، وغسل اليدين.\n⚠️ الفخ: المسح بالماء أو تبديل الشفرة يومياً لا يكفي لمنع HBV.",
+  "terms": [
+   [
+    "single-use",
+    "سنجل-يوز"
+   ]
+  ],
+  "ref": "WHO / Saudi MOH"
+ },
+ {
+  "id": "bbv012",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Salon inspection",
+  "scenario": "Municipal inspector asks which salon finding is highest risk.",
+  "question": "Which finding matters most?",
+  "options": [
+   "Reused razors/nail tools without sterilising",
+   "Shared hair dryer",
+   "Shared towels washed daily"
+  ],
+  "answer": "🧠 القاعدة: الخطر الحقيقي في الأدوات التي تخترق الجلد أو تنزف: شفرات، أدوات أظافر، إبر.\n✅ التطبيق: ركّز التفتيش على التعقيم بالحرارة وأدوات الاستعمال الواحد وصندوق الأدوات الحادة.\n⚠️ الفخ: المجفف والمناشف ليست طرق نقل لـ HBV/HCV/HIV.",
+  "terms": [
+   [
+    "autoclave",
+    "أوتو-كليف"
+   ]
+  ],
+  "ref": "WHO / CDC"
+ },
+ {
+  "id": "bbv013",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Manicure tools",
+  "scenario": "Woman had cuticle cut bleed at a salon with shared clippers.",
+  "question": "What risk to discuss?",
+  "options": [
+   "HBV/HCV; check HBV immunity, test",
+   "No risk from nail tools",
+   "Only fungal infection"
+  ],
+  "answer": "🧠 القاعدة: أدوات الأظافر المشتركة التي تسبب نزفاً قد تنقل HBV وHCV.\n✅ التطبيق: افحص anti-HBs، HBsAg، anti-HCV أساساً وبعد أشهر؛ ونصِح بأدوات شخصية.\n⚠️ الفخ: اعتبارها خطراً فطرياً فقط يفوت HBV/HCV.",
+  "terms": [
+   [
+    "anti-HBs",
+    "أنتي-إتش-بي-إس"
+   ]
+  ],
+  "ref": "CDC"
+ },
+ {
+  "id": "bbv014",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Hijama risk",
+  "scenario": "Man plans wet cupping (hijama) at an unlicensed home practitioner.",
+  "question": "Main counselling point?",
+  "options": [
+   "HBV/HCV risk if blades/cups reused",
+   "Hijama transmits HIV mainly",
+   "No risk; skin is only scratched"
+  ],
+  "answer": "🧠 القاعدة: الحجامة الرطبة = جرح جلد + دم؛ الخطر الأكبر HBV وHCV من الأدوات المعاد استخدامها.\n✅ التطبيق: انصحه بمركز مرخّص، شفرات وكؤوس استعمال واحد، وتطعيم HBV.\n⚠️ الفخ: «الخدوش سطحية» خطأ؛ أي دم مشترك ينقل HBV.",
+  "terms": [
+   [
+    "hijama",
+    "حِجامة"
+   ]
+  ],
+  "ref": "Saudi MOH (NCCAM) / WHO"
+ },
+ {
+  "id": "bbv015",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Hijama safe practice",
+  "scenario": "Licensed hijama clinic asks which practice is acceptable.",
+  "question": "Which is correct?",
+  "options": [
+   "Sterile single-use blade and disposable cups",
+   "Wash cups and reuse for next client",
+   "Same blade for one family"
+  ],
+  "answer": "🧠 القاعدة: الكؤوس والشفرات للاستعمال الواحد، مع قفازات وتخلص في صندوق حاد.\n✅ التطبيق: استخدام الأدوات لعائلة واحدة ينقل بين أفرادها أيضاً.\n⚠️ الفخ: «أفراد العائلة آمنون» خطأ شائع؛ HBV ينتقل داخل الأسرة.",
+  "terms": [
+   [
+    "disposable",
+    "ديس-بوزبل"
+   ]
+  ],
+  "ref": "Saudi MOH NCCAM"
+ },
+ {
+  "id": "bbv016",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Tattoo/piercing",
+  "scenario": "Teen got tattoo at an unregulated home studio.",
+  "question": "What screening is reasonable?",
+  "options": [
+   "HBsAg, anti-HBs, anti-HCV; HIV test",
+   "No tests; tattoos are safe",
+   "Only liver enzymes"
+  ],
+  "answer": "🧠 القاعدة: الوشم والثقب في أماكن غير مرخصة عامل خطر لـ HBV وHCV.\n✅ التطبيق: افحص وكمّل تطعيم HBV إن لم يكن محصناً، وأعد anti-HCV/HCV RNA لاحقاً.\n⚠️ الفخ: الاكتفاء بـ ALT يفوّت العدوى الصامتة.",
+  "terms": [
+   [
+    "anti-HCV",
+    "أنتي-إتش-سي-في"
+   ]
+  ],
+  "ref": "CDC"
+ },
+ {
+  "id": "bbv017",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Dental procedures",
+  "scenario": "Patient asks if dental cleaning can transmit hepatitis.",
+  "question": "Best answer?",
+  "options": [
+   "Very low with standard sterilisation",
+   "High risk; avoid dentists",
+   "Only HIV is a concern"
+  ],
+  "answer": "🧠 القاعدة: مع الاحتياطات القياسية والتعقيم الخطر ضئيل جداً.\n✅ التطبيق: طمئن، واذكر أن الأوبئة سُجلت فقط عند خرق التعقيم.\n⚠️ الفخ: تخويف المريض من طبيب الأسنان المرخص بلا سبب.",
+  "terms": [
+   [
+    "standard precautions",
+    "ستاندرد-بريكوشنز"
+   ]
+  ],
+  "ref": "CDC Dental IC 2016"
+ },
+ {
+  "id": "bbv018",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Household items",
+  "scenario": "Wife of man with chronic HBV asks what not to share.",
+  "question": "Which items to avoid sharing?",
+  "options": [
+   "Razors, toothbrushes, nail clippers",
+   "Plates, cups, and spoons",
+   "Toilet seats and towels"
+  ],
+  "answer": "🧠 القاعدة: لا تشارك ما قد يحمل دماً: شفرة، فرشاة أسنان، مقلمة أظافر.\n✅ التطبيق: الأدوات الشخصية منفصلة، وطعّم أفراد البيت ضد HBV.\n⚠️ الفخ: منع الأكل المشترك يزيد الوصمة ولا ينقل HBV.",
+  "terms": [
+   [
+    "nail clippers",
+    "نيل-كليبرز"
+   ]
+  ],
+  "ref": "CDC / AASLD"
+ },
+ {
+  "id": "bbv019",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Casual contact",
+  "scenario": "Classmates fear a child with HBV — hugging, shared lunch, toilets.",
+  "question": "What do you tell the school?",
+  "options": [
+   "No transmission by these; no exclusion",
+   "Exclude child until HBsAg negative",
+   "Separate toilet and utensils"
+  ],
+  "answer": "🧠 القاعدة: HBV وHCV وHIV لا تنتقل بالعناق أو الطعام أو الأواني أو المرحاض.\n✅ التطبيق: لا عزل ولا استبعاد؛ طعّم المخالطين وطبّق الاحتياطات عند الجروح.\n⚠️ الفخ: الاستبعاد وصمة وغير مبرر علمياً.",
+  "terms": [
+   [
+    "stigma",
+    "ستيغما"
+   ]
+  ],
+  "ref": "CDC / AAP Red Book"
+ },
+ {
+  "id": "bbv020",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Saliva and bites",
+  "scenario": "Toddler with HBV bit another child, breaking skin and drawing blood.",
+  "question": "What next?",
+  "options": [
+   "Unvaccinated: HBIG + start HBV vaccine",
+   "Nothing; saliva can't transmit HBV",
+   "HIV PEP for the bitten child"
+  ],
+  "answer": "🧠 القاعدة: HBV موجود في اللعاب وقد ينتقل بعضة تخرق الجلد.\n✅ التطبيق: إن كان الطفل المعضوض غير مطعّم: HBIG + بدء اللقاح؛ إن كان مطعماً ومستجيباً لا شيء.\n⚠️ الفخ: التقبيل ومشاركة الطعام لا ينقل، لكن العضة النازفة استثناء.",
+  "terms": [
+   [
+    "HBIG",
+    "إتش-بي-آي-جي"
+   ]
+  ],
+  "ref": "AAP Red Book / CDC"
+ },
+ {
+  "id": "bbv021",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: HIV per-act sexual",
+  "scenario": "Man asks about per-act HIV risk after receptive anal sex with HIV+ partner (no ART).",
+  "question": "Approximate per-act risk?",
+  "options": [
+   "~1.4%",
+   "~0.08%",
+   "~30%"
+  ],
+  "answer": "🧠 القاعدة: لكل فعل: شرجي مُستقبِل ~1.4%، مهبلي مُستقبِل ~0.08%، الإدخال أقل.\n✅ التطبيق: 1.4% يتطلب HIV PEP خلال 72 ساعة.\n⚠️ الفخ: الأرقام الصغيرة لكل فعل لا تعني الأمان؛ التكرار يراكم الخطر.",
+  "terms": [
+   [
+    "receptive",
+    "ري-سبتف"
+   ]
+  ],
+  "ref": "CDC HIV risk estimates"
+ },
+ {
+  "id": "bbv022",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: HCV monogamous couple",
+  "scenario": "Wife of a man with chronic HCV asks if she needs condoms.",
+  "question": "What do you say?",
+  "options": [
+   "Not required (risk very low); discuss",
+   "Must always use condoms",
+   "Separate bedrooms"
+  ],
+  "answer": "🧠 القاعدة: HCV عند زوجين أحاديين غير مختلطين نادر جداً (<1% على سنوات)؛ CDC لا يوجب الواقي.\n✅ التطبيق: افحص الزوجة anti-HCV، وأكّد أن الزوج يُعالج بـ DAA ويُشفى، وتجنب مشاركة الشفرات.\n⚠️ الفخ: فرض الواقي خطأ؛ لكن الواقي مهم عند HIV، تعدد الشركاء، أو جنس مع نزف.",
+  "terms": [
+   [
+    "DAA",
+    "دي-إيه-إيه"
+   ]
+  ],
+  "ref": "CDC / AASLD-IDSA"
+ },
+ {
+  "id": "bbv023",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: HBV sexual",
+  "scenario": "Fiancée of a man with chronic HBV asks about marriage.",
+  "question": "Key prevention step?",
+  "options": [
+   "Test; vaccinate; condoms until anti-HBs+",
+   "No risk; HBV isn't sexual",
+   "Postpone marriage indefinitely"
+  ],
+  "answer": "🧠 القاعدة: HBV ينتقل جنسياً بكفاءة، والحل اللقاح.\n✅ التطبيق: افحص HBsAg/anti-HBs؛ إن لم تكن محصنة: 3 جرعات ثم anti-HBs بعد 1–2 شهر، واستخدم الواقي حتى تثبت المناعة.\n⚠️ الفخ: الإلغاء أو التأجيل غير مبرر؛ اللقاح يحمي.",
+  "terms": [
+   [
+    "anti-HBs",
+    "أنتي-إتش-بي-إس"
+   ]
+  ],
+  "ref": "CDC / AASLD 2018"
+ },
+ {
+  "id": "bbv024",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: MTCT HBV",
+  "scenario": "Pregnant woman HBsAg+, HBeAg+, no prophylaxis planned.",
+  "question": "Risk to baby?",
+  "options": [
+   "70–90% (HBeAg−: ~10–40%)",
+   "~5%",
+   "<1%"
+  ],
+  "answer": "🧠 القاعدة: HBeAg+ بدون وقاية: 70–90% وأغلبهم يصبحون مزمنين؛ HBeAg− نحو 10–40%.\n✅ التطبيق: HBIG + vaccine خلال 12 ساعة، وtenofovir للأم إن كان الحمل الفيروسي عالياً (>200,000 IU/mL).\n⚠️ الفخ: الاكتفاء باللقاح دون HBIG يترك فجوة.",
+  "terms": [
+   [
+    "tenofovir",
+    "تينو-فوفير"
+   ]
+  ],
+  "ref": "CDC / AASLD 2018"
+ },
+ {
+  "id": "bbv025",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: MTCT HCV",
+  "scenario": "Pregnant woman HCV RNA+, HIV negative.",
+  "question": "Risk to baby?",
+  "options": [
+   "~5–6%; higher with HIV coinfection",
+   "~50%",
+   "Zero"
+  ],
+  "answer": "🧠 القاعدة: HCV من الأم ~5–6%، يتضاعف تقريباً مع HIV.\n✅ التطبيق: لا تمنع الولادة الطبيعية؛ افحص الرضيع HCV RNA بعمر 2–6 أشهر.\n⚠️ الفخ: طلب قيصرية لمنع HCV غير موصى به.",
+  "terms": [
+   [
+    "coinfection",
+    "كو-إن-فكشن"
+   ]
+  ],
+  "ref": "AASLD-IDSA / CDC 2023"
+ },
+ {
+  "id": "bbv026",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: MTCT HIV",
+  "scenario": "Pregnant woman newly HIV+, no ART yet.",
+  "question": "What risk do you quote?",
+  "options": [
+   "15–45% untreated; <1% with ART",
+   "~5% always",
+   "100%"
+  ],
+  "answer": "🧠 القاعدة: HIV من الأم بدون علاج 15–45%، ومع ART وحمل غير مكتشف <1%.\n✅ التطبيق: أحِل فوراً لبدء ART، والرضيع يأخذ وقاية بعد الولادة.\n⚠️ الفخ: التأخير حتى الثلث الأخير يضيع الوقاية.",
+  "terms": [
+   [
+    "ART",
+    "إيه-آر-تي"
+   ]
+  ],
+  "ref": "WHO"
+ },
+ {
+  "id": "bbv027",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Breastfeeding HBV",
+  "scenario": "Mother HBsAg+, baby got HBIG + vaccine at birth.",
+  "question": "Can she breastfeed?",
+  "options": [
+   "Yes, breastfeed",
+   "No, formula only",
+   "Only after 6-month titre"
+  ],
+  "answer": "🧠 القاعدة: الرضاعة مسموحة مع HBV بعد HBIG واللقاح.\n✅ التطبيق: شجّعها وأكمل الجرعات وافحص الرضيع HBsAg/anti-HBs بعمر 9–12 شهراً.\n⚠️ الفخ: منع الرضاعة يحرم الطفل بلا فائدة.",
+  "terms": [
+   [
+    "HBsAg",
+    "إتش-بي-إس-أنتي-جين"
+   ]
+  ],
+  "ref": "CDC / WHO"
+ },
+ {
+  "id": "bbv028",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Breastfeeding HCV",
+  "scenario": "Mother HCV RNA+ with cracked bleeding nipples.",
+  "question": "Advice?",
+  "options": [
+   "Pause that side until healed",
+   "Breastfeed normally from both",
+   "Stop forever"
+  ],
+  "answer": "🧠 القاعدة: HCV لا يمنع الرضاعة، إلا عند تشقق ونزف الحلمة.\n✅ التطبيق: أوقف الرضاعة من الجهة النازفة مؤقتاً واعصر الحليب وتخلص منه حتى الشفاء.\n⚠️ الفخ: المنع الدائم خطأ.",
+  "terms": [
+   [
+    "cracked nipple",
+    "كراكد-نِبل"
+   ]
+  ],
+  "ref": "CDC"
+ },
+ {
+  "id": "bbv029",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Breastfeeding HIV",
+  "scenario": "Mother with HIV in Saudi city, safe water and formula available.",
+  "question": "Usual advice?",
+  "options": [
+   "Formula feeding; refer HIV specialist",
+   "Exclusive breastfeeding always",
+   "Mixed feeding"
+  ],
+  "answer": "🧠 القاعدة: حيث تتوفر مياه آمنة وحليب صناعي: يُنصح بالحليب الصناعي (توصية CDC تقليدياً).\n✅ التطبيق: أحِل لأخصائي؛ CDC 2023 يسمح بقرار مشترك إن كانت الأم مثبتة الحمل الفيروسي.\n⚠️ الفخ: التغذية المختلطة أعلى خطراً من الرضاعة الحصرية.",
+  "terms": [
+   [
+    "formula",
+    "فورميولا"
+   ]
+  ],
+  "ref": "CDC/DHHS 2023 / WHO 2016"
+ },
+ {
+  "id": "bbv030",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Transfusion risk",
+  "scenario": "Patient fears hepatitis from transfusion at a NAT-screened blood bank.",
+  "question": "How do you counsel?",
+  "options": [
+   "Residual risk ~1 in a million or less",
+   "~1 in 100",
+   "Same as needlestick"
+  ],
+  "answer": "🧠 القاعدة: مع فحص NAT، الخطر المتبقي لـ HIV وHCV ≈ أقل من 1 في مليون.\n✅ التطبيق: طمئنه؛ HBV أعلى قليلاً لكنه نادر جداً.\n⚠️ الفخ: رفض نقل الدم الضروري خوفاً من العدوى قرار خاطئ.",
+  "terms": [
+   [
+    "NAT",
+    "إن-إيه-تي"
+   ]
+  ],
+  "ref": "AABB / CDC"
+ },
+ {
+  "id": "bbv031",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Organ donation",
+  "scenario": "Kidney recipient asks about virus from donor.",
+  "question": "What is true?",
+  "options": [
+   "Donors NAT-screened; recipient tested after",
+   "No screening done",
+   "HCV+ organs never used"
+  ],
+  "answer": "🧠 القاعدة: المتبرعون يُفحصون NAT؛ أعضاء HCV+ قد تُستخدم مع علاج DAA للمتلقي بموافقة.\n✅ التطبيق: CDC يوصي بفحص المتلقي HIV/HBV/HCV بعد الزراعة.\n⚠️ الفخ: الاعتقاد أن عضو HCV+ ممنوع مطلقاً خطأ حديثاً.",
+  "terms": [
+   [
+    "NAT",
+    "إن-إيه-تي"
+   ]
+  ],
+  "ref": "CDC/PHS 2020"
+ },
+ {
+  "id": "bbv032",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: PWID sharing",
+  "scenario": "Man shared needles once with HIV+ friend.",
+  "question": "Per-act HIV risk?",
+  "options": [
+   "~0.6% (63/10,000)",
+   "~0.08%",
+   "~30%"
+  ],
+  "answer": "🧠 القاعدة: مشاركة الإبر ~0.6% لكل فعل، أعلى من وخز الإبرة المهني.\n✅ التطبيق: PEP خلال 72 ساعة، فحص HBV/HCV، وإحالة لبرامج الإدمان.\n⚠️ الفخ: الاكتفاء بفحص HIV يفوت HCV الأكثر انتشاراً هنا.",
+  "terms": [
+   [
+    "PWID",
+    "بي-دبليو-آي-دي"
+   ]
+  ],
+  "ref": "CDC HIV risk estimates"
+ },
+ {
+  "id": "bbv033",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Sharps at home",
+  "scenario": "Diabetic on insulin asks how to dispose pens at home.",
+  "question": "Advice?",
+  "options": [
+   "Sharps container or thick plastic bottle",
+   "Throw needles in household bag",
+   "Recap and flush"
+  ],
+  "answer": "🧠 القاعدة: الإبر في حاوية صلبة مغلقة لا تُثقب، ثم تُسلّم حسب التعليمات.\n✅ التطبيق: لا تعيد تغطية الإبرة بيدين، ولا تشارك أقلام الأنسولين.\n⚠️ الفخ: مشاركة قلم insulin بين المرضى نقلت HBV.",
+  "terms": [
+   [
+    "sharps container",
+    "شاربس-كونتينر"
+   ]
+  ],
+  "ref": "FDA / CDC"
+ },
+ {
+  "id": "bbv034",
+  "topic": "Hepatitis",
+  "title": "🩸 Transmission: Community needlestick",
+  "scenario": "Child stepped on a discarded needle in a park.",
+  "question": "Best clinic action?",
+  "options": [
+   "Check HBV vaccine & tetanus; low HIV risk",
+   "Start HIV PEP for all",
+   "Reassure only, no tests"
+  ],
+  "answer": "🧠 القاعدة: الإبرة المهملة: خطر HIV ضئيل جداً، HBV الأهم.\n✅ التطبيق: اغسل الجرح، تحقق من HBV vaccine (كمّل)، tetanus، وافحص أساساً.\n⚠️ الفخ: PEP روتيني مبالغ فيه؛ يُقرر حالة بحالة.",
+  "terms": [
+   [
+    "tetanus",
+    "تيتانوس"
+   ]
+  ],
+  "ref": "AAP Red Book"
+ },
+ {
   "id": "cxr001",
   "topic": "TB-Contacts",
   "title": "🩻 CXR: Who needs a film",
