@@ -1,5 +1,1945 @@
 [
  {
+  "id": "lcbc001",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Reading order",
+  "scenario": "Pre-employment CBC: Hb 11.2 g/dL (female), MCV 72 fL, RDW 17%.",
+  "question": "What is the next logical step?",
+  "options": [
+   "Ferritin (microcytic, high RDW)",
+   "Vitamin B12 and folate",
+   "Bone marrow referral"
+  ],
+  "answer": "🧠 القاعدة: اقرأ CBC بالترتيب: Hb ← MCV ← RDW ← retic، ثم WBC ثم platelets.\n✅ التطبيق: Hb منخفض + MCV صغير (<80) = microcytic؛ RDW عالي يرجّح نقص الحديد ← اطلب ferritin.\n⚠️ الفخ: B12/folate لفقر الدم كبير الكريات، ليس صغيرها.",
+  "terms": [
+   [
+    "Microcytic",
+    "مَي-كرو-سِي-تِك"
+   ]
+  ],
+  "ref": "BSH 2021"
+ },
+ {
+  "id": "llfk001",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: R ratio pattern",
+  "scenario": "Man, 40: ALT 300 U/L (ULN 40), ALP 130 U/L (ULN 130).",
+  "question": "Which injury pattern?",
+  "options": [
+   "Hepatocellular (R = 7.5)",
+   "Cholestatic",
+   "Mixed"
+  ],
+  "answer": "🧠 القاعدة: R = (ALT/ULN) ÷ (ALP/ULN): أكثر من 5 = hepatocellular، أقل من 2 = cholestatic، بينهما mixed.\n✅ التطبيق: ALT 300/40 = 7.5؛ ALP 130/130 = 1 → R = 7.5 → hepatocellular: فيروسات، أدوية، MASLD.\n⚠️ الفخ: لا تحكم بالأرقام الخام؛ قسّم كل قيمة على ULN أولاً.",
+  "terms": [
+   [
+    "hepatocellular",
+    "هِ-با-تو-سِل-يو-لَر"
+   ]
+  ],
+  "ref": "ACG 2017"
+ },
+ {
+  "id": "llst001",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: What to read first",
+  "scenario": "35-year-old man, check-up: TC 230, HDL 40, TG 140, LDL 162 mg/dL.",
+  "question": "What is his non-HDL cholesterol?",
+  "options": [
+   "190 mg/dL (TC − HDL)",
+   "162 mg/dL (same as LDL)",
+   "88 mg/dL (TC − LDL − HDL)"
+  ],
+  "answer": "🧠 القاعدة: اقرأ LDL أولاً ثم non-HDL = TC − HDL؛ يشمل كل الجزيئات المسببة للتصلب.\n✅ التطبيق: 230 − 40 = 190 mg/dL. الهدف عادةً LDL + 30.\n⚠️ الفخ: non-HDL ليس LDL ولا يُطرح منه شيء آخر؛ لا يحتاج صياماً.",
+  "terms": [
+   [
+    "non-HDL",
+    "نون-إتش-دي-إل"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc002",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Absolute counts, not %",
+  "scenario": "Worker: WBC 3.5 ×10⁹/L, neutrophils 40%, lymphocytes 52%.",
+  "question": "How do you judge the neutrophils?",
+  "options": [
+   "ANC = 1.4 ×10⁹/L (mild neutropenia)",
+   "Lymphocytosis: 52% is high",
+   "Normal: 40% is within range"
+  ],
+  "answer": "🧠 القاعدة: احكم بالعدد المطلق لا بالنسبة: ANC = WBC × %.\n✅ التطبيق: 3.5 × 0.40 = 1.4 ← neutropenia خفيفة (<1.5)؛ والـ lymphocytes = 1.8 طبيعية مطلقاً.\n⚠️ الفخ: 52% تبدو lymphocytosis لكنها نسبية فقط لأن العدد الكلي منخفض.",
+  "terms": [
+   [
+    "Neutropenia",
+    "نيو-ترو-بي-ني-ا"
+   ]
+  ],
+  "ref": "BSH 2021"
+ },
+ {
+  "id": "llfk002",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: Cholestatic pattern",
+  "scenario": "Woman, 50: ALT 60 U/L (ULN 40), ALP 400 U/L (ULN 120), GGT 250 U/L.",
+  "question": "Best next step?",
+  "options": [
+   "Abdominal ultrasound",
+   "Hepatitis serology only",
+   "Repeat in 1 year"
+  ],
+  "answer": "🧠 القاعدة: R < 2 = cholestatic → أول خطوة ultrasound لاستبعاد انسداد القنوات.\n✅ التطبيق: R = 1.5 ÷ 3.3 ≈ 0.45 والـ GGT مرتفع → مصدر كبدي. اطلب US؛ إن كانت القنوات طبيعية فكر في AMA لـ PBC.\n⚠️ الفخ: البدء بالفيروسات فقط يفوّت الحصى والانسداد.",
+  "terms": [
+   [
+    "cholestatic",
+    "كو-لي-ستا-تِك"
+   ]
+  ],
+  "ref": "ACG 2017"
+ },
+ {
+  "id": "llst002",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Unit conversion",
+  "scenario": "Expat report: LDL 4.9 mmol/L, TG 2.0 mmol/L.",
+  "question": "What are these in mg/dL?",
+  "options": [
+   "LDL ≈190, TG ≈177 mg/dL",
+   "LDL ≈127, TG ≈77 mg/dL",
+   "LDL ≈88, TG ≈36 mg/dL"
+  ],
+  "answer": "🧠 القاعدة: الكوليسترول: mg/dL ÷ 38.7 = mmol/L. الدهون الثلاثية: ÷ 88.6.\n✅ التطبيق: 4.9 × 38.7 ≈ 190 mg/dL (عتبة FH!). 2.0 × 88.6 ≈ 177 mg/dL.\n⚠️ الفخ: استعمال معامل الكوليسترول للـTG يعطي رقماً خاطئاً ويُخفي ارتفاعاً.",
+  "terms": [
+   [
+    "millimole",
+    "ملّي-مول"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc003",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Mentzer index",
+  "scenario": "Premarital: Hb 11.8 g/dL, MCV 62 fL, RBC 6.1 ×10¹²/L, RDW 13.5%.",
+  "question": "Most likely diagnosis?",
+  "options": [
+   "Thalassaemia trait",
+   "Iron deficiency anaemia",
+   "Anaemia of chronic disease"
+  ],
+  "answer": "🧠 القاعدة: Mentzer = MCV ÷ RBC؛ <13 يرجّح thalassaemia trait، >13 نقص الحديد.\n✅ التطبيق: 62 ÷ 6.1 ≈ 10 + RBC عالي + RDW طبيعي + Hb شبه طبيعي ← trait.\n⚠️ الفخ: إعطاء حديد لكل microcytosis؛ في trait الحديد لا يفيد وقد يضر.",
+  "terms": [
+   [
+    "Mentzer",
+    "مِنت-زَر"
+   ],
+   [
+    "Thalassaemia",
+    "ثا-لا-سي-مي-ا"
+   ]
+  ],
+  "ref": "BSH 2021"
+ },
+ {
+  "id": "llfk003",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: AST:ALT 2:1",
+  "scenario": "Man, 45: AST 120 U/L, ALT 50 U/L, GGT 180 U/L, MCV 102 fL.",
+  "question": "Most likely cause?",
+  "options": [
+   "Alcohol-related liver injury",
+   "Viral hepatitis",
+   "Fatty liver from obesity"
+  ],
+  "answer": "🧠 القاعدة: AST ≥ 2× ALT = كحول حتى يثبت العكس (نقص B6 يخفض ALT).\n✅ التطبيق: النسبة 2.4 + GGT مرتفع + macrocytosis → صورة كحولية كلاسيكية؛ اسأل بلطف (AUDIT-C).\n⚠️ الفخ: الفيروسات و MASLD غالباً ALT > AST، إلا بعد تليّف متقدم.",
+  "terms": [
+   [
+    "macrocytosis",
+    "ما-كرو-ساي-تو-سِس"
+   ]
+  ],
+  "ref": "ACG 2017"
+ },
+ {
+  "id": "llst003",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Friedewald limit",
+  "scenario": "Calculated LDL reported; TG 460 mg/dL.",
+  "question": "How do you interpret this LDL?",
+  "options": [
+   "Invalid: request direct LDL or use non-HDL",
+   "Accept it as accurate",
+   "Repeat Friedewald after 1 week"
+  ],
+  "answer": "🧠 القاعدة: Friedewald = TC − HDL − TG/5، لا يصلح إذا TG >400 mg/dL.\n✅ التطبيق: TG 460 ⇒ LDL المحسوب غير موثوق. اطلب direct LDL أو اعتمد non-HDL؛ معادلة Martin/Sampson أدق مع TG المرتفع.\n⚠️ الفخ: حتى بين 150–400 وLDL منخفض قد يقلل Friedewald القيمة؛ Martin/Sampson أفضل.",
+  "terms": [
+   [
+    "Friedewald",
+    "فريد-والد"
+   ],
+   [
+    "Sampson",
+    "سامب-سون"
+   ]
+  ],
+  "ref": "NLA 2021; ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc004",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: HbA2 for beta-trait",
+  "scenario": "Premarital: MCV 64 fL, RBC 5.9 ×10¹²/L, ferritin 85 ng/mL.",
+  "question": "Which test confirms the likely trait?",
+  "options": [
+   "Hb electrophoresis/HPLC: HbA2 >3.5%",
+   "Repeat CBC in 3 months",
+   "Serum iron and TIBC"
+  ],
+  "answer": "🧠 القاعدة: beta-thalassaemia trait = HbA2 مرتفع (>3.5%) في HPLC.\n✅ التطبيق: microcytosis + RBC عالي + ferritin طبيعي ← HPLC.\n⚠️ الفخ: HbA2 الطبيعي لا ينفي alpha-thalassaemia trait؛ تحتاج DNA عند الاشتباه لا سيما قبل الزواج.",
+  "terms": [
+   [
+    "Electrophoresis",
+    "إي-لِك-ترو-فو-ري-سِس"
+   ]
+  ],
+  "ref": "BSH 2023"
+ },
+ {
+  "id": "llfk004",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: AST after the gym",
+  "scenario": "Man, 24, pre-employment: AST 95 U/L, ALT 45 U/L. Heavy weightlifting yesterday.",
+  "question": "Best next step?",
+  "options": [
+   "Check CK; repeat after 1 week of rest",
+   "Order hepatitis B and C serology",
+   "Refer to hepatology"
+  ],
+  "answer": "🧠 القاعدة: AST وحده مرتفع؟ فكّر عضلات قبل الكبد.\n✅ التطبيق: AST موجود في العضلات؛ تمرين شديد يرفعه (وأحياناً ALT). اطلب CK وأعد بعد راحة 7 أيام بلا تمرين.\n⚠️ الفخ: تحويله أو تشخيص مرض كبد من AST معزول بعد تمرين.",
+  "terms": [
+   [
+    "creatine kinase",
+    "كري-ا-تين كاي-نيز"
+   ]
+  ],
+  "ref": "ACG 2017"
+ },
+ {
+  "id": "llst004",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Fasting or not",
+  "scenario": "Worker arrives non-fasting for routine lipid screen.",
+  "question": "What do you do?",
+  "options": [
+   "Draw now; fast-repeat only if TG ≥400",
+   "Send him home to fast 12 h",
+   "Cancel lipids; order HbA1c only"
+  ],
+  "answer": "🧠 القاعدة: التحليل غير الصائم مقبول للفحص الروتيني.\n✅ التطبيق: اسحب الآن. إذا TG ≥400 mg/dL أعد صائماً.\n⚠️ الفخ: الصيام يغيّر LDL قليلاً جداً؛ إرجاع المريض يضيع فرصة الفحص.",
+  "terms": [
+   [
+    "non-fasting",
+    "نون-فاس-تنغ"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc005",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Iron deficiency masks HbA2",
+  "scenario": "Premarital: MCV 61 fL, ferritin 6 ng/mL, HbA2 3.2%.",
+  "question": "How do you interpret HbA2?",
+  "options": [
+   "Treat iron, then repeat HPLC",
+   "Beta-trait excluded",
+   "Diagnose alpha-thalassaemia"
+  ],
+  "answer": "🧠 القاعدة: نقص الحديد يخفض HbA2 فيخفي beta-trait.\n✅ التطبيق: ferritin 6 = نقص واضح؛ HbA2 3.2% لا يُعتمد ← صحّح الحديد وأعد HPLC.\n⚠️ الفخ: كتابة «سليم» في الفحص الزوجي بينما قد يكون حاملاً.",
+  "terms": [
+   [
+    "HbA2",
+    "إتش-بي-إيه-تو"
+   ]
+  ],
+  "ref": "BSH 2023"
+ },
+ {
+  "id": "llfk005",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: ALP: bone or liver?",
+  "scenario": "Woman, 30: ALP 210 U/L (ULN 120), GGT 25 U/L, ALT normal.",
+  "question": "Likely source of ALP?",
+  "options": [
+   "Bone (or placenta) – not liver",
+   "Biliary obstruction",
+   "Fatty liver"
+  ],
+  "answer": "🧠 القاعدة: ALP مرتفع + GGT طبيعي = ليس من الكبد.\n✅ التطبيق: ابحث عن عظم (vitamin D، Paget، كسر يلتئم) أو حمل؛ اسأل عن الحمل.\n⚠️ الفخ: طلب ultrasound للكبد. وتذكّر أن المراهقين في طور النمو والحوامل (3rd trimester) قد يصل ALP عندهم 2-3× طبيعياً.",
+  "terms": [
+   [
+    "alkaline phosphatase",
+    "ال-كا-لاين فوس-فا-تيز"
+   ]
+  ],
+  "ref": "ACG 2017"
+ },
+ {
+  "id": "llst005",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: LDL 200 in a young adult",
+  "scenario": "28-year-old, LDL 205 mg/dL, father had MI at 45.",
+  "question": "Next step?",
+  "options": [
+   "High-intensity statin; screen family for FH",
+   "Calculate 10-year ASCVD risk first",
+   "Lifestyle 6 months, then decide"
+  ],
+  "answer": "🧠 القاعدة: LDL ≥190 = خطر عالٍ مباشرة؛ لا حاسبة خطر.\n✅ التطبيق: فكر بـ FH: high-intensity statin، افحص الأقارب من الدرجة الأولى (cascade screening)، واستبعد الأسباب الثانوية.\n⚠️ الفخ: الحاسبة تقلل الخطر عند الشباب لأنها مبنية على العمر.",
+  "terms": [
+   [
+    "hypercholesterolemia",
+    "هايبر-كو-لس-تِ-رو-لي-ميا"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc006",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Sickle trait with normal CBC",
+  "scenario": "Premarital: Hb 14 g/dL, MCV 86 fL, normal smear; HPLC HbS 38%.",
+  "question": "What is the status?",
+  "options": [
+   "Sickle cell trait (carrier)",
+   "Normal; CBC excludes sickling",
+   "Sickle cell disease"
+  ],
+  "answer": "🧠 القاعدة: sickle trait يعطي CBC طبيعي تماماً.\n✅ التطبيق: HbS حوالي 35–40% مع HbA غالب = trait (حامل) ← إرشاد زواجي.\n⚠️ الفخ: الاعتماد على CBC لاستبعاد الحمل للصفة؛ لابد من HPLC. والمرض يكون HbS >80% بدون HbA.",
+  "terms": [
+   [
+    "Sickle",
+    "سِي-كِل"
+   ]
+  ],
+  "ref": "Saudi MOH Premarital"
+ },
+ {
+  "id": "llfk006",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: Isolated GGT",
+  "scenario": "Man, 38: GGT 110 U/L (ULN 60). ALT, ALP, bilirubin normal. On phenytoin.",
+  "question": "How to interpret?",
+  "options": [
+   "Drug/alcohol induction; not diagnostic alone",
+   "Early cirrhosis – refer",
+   "Biliary obstruction – urgent US"
+  ],
+  "answer": "🧠 القاعدة: GGT معزول = مؤشر حساس غير نوعي: كحول، أدوية محفّزة، دهون الكبد.\n✅ التطبيق: phenytoin يحفّز الإنزيم. راجع الكحول والوزن، ولا إجراء إضافي إن كان الباقي طبيعياً.\n⚠️ الفخ: لا تشخّص مرض كبد من GGT وحده.",
+  "terms": [
+   [
+    "phenytoin",
+    "في-ني-تو-إن"
+   ]
+  ],
+  "ref": "BSG 2018"
+ },
+ {
+  "id": "llst006",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Secondary causes",
+  "scenario": "LDL 240 mg/dL, new fatigue, weight gain; no prior lipids.",
+  "question": "What test before starting a statin?",
+  "options": [
+   "TSH + glucose, creatinine, LFT, urine",
+   "CK only",
+   "Lp(a) only"
+  ],
+  "answer": "🧠 القاعدة: قبل علاج ارتفاع شديد جديد: استبعد الأسباب الثانوية.\n✅ التطبيق: التعب وزيادة الوزن ⇒ hypothyroidism. اطلب TSH، سكر، كرياتينين، ALP/bilirubin (cholestasis)، بروتين البول (nephrotic). راجع الأدوية والحمل.\n⚠️ الفخ: البدء بالستاتين مع قصور الدرقية غير المعالج يرفع خطر myopathy.",
+  "terms": [
+   [
+    "nephrotic",
+    "نِف-رو-تِك"
+   ],
+   [
+    "cholestasis",
+    "كو-لي-ستا-سِس"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc007",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: G6PD is not on CBC",
+  "scenario": "Man with known G6PD deficiency; CBC Hb 15 g/dL, normal indices.",
+  "question": "What does the normal CBC mean?",
+  "options": [
+   "Expected; deficiency shows only on haemolysis",
+   "G6PD deficiency excluded",
+   "Needs repeat G6PD now"
+  ],
+  "answer": "🧠 القاعدة: G6PD deficiency لا يظهر في CBC إلا وقت نوبة haemolysis.\n✅ التطبيق: CBC طبيعي متوقع؛ التشخيص بفحص G6PD الكمي.\n⚠️ الفخ: لا تفحص G6PD أثناء نوبة أو بعدها مباشرة (retic) فقد يعطي قيمة طبيعية كاذبة.",
+  "terms": [
+   [
+    "G6PD",
+    "جي-سِكس-بي-دي"
+   ]
+  ],
+  "ref": "WHO 2022"
+ },
+ {
+  "id": "llfk007",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: Conjugated bilirubin",
+  "scenario": "Man, 35: total bilirubin 2.4 mg/dL (41 µmol/L), direct 1.6 mg/dL. ALT normal.",
+  "question": "How to interpret?",
+  "options": [
+   "Always abnormal – needs workup (US)",
+   "Gilbert syndrome – reassure",
+   "Haemolysis – check retics only"
+  ],
+  "answer": "🧠 القاعدة: Gilbert = unconjugated فقط. الـ conjugated المرتفع دائماً غير طبيعي.\n✅ التطبيق: direct يمثل >50% → مشكلة كبدية/صفراوية: ultrasound وباقي الوظائف.\n⚠️ الفخ: وضع تشخيص Gilbert دون النظر للـ fraction.",
+  "terms": [
+   [
+    "conjugated",
+    "كون-جو-غيه-تِد"
+   ]
+  ],
+  "ref": "BSG 2018"
+ },
+ {
+  "id": "llst007",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: TG 150–499",
+  "scenario": "40-year-old, TG 320 mg/dL, LDL 110, glucose normal.",
+  "question": "First management?",
+  "options": [
+   "Lifestyle and treat secondary causes",
+   "Fenofibrate immediately",
+   "Refer urgently to ED"
+  ],
+  "answer": "🧠 القاعدة: TG 150–499: نمط حياة ومعالجة الأسباب.\n✅ التطبيق: خفض الوزن، تقليل السكريات والكحول، ضبط السكري، مراجعة الأدوية. TG ≥175 مستمر = risk enhancer عند تقييم الستاتين.\n⚠️ الفخ: الفايبرات ليست الخطوة الأولى في هذا المدى.",
+  "terms": [
+   [
+    "fenofibrate",
+    "في-نو-فاي-بريت"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc008",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Macrocytosis checklist",
+  "scenario": "Driver: Hb 14.5 g/dL, MCV 104 fL, GGT 180 U/L.",
+  "question": "Most likely cause?",
+  "options": [
+   "Alcohol excess",
+   "Iron deficiency",
+   "Thalassaemia trait"
+  ],
+  "answer": "🧠 القاعدة: MCV كبير = B12/folate، alcohol، liver، hypothyroid، أدوية (methotrexate، hydroxyurea)، retic.\n✅ التطبيق: MCV 104 بدون anaemia مع GGT عالي ← alcohol أو كبد؛ اطلب B12/folate/TSH/LFT أيضاً.\n⚠️ الفخ: تجاهل macrocytosis لأن Hb طبيعي؛ قد تسبق anaemia بسنوات.",
+  "terms": [
+   [
+    "Macrocytosis",
+    "ماك-رو-سَي-تو-سِس"
+   ]
+  ],
+  "ref": "BSH 2014"
+ },
+ {
+  "id": "llfk008",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: Bilirubin after fasting",
+  "scenario": "Man, 22, Ramadan: total bilirubin 2.8 mg/dL, indirect 2.5. ALT normal, Hb and retics normal.",
+  "question": "Best action?",
+  "options": [
+   "Reassure: likely Gilbert; repeat non-fasting",
+   "Liver ultrasound and hepatology referral",
+   "Haemolysis workup"
+  ],
+  "answer": "🧠 القاعدة: unconjugated معزول + بلا haemolysis + ALT طبيعي = Gilbert.\n✅ التطبيق: الصيام والمرض يرفعان البيليروبين. Hb و retics طبيعية → لا haemolysis. طمئنه وأعد خارج الصيام.\n⚠️ الفخ: التحويل والفحوصات الزائدة لحالة حميدة تصيب ~5% من الناس.",
+  "terms": [
+   [
+    "unconjugated",
+    "أن-كون-جو-غيه-تِد"
+   ]
+  ],
+  "ref": "BSG 2018"
+ },
+ {
+  "id": "llst008",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: TG above 1000",
+  "scenario": "Pre-employment: TG 1250 mg/dL, mild epigastric pain.",
+  "question": "What do you do now?",
+  "options": [
+   "Same-day ED to rule out pancreatitis",
+   "Repeat fasting in 3 months",
+   "Start statin and review in 6 weeks"
+  ],
+  "answer": "🧠 القاعدة: TG ≥500 خطر pancreatitis؛ ≥1000 عاجل.\n✅ التطبيق: مع ألم شرسوفي ⇒ إحالة عاجلة. بدون أعراض: حمية قليلة الدهون جداً، fenofibrate، وتحويل عاجل للمتخصص.\n⚠️ الفخ: الستاتين لا يخفض TG بما يكفي لمنع pancreatitis.",
+  "terms": [
+   [
+    "pancreatitis",
+    "بان-كري-يا-تاي-تِس"
+   ]
+  ],
+  "ref": "ES 2012; ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc009",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Normocytic anaemia approach",
+  "scenario": "Woman 45: Hb 10.8 g/dL, MCV 88 fL, retic low, creatinine 2.4 mg/dL.",
+  "question": "Best explanation to pursue?",
+  "options": [
+   "Anaemia of CKD (low EPO)",
+   "Thalassaemia trait",
+   "Acute blood loss"
+  ],
+  "answer": "🧠 القاعدة: normocytic + retic منخفض = إنتاج ضعيف: CKD، التهاب مزمن، hypothyroid، نقص حديد مبكر/مختلط.\n✅ التطبيق: creatinine عالي ← CKD؛ افحص eGFR وferritin وTSAT وحوّل nephrology.\n⚠️ الفخ: retic عالي هنا يعني نزف/haemolysis لا إنتاجاً ضعيفاً.",
+  "terms": [
+   [
+    "Erythropoietin",
+    "إي-ري-ثرو-بو-يي-تِن"
+   ]
+  ],
+  "ref": "KDIGO 2012"
+ },
+ {
+  "id": "llfk009",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: Mild ALT: first moves",
+  "scenario": "Man, 42, BMI 31: ALT 70 U/L (ULN 40) once. Takes herbal supplements.",
+  "question": "Best first approach?",
+  "options": [
+   "Repeat; stop alcohol/supplements; HBV, HCV",
+   "Liver biopsy",
+   "Ignore – under 3× ULN"
+  ],
+  "answer": "🧠 القاعدة: ALT خفيف = أعد + أوقف المسببات + HBsAg و anti-HCV + قيّم MASLD.\n✅ التطبيق: أوقف المكملات والكحول، أعد خلال أسابيع، اطلب الفيروسات، ثم احسب FIB-4 إن كان دهني.\n⚠️ الفخ: تجاهل ارتفاع مستمر؛ المكملات العشبية سبب شائع لإصابة الكبد.",
+  "terms": [
+   [
+    "supplements",
+    "سَب-لي-منتس"
+   ]
+  ],
+  "ref": "ACG 2017; AASLD 2023"
+ },
+ {
+  "id": "llst009",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Low HDL alone",
+  "scenario": "HDL 32 mg/dL; LDL 95, TG 120, no risk factors, age 30.",
+  "question": "What is the right approach?",
+  "options": [
+   "Lifestyle; no drug to raise HDL",
+   "Start niacin",
+   "Start fibrate"
+  ],
+  "answer": "🧠 القاعدة: انخفاض HDL وحده ليس هدف علاج دوائي.\n✅ التطبيق: شجّع الرياضة، خفض الوزن، ترك التدخين. يدخل HDL في حساب الخطر عند 40–75 سنة.\n⚠️ الفخ: رفع HDL بالأدوية (niacin) لم يقلل الأحداث القلبية.",
+  "terms": [
+   [
+    "niacin",
+    "ناي-يا-سِن"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc010",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Polycythaemia in a smoker",
+  "scenario": "Male smoker, 20 cig/day: Hb 18.2 g/dL, Hct 53%, WBC and platelets normal.",
+  "question": "Best first step?",
+  "options": [
+   "Stop smoking, repeat CBC; JAK2 if persists",
+   "Immediate venesection in clinic",
+   "Start aspirin and hydroxyurea"
+  ],
+  "answer": "🧠 القاعدة: Hct >52% رجل (>48% امرأة) على فحصين = erythrocytosis تحتاج تقييم.\n✅ التطبيق: التدخين (carboxyHb) سبب ثانوي شائع مثل testosterone و OSA ← أوقف، أعد CBC؛ إذا استمر اطلب JAK2 V617F و EPO.\n⚠️ الفخ: علاج كأنه polycythaemia vera دون إثبات.",
+  "terms": [
+   [
+    "Erythrocytosis",
+    "إي-ري-ثرو-سَي-تو-سِس"
+   ]
+  ],
+  "ref": "BSH 2019"
+ },
+ {
+  "id": "llfk010",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: ALT 1200: urgent",
+  "scenario": "Woman, 28, check-up: ALT 1200 U/L, AST 900 U/L. Feels tired, nauseated.",
+  "question": "What should you do?",
+  "options": [
+   "Same-day urgent referral; check INR",
+   "Repeat LFT in 3 months",
+   "Advise weight loss"
+  ],
+  "answer": "🧠 القاعدة: ALT > 1000 (أو >5-10× ULN بأعراض) = إصابة حادة → تحويل عاجل.\n✅ التطبيق: الأسباب: فيروس حاد، paracetamol، نقص تروية، أدوية. اطلب INR وحوّل اليوم.\n⚠️ الفخ: معاملتها كدهون كبد وتأجيل الإعادة؛ INR المرتفع = فشل كبدي حاد.",
+  "terms": [
+   [
+    "paracetamol",
+    "با-را-سي-تا-مول"
+   ]
+  ],
+  "ref": "ACG 2017"
+ },
+ {
+  "id": "llst010",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Lp(a)",
+  "scenario": "45-year-old, LDL 130, Lp(a) 160 nmol/L, 10-y risk 6%.",
+  "question": "How does Lp(a) change management?",
+  "options": [
+   "Risk enhancer: favours statin",
+   "Ignore; repeat Lp(a) yearly",
+   "Start niacin to lower Lp(a)"
+  ],
+  "answer": "🧠 القاعدة: Lp(a) يُقاس مرة واحدة في العمر غالباً؛ ≥50 mg/dL أو ≥125 nmol/L = risk enhancer.\n✅ التطبيق: خطر متوسط (5–7.5%) + Lp(a) مرتفع ⇒ يرجّح الستاتين.\n⚠️ الفخ: Lp(a) وراثي ثابت؛ لا داعي لتكراره، ولا تحوّل بين mg/dL وnmol/L بمعامل.",
+  "terms": [
+   [
+    "lipoprotein little a",
+    "ليبو-بروتين-ليتل-إيه"
+   ]
+  ],
+  "ref": "ACC/AHA 2018; NLA 2019"
+ },
+ {
+  "id": "lcbc011",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Benign ethnic neutropenia",
+  "scenario": "Healthy Saudi worker: ANC 1.2 ×10⁹/L, stable 3 years, Hb and platelets normal.",
+  "question": "Most appropriate action?",
+  "options": [
+   "Likely benign ethnic neutropenia; no referral",
+   "Urgent haematology referral",
+   "Start antibiotics prophylaxis"
+  ],
+  "answer": "🧠 القاعدة: BEN شائع في العرب والأفارقة (Duffy-null)؛ ANC غالباً 1.0–1.5 ثابت بلا عدوى.\n✅ التطبيق: معزول + ثابت + سليم ← BEN؛ وثّقه لتجنب فحوص متكررة.\n⚠️ الفخ: تحويل كل ANC <1.5؛ لكن ANC <1.0 أو مع cytopenia أخرى أو عدوى ← قيّم وحوّل.",
+  "terms": [
+   [
+    "Duffy-null",
+    "دَف-في نَل"
+   ]
+  ],
+  "ref": "ASH 2022 / BSH"
+ },
+ {
+  "id": "llfk011",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: Function vs injury",
+  "scenario": "Man, 55: ALT 32, AST 30 U/L. Albumin 2.9 g/dL, INR 1.5, platelets 95×10⁹/L.",
+  "question": "What does this suggest?",
+  "options": [
+   "Possible cirrhosis despite normal ALT",
+   "Healthy liver – normal enzymes",
+   "Isolated nutrition problem"
+  ],
+  "answer": "🧠 القاعدة: ALT/AST = إصابة؛ albumin و INR و bilirubin = وظيفة.\n✅ التطبيق: إنزيمات طبيعية مع albumin منخفض و INR مرتفع وصفائح قليلة → تليّف متقدم محتمل؛ US وحوّل.\n⚠️ الفخ: الكبد المتليف «المحترق» قد يكون إنزيمه طبيعياً.",
+  "terms": [
+   [
+    "cirrhosis",
+    "سِ-رو-سِس"
+   ]
+  ],
+  "ref": "AASLD 2023"
+ },
+ {
+  "id": "llst011",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Diabetes 40–75",
+  "scenario": "52-year-old with type 2 diabetes, LDL 105 mg/dL.",
+  "question": "Statin decision?",
+  "options": [
+   "Statin regardless of risk score",
+   "Only if LDL >130",
+   "Only if 10-y risk ≥20%"
+  ],
+  "answer": "🧠 القاعدة: سكري + عمر 40–75 ⇒ ستاتين (على الأقل متوسط الشدة).\n✅ التطبيق: يستحق ستاتين مباشرة؛ مع عوامل خطر إضافية ⇒ high-intensity.\n⚠️ الفخ: انتظار ارتفاع LDL خطأ؛ السكري بحد ذاته مؤشر.",
+  "terms": [
+   [
+    "atorvastatin",
+    "أتور-فا-ستا-تِن"
+   ]
+  ],
+  "ref": "ADA 2025; ACC/AHA 2018"
+ },
+ {
+  "id": "lcbc012",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Persistent lymphocytosis",
+  "scenario": "Man 58: lymphocytes 7.8 ×10⁹/L, repeat at 8 weeks 8.1; no infection.",
+  "question": "Next step?",
+  "options": [
+   "Peripheral flow cytometry for CLL",
+   "Reassure: viral infection",
+   "Repeat CBC yearly only"
+  ],
+  "answer": "🧠 القاعدة: lymphocytes >5 ×10⁹/L مستمرة (>3 أشهر أو مكررة بلا عدوى) لدى بالغ ← smear + flow cytometry.\n✅ التطبيق: 7.8 ثم 8.1 ← CLL محتمل؛ smudge cells تدعم.\n⚠️ الفخ: نسبها لفيروس دون تكرار؛ وإذا مع cytopenias أو عقد/طحال كبير ← تحويل عاجل.",
+  "terms": [
+   [
+    "Flow cytometry",
+    "فلو سَي-توم-ي-تري"
+   ]
+  ],
+  "ref": "iwCLL 2018"
+ },
+ {
+  "id": "llfk012",
+  "topic": "Labs-Prevention",
+  "title": "🟤 LFT: Statin and mild ALT",
+  "scenario": "Man, 60, on atorvastatin: ALT 75 U/L (ULN 40), asymptomatic.",
+  "question": "What to do with the statin?",
+  "options": [
+   "Continue; recheck (stop only if >3× ULN)",
+   "Stop statin permanently",
+   "Halve dose and add supplement"
+  ],
+  "answer": "🧠 القاعدة: ارتفاع ALT < 3× ULN مع statin شائع وغالباً عابر.\n✅ التطبيق: 75 أقل من 120 → استمر وأعد الفحص وابحث عن MASLD. أوقف فقط إذا >3× مستمراً أو مع يرقان.\n⚠️ الفخ: إيقاف الـ statin يحرم المريض من حماية قلبية. وانخفاض ALT طبيعي ولا يعني شيئاً.",
+  "terms": [
+   [
+    "atorvastatin",
+    "أ-تور-فا-ستا-تِن"
+   ]
+  ],
+  "ref": "ACC/AHA 2018"
+ },
+ {
+  "id": "llst012",
+  "topic": "Labs-Prevention",
+  "title": "🫀 Lipids: Statin follow-up and children",
+  "scenario": "Started atorvastatin 6 weeks ago; asks about labs. Also asks about his 10-year-old son.",
+  "question": "What is correct?",
+  "options": [
+   "Lipids now; CK if symptoms; child at 9–11",
+   "Check CK and ALT monthly; child after 20",
+   "No labs needed; child at 2 years only"
+  ],
+  "answer": "🧠 القاعدة: بعد الستاتين: lipids خلال 4–12 أسبوع لتقييم الاستجابة. ALT قبل البدء ثم عند الأعراض. CK فقط مع ألم عضلي.\n✅ التطبيق: افحص الدهون الآن. الأطفال: فحص شامل بين 9–11 سنة (وأبكر عند تاريخ عائلي/FH). ApoB مفيد مع TG المرتفع.\n⚠️ الفخ: فحص CK/ALT الروتيني الدوري غير موصى به.",
+  "terms": [
+   [
+    "apolipoprotein B",
+    "أبو-ليبو-بروتين-بي"
+   ]
+  ],
+  "ref": "ACC/AHA 2018; AAP/NHLBI 2011"
+ },
+ {
+  "id": "lcbc013",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Eosinophilia in a worker",
+  "scenario": "Asian labourer: eosinophils 1.8 ×10⁹/L, itchy rash, mild GI upset.",
+  "question": "Which test must not be missed?",
+  "options": [
+   "Strongyloides serology (and stool)",
+   "Allergy skin tests",
+   "Bone marrow for leukaemia"
+  ],
+  "answer": "🧠 القاعدة: eosinophils ≥0.5 = eosinophilia؛ ≥1.5 = hypereosinophilia تستحق بحث وتحويل إذا استمرت.\n✅ التطبيق: عامل مهاجر ← Strongyloides serology + stool O&P؛ عالج قبل أي steroids.\n⚠️ الفخ: إعطاء steroids لطفح «حساسية»؛ قد يسبب Strongyloides hyperinfection القاتل.",
+  "terms": [
+   [
+    "Strongyloides",
+    "سترون-جي-لو-يي-ديز"
+   ]
+  ],
+  "ref": "BSH 2017 / CDC"
+ },
+ {
+  "id": "llfk013",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: Creatine supplement",
+  "scenario": "Man, 26, bodybuilder on creatine: creatinine 1.5 mg/dL (133 µmol/L), eGFR 64. Urine ACR normal.",
+  "question": "Best next step?",
+  "options": [
+   "Stop creatine, repeat; or cystatin C",
+   "Diagnose CKD stage 2",
+   "Refer to nephrology"
+  ],
+  "answer": "🧠 القاعدة: creatinine = كتلة عضلية + كرياتين + لحم، ليس فقط الكلى.\n✅ التطبيق: أوقف المكمل وأعد، أو احسب eGFR بـ cystatin C غير المتأثر بالعضلات.\n⚠️ الفخ: وصم شاب رياضي بـ CKD من رقم واحد.",
+  "terms": [
+   [
+    "cystatin C",
+    "سِس-تا-تِن سي"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst013",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: What routine culture covers",
+  "scenario": "Food handler certificate: stool culture requested.",
+  "question": "Which pathogens does a routine culture target?",
+  "options": [
+   "Salmonella, Shigella, Campylobacter",
+   "All E. coli including O157 automatically",
+   "Parasites and viruses too"
+  ],
+  "answer": "🧠 القاعدة: الزراعة الروتينية: Salmonella، Shigella، Campylobacter (± Vibrio/Yersinia حسب المختبر).\n✅ التطبيق: E. coli O157 يحتاج طلباً خاصاً (SMAC أو Shiga toxin)؛ Vibrio يحتاج TCBS عند الاشتباه.\n⚠️ الفخ: الزراعة لا تكشف الطفيليات؛ اطلب O&P منفصلاً.",
+  "terms": [
+   [
+    "Campylobacter",
+    "كام-بي-لو-باك-تر"
+   ]
+  ],
+  "ref": "CDC; IDSA 2017"
+ },
+ {
+  "id": "lcbc014",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Monocytosis",
+  "scenario": "Man 70: monocytes 1.6 ×10⁹/L persistent 3 months, Hb 11 g/dL, platelets 110.",
+  "question": "What does this need?",
+  "options": [
+   "Haematology referral (?CMML)",
+   "Reassure; reactive",
+   "Treat for TB empirically"
+  ],
+  "answer": "🧠 القاعدة: monocytes >1.0 غالباً تفاعلي (عدوى، التهاب، تعافي)؛ لكن ≥1.0 مستمرة >3 أشهر مع cytopenia ← اشتباه CMML.\n✅ التطبيق: كبير سن + anaemia + thrombocytopenia ← تحويل.\n⚠️ الفخ: اعتبارها تفاعلية دائماً دون النظر لبقية الخطوط.",
+  "terms": [
+   [
+    "Monocytosis",
+    "مو-نو-سَي-تو-سِس"
+   ]
+  ],
+  "ref": "WHO 2022"
+ },
+ {
+  "id": "llfk014",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: One low eGFR",
+  "scenario": "Woman, 50: eGFR 52 mL/min/1.73m² once. ACR normal. No prior results.",
+  "question": "Can you diagnose CKD?",
+  "options": [
+   "No – repeat; CKD needs >3 months",
+   "Yes – CKD G3a",
+   "Yes – start ACE inhibitor"
+  ],
+  "answer": "🧠 القاعدة: CKD = انخفاض eGFR <60 أو علامة ضرر مستمرة > 3 أشهر.\n✅ التطبيق: أعد الفحص؛ إن استمر 3 أشهر فهو G3a. قبلها استبعد الجفاف والأدوية.\n⚠️ الفخ: قيمة واحدة قد تكون AKI أو تذبذب.",
+  "terms": [
+   [
+    "chronicity",
+    "كرو-نِ-سِ-تي"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst014",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: Asymptomatic Salmonella",
+  "scenario": "Healthy cook, stool grows Salmonella Enteritidis; no symptoms.",
+  "question": "Management?",
+  "options": [
+   "No antibiotics; exclude per policy",
+   "Ciprofloxacin 14 days",
+   "Ignore; issue certificate"
+  ],
+  "answer": "🧠 القاعدة: Salmonella non-Typhi بلا أعراض: لا مضادات عادةً.\n✅ التطبيق: المضادات تطيل الحمل (carriage). استبعاد من تداول الطعام حسب سياسة الجهة حتى عينات سلبية، ونظافة يدين.\n⚠️ الفخ: إعطاء cipro 'لتسريع الشهادة' يطيل الإطراح.",
+  "terms": [
+   [
+    "Enteritidis",
+    "إن-تي-ري-تي-دِس"
+   ]
+  ],
+  "ref": "UKHSA 2019; IDSA 2017"
+ },
+ {
+  "id": "lcbc015",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Pseudothrombocytopenia",
+  "scenario": "Healthy driver: platelets 45 ×10⁹/L, no bleeding; analyser flags clumps.",
+  "question": "Next step?",
+  "options": [
+   "Repeat in citrate tube + smear",
+   "Urgent haematology referral",
+   "Stop aspirin and start steroids"
+  ],
+  "answer": "🧠 القاعدة: thrombocytopenia بلا نزف + flag clumps ← اشتبه EDTA clumping.\n✅ التطبيق: أعد في citrate (أزرق) وافحص smear؛ إذا طبيعي = pseudo.\n⚠️ الفخ: تحويل أو منع الشهادة بسبب artefact؛ وثّقه في الملف.",
+  "terms": [
+   [
+    "Pseudothrombocytopenia",
+    "سو-دو-ثروم-بو-سَي-تو-بي-ني-ا"
+   ]
+  ],
+  "ref": "BSH"
+ },
+ {
+  "id": "llfk015",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: ACR categories",
+  "scenario": "Man, 48, diabetic: urine ACR 120 mg/g (13.6 mg/mmol), then 95 and 150 mg/g.",
+  "question": "His albuminuria category?",
+  "options": [
+   "A2 (30–300 mg/g)",
+   "A1 (<30 mg/g)",
+   "A3 (>300 mg/g)"
+  ],
+  "answer": "🧠 القاعدة: A1 < 30، A2 = 30-300، A3 > 300 mg/g (3 و 30 mg/mmol). يُثبت بـ 2 من 3 عينات.\n✅ التطبيق: 3 عينات كلها 30-300 → A2 مؤكد.\n⚠️ الفخ: التصنيف من عينة واحدة؛ التمرين والحمى و UTI ترفعه مؤقتاً.",
+  "terms": [
+   [
+    "albuminuria",
+    "ال-بيو-مِن-يو-ريا"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst015",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: Salmonella Typhi",
+  "scenario": "Food handler, stool grows Salmonella Typhi, asymptomatic.",
+  "question": "What is needed?",
+  "options": [
+   "Exclude, treat, notify; clearance stools",
+   "No treatment like other Salmonella",
+   "Return to work after one negative"
+  ],
+  "answer": "🧠 القاعدة: Typhi/Paratyphi مختلفة: تُعالج دائماً وتُبلّغ.\n✅ التطبيق: استبعاد فوري، إبلاغ الصحة العامة، علاج حسب الحساسية، ثم عينات متتالية سلبية قبل العودة (عددها حسب البروتوكول المحلي).\n⚠️ الفخ: معاملتها مثل non-Typhi تترك حاملاً مزمناً يعدي الآخرين.",
+  "terms": [
+   [
+    "Paratyphi",
+    "با-را-تاي-في"
+   ]
+  ],
+  "ref": "UKHSA 2017; Saudi MOH"
+ },
+ {
+  "id": "lcbc016",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Mild isolated thrombocytopenia",
+  "scenario": "Woman 30: platelets 120 ×10⁹/L, smear normal, no clumps, other lines normal.",
+  "question": "What is appropriate?",
+  "options": [
+   "Repeat in 4–6 weeks; check HCV/HIV, liver",
+   "Urgent haematology today",
+   "Platelet transfusion"
+  ],
+  "answer": "🧠 القاعدة: 100–150 معزولة بلا نزف = متابعة، ابحث عن أسباب: كبد، HCV/HIV، أدوية، H. pylori، حمل.\n✅ التطبيق: أعد بعد أسابيع واطلب LFT وسيرولوجي؛ ثابت وطبيعي = متابعة سنوية.\n⚠️ الفخ: الإهمال إذا هبطت <100 أو مع نزف؛ حينها حوّل.",
+  "terms": [
+   [
+    "Thrombocytopenia",
+    "ثروم-بو-سَي-تو-بي-ني-ا"
+   ]
+  ],
+  "ref": "ASH 2019"
+ },
+ {
+  "id": "llfk016",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: Urea:creatinine ratio",
+  "scenario": "Man, 30, worker after hot shift: urea (BUN) 32 mg/dL, creatinine 1.1 mg/dL.",
+  "question": "Most likely explanation?",
+  "options": [
+   "Dehydration (ratio ~29, >20)",
+   "Intrinsic kidney disease",
+   "Normal finding"
+  ],
+  "answer": "🧠 القاعدة: BUN/creatinine > 20 = prerenal (جفاف)، نزيف هضمي علوي، بروتين عالٍ، steroids.\n✅ التطبيق: 32/1.1 ≈ 29 بعد عمل في الحر → جفاف. سوائل وأعد الفحص.\n⚠️ الفخ: تشخيص مرض كلوي؛ وانتبه للبراز الأسود (GI bleed).",
+  "terms": [
+   [
+    "prerenal",
+    "بري-ري-نال"
+   ]
+  ],
+  "ref": "KDIGO 2012"
+ },
+ {
+  "id": "llst016",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: Shigella",
+  "scenario": "Asymptomatic waiter, stool grows Shigella sonnei.",
+  "question": "Action?",
+  "options": [
+   "Exclude until negative stools; notify",
+   "Allow work with handwashing",
+   "No action, it is colonisation"
+  ],
+  "answer": "🧠 القاعدة: Shigella: جرعة معدية صغيرة جداً (10–100 جرثومة).\n✅ التطبيق: استبعاد من العمل بالطعام حتى عينات سلبية حسب السياسة، وإبلاغ، وفحص المخالطين؛ العلاج حسب الحساسية.\n⚠️ الفخ: الاكتفاء بغسل اليدين لا يكفي مع جرعة معدية بهذا الصغر.",
+  "terms": [
+   [
+    "Shigella sonnei",
+    "شي-غِل-لا سو-ناي"
+   ]
+  ],
+  "ref": "UKHSA 2019"
+ },
+ {
+  "id": "lcbc017",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Reactive thrombocytosis",
+  "scenario": "Woman 35: platelets 560 ×10⁹/L, Hb 10.2 g/dL, MCV 71 fL, ferritin 5 ng/mL.",
+  "question": "Most likely cause?",
+  "options": [
+   "Reactive to iron deficiency",
+   "Essential thrombocythaemia",
+   "CML"
+  ],
+  "answer": "🧠 القاعدة: أكثر thrombocytosis تفاعلي: نقص حديد، التهاب، عدوى، بعد استئصال الطحال.\n✅ التطبيق: ferritin 5 ← عالج الحديد وأعد CBC؛ تنخفض الصفائح.\n⚠️ الفخ: طلب JAK2 قبل تصحيح الحديد؛ إذا بقيت >450 بعد التصحيح ← JAK2/CALR/MPL وتحويل.",
+  "terms": [
+   [
+    "Thrombocythaemia",
+    "ثروم-بو-سَي-ثي-مي-ا"
+   ]
+  ],
+  "ref": "BSH 2010"
+ },
+ {
+  "id": "llfk017",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: High potassium artefact",
+  "scenario": "Woman, 35, healthy: K 6.1 mmol/L. Sample delayed 6 h; lab notes haemolysis.",
+  "question": "Best next step?",
+  "options": [
+   "Repeat promptly with a fresh sample",
+   "Send to ED for ECG and treatment",
+   "Start low-potassium diet"
+  ],
+  "answer": "🧠 القاعدة: K مرتفع في شخص سليم = artefact حتى يثبت العكس.\n✅ التطبيق: haemolysis وتأخير العينة وقبضة اليد وكثرة الصفائح/WBC ترفع K. أعد بعينة سريعة غير محللة.\n⚠️ الفخ: علاج رقم مزيف؛ لكن إن كان >6.5 أو بأعراض فـ ECG عاجل.",
+  "terms": [
+   [
+    "pseudohyperkalaemia",
+    "سو-دو-هاي-بر-كا-لي-ميا"
+   ]
+  ],
+  "ref": "UK Renal Association 2020"
+ },
+ {
+  "id": "llst017",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: Campylobacter",
+  "scenario": "Worker, Campylobacter jejuni, diarrhoea resolved 3 days ago.",
+  "question": "Return to work?",
+  "options": [
+   "Yes, 48 h symptom-free with good hygiene",
+   "Needs 3 negative cultures",
+   "Needs azithromycin first"
+  ],
+  "answer": "🧠 القاعدة: Campylobacter: لا ينتقل بسهولة بين البشر؛ العودة بعد 48 ساعة بلا أعراض.\n✅ التطبيق: توقفت الأعراض منذ 3 أيام ⇒ يعود مع نظافة يدين، دون عينات تخلص.\n⚠️ الفخ: طلب cultures متكررة يؤخر العودة بلا داعٍ.",
+  "terms": [
+   [
+    "jejuni",
+    "جي-جو-ناي"
+   ]
+  ],
+  "ref": "UKHSA 2019"
+ },
+ {
+  "id": "lcbc018",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Pancytopenia = urgent",
+  "scenario": "Man 40, tired: Hb 8.1 g/dL, WBC 2.1, platelets 60 ×10⁹/L.",
+  "question": "Action?",
+  "options": [
+   "Urgent haematology referral (same week)",
+   "Iron tablets, review in 3 months",
+   "Repeat CBC next year"
+  ],
+  "answer": "🧠 القاعدة: نقص الخطوط الثلاثة = فشل نخاع أو ارتشاح حتى يثبت العكس.\n✅ التطبيق: Hb 8 + WBC 2 + PLT 60 ← smear + B12/folate + تحويل عاجل.\n⚠️ الفخ: علاج anaemia وحدها؛ الأسباب تشمل aplastic anaemia، leukaemia، B12 شديد.",
+  "terms": [
+   [
+    "Pancytopenia",
+    "بان-سَي-تو-بي-ني-ا"
+   ]
+  ],
+  "ref": "BSH 2016"
+ },
+ {
+  "id": "llfk018",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: Thrombocytosis and K",
+  "scenario": "Man, 45: K 5.9 mmol/L on two samples, platelets 850×10⁹/L, eGFR normal.",
+  "question": "Best test to confirm?",
+  "options": [
+   "Plasma (heparin tube) potassium",
+   "24-hour urine potassium",
+   "Start a potassium binder"
+  ],
+  "answer": "🧠 القاعدة: الصفائح الكثيرة تطلق K أثناء تجلط العينة (serum).\n✅ التطبيق: اطلب K في plasma؛ إن كان طبيعياً فهو pseudohyperkalaemia. وقيّم سبب الـ thrombocytosis.\n⚠️ الفخ: علاج K مزيف بأدوية خافضة.",
+  "terms": [
+   [
+    "thrombocytosis",
+    "ثروم-بو-ساي-تو-سِس"
+   ]
+  ],
+  "ref": "UK Renal Association 2020"
+ },
+ {
+  "id": "llst018",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: PCR panel positive",
+  "scenario": "Asymptomatic worker; multiplex PCR detects EPEC only.",
+  "question": "How to interpret?",
+  "options": [
+   "Likely colonisation; no treatment",
+   "Treat with ciprofloxacin",
+   "Exclude for 1 month"
+  ],
+  "answer": "🧠 القاعدة: PCR يكشف DNA ولو لجراثيم ميتة أو مستعمِرة.\n✅ التطبيق: EPEC في شخص سليم غالباً لا معنى سريري له. فسّر حسب الأعراض؛ أكد الحالات المهمة بالزراعة.\n⚠️ الفخ: معالجة كل نتيجة PCR إيجابية يؤدي لمضادات غير ضرورية.",
+  "terms": [
+   [
+    "multiplex",
+    "مَل-تي-بلِكس"
+   ]
+  ],
+  "ref": "IDSA 2017"
+ },
+ {
+  "id": "lcbc019",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Blasts on smear",
+  "scenario": "Routine check: WBC 28 ×10⁹/L, smear reports blasts 12%.",
+  "question": "What do you do?",
+  "options": [
+   "Same-day referral to haematology/ED",
+   "Antibiotics and repeat in 2 weeks",
+   "Refer routine outpatient clinic"
+  ],
+  "answer": "🧠 القاعدة: أي blasts في الدم الطرفي لبالغ = طارئ (اشتباه acute leukaemia).\n✅ التطبيق: اتصل بالدموية أو ED نفس اليوم.\n⚠️ الفخ: اعتبار ارتفاع WBC عدوى؛ وجود blasts يغيّر كل شيء.",
+  "terms": [
+   [
+    "Blasts",
+    "بلاستس"
+   ],
+   [
+    "Leukaemia",
+    "لو-كي-مي-ا"
+   ]
+  ],
+  "ref": "BSH"
+ },
+ {
+  "id": "llfk019",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: Mild hyponatraemia",
+  "scenario": "Woman, 68, on hydrochlorothiazide: Na 131 mmol/L, asymptomatic.",
+  "question": "Best action?",
+  "options": [
+   "Review thiazide; recheck Na",
+   "Urgent ED referral",
+   "Hypertonic saline"
+  ],
+  "answer": "🧠 القاعدة: Na 130-135 بلا أعراض = خفيف؛ ابحث عن السبب، أهمه الأدوية.\n✅ التطبيق: thiazide سبب شائع لدى كبار السن؛ راجع الدواء وأعد القياس.\n⚠️ الفخ: تجاهله تماماً؛ خفيف لكنه يزيد السقوط. التحويل العاجل إذا <125 أو أعراض عصبية.",
+  "terms": [
+   [
+    "hydrochlorothiazide",
+    "هاي-درو-كلو-رو-ثاي-أ-زايد"
+   ]
+  ],
+  "ref": "European Guideline 2014"
+ },
+ {
+  "id": "llst019",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: After antibiotics",
+  "scenario": "Worker took ciprofloxacin last week; culture today is negative.",
+  "question": "How reliable?",
+  "options": [
+   "May be falsely negative; repeat later",
+   "Fully reliable",
+   "Positive pathogens persist anyway"
+  ],
+  "answer": "🧠 القاعدة: المضادات تخفض حساسية الزراعة.\n✅ التطبيق: عينة خلال/بعد المضاد مباشرة قد تكون سلبية كاذبة؛ أعد بعد ≥48 ساعة من آخر جرعة (أو حسب البروتوكول).\n⚠️ الفخ: إصدار شهادة على عينة بعد مضاد قد يمرر حاملاً.",
+  "terms": [
+   [
+    "ciprofloxacin",
+    "سِب-رو-فلوك-سا-سِن"
+   ]
+  ],
+  "ref": "UKHSA"
+ },
+ {
+  "id": "lcbc020",
+  "topic": "Labs-Prevention",
+  "title": "🩸 CBC: Same-day red flags",
+  "scenario": "Which result in an outpatient needs same-day referral?",
+  "question": "Pick the urgent one.",
+  "options": [
+   "Platelets 15 ×10⁹/L with petechiae",
+   "Hb 12.5 g/dL, MCV 78 fL",
+   "ANC 1.3 ×10⁹/L, stable"
+  ],
+  "answer": "🧠 القاعدة: الحمراء: Hb <7 أو أعراض، PLT <20 أو نزف، ANC <0.5 خصوصاً مع حمى، blasts، WBC >100، pancytopenia.\n✅ التطبيق: PLT 15 + petechiae ← طوارئ اليوم.\n⚠️ الفخ: الانشغال بـ microcytosis خفيف أو BEN ثابت.",
+  "terms": [
+   [
+    "Petechiae",
+    "بِ-تي-كي-ي"
+   ]
+  ],
+  "ref": "BSH"
+ },
+ {
+  "id": "llfk020",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: Asymptomatic uric acid",
+  "scenario": "Man, 40: uric acid 8.6 mg/dL (512 µmol/L). No gout, no stones.",
+  "question": "Start urate-lowering therapy?",
+  "options": [
+   "No – lifestyle only",
+   "Yes – allopurinol",
+   "Yes – febuxostat"
+  ],
+  "answer": "🧠 القاعدة: hyperuricaemia بلا أعراض لا تُعالج دوائياً.\n✅ التطبيق: نصائح: وزن، تقليل الكحول والمشروبات السكرية واللحوم الحمراء. قيّم الضغط والسكر والدهون.\n⚠️ الفخ: allopurinol بلا داعٍ يعرّض لتحسس خطير (HLA-B*58:01).",
+  "terms": [
+   [
+    "allopurinol",
+    "أ-لو-بيو-ري-نول"
+   ]
+  ],
+  "ref": "ACR 2020"
+ },
+ {
+  "id": "llst020",
+  "topic": "Labs-Prevention",
+  "title": "🦠 Stool culture: Vibrio request",
+  "scenario": "Worker returned from cholera-affected area, watery diarrhoea.",
+  "question": "What do you ask the lab?",
+  "options": [
+   "Specify Vibrio (TCBS); refer if dehydrated",
+   "Routine culture is enough",
+   "O&P only"
+  ],
+  "answer": "🧠 القاعدة: Vibrio يحتاج وسط TCBS؛ اذكر الاشتباه.\n✅ التطبيق: اكتب 'suspect Vibrio cholerae' على الطلب، قيّم الجفاف وأحل عند الحاجة، وأبلغ.\n⚠️ الفخ: الزراعة الروتينية قد لا تكشف Vibrio.",
+  "terms": [
+   [
+    "Vibrio cholerae",
+    "في-بري-يو كو-لي-راي"
+   ]
+  ],
+  "ref": "CDC"
+ },
+ {
+  "id": "lcbc021",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Ferritin best single test",
+  "scenario": "Woman 28, tired: Hb 12.6 g/dL, ferritin 11 ng/mL, CRP normal.",
+  "question": "Interpretation?",
+  "options": [
+   "Iron deficiency without anaemia",
+   "Normal: Hb is normal",
+   "Needs bone marrow iron"
+  ],
+  "answer": "🧠 القاعدة: ferritin أفضل فحص منفرد: <15 تشخيصي، <30 نقص حديد عند البالغ.\n✅ التطبيق: 11 مع CRP طبيعي ← نقص حديد بدون anaemia؛ عالج وابحث عن السبب.\n⚠️ الفخ: الاطمئنان لأن Hb طبيعي؛ النقص يسبق الأنيميا.",
+  "terms": [
+   [
+    "Ferritin",
+    "في-ري-تِن"
+   ]
+  ],
+  "ref": "AGA 2020 / BSG 2021"
+ },
+ {
+  "id": "llfk021",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: eGFR in the elderly",
+  "scenario": "Woman, 82, slim: creatinine 0.9 mg/dL (80 µmol/L), eGFR 58. ACR normal, stable 2 years.",
+  "question": "Correct interpretation?",
+  "options": [
+   "Age-related G3a; low risk; adjust drug doses",
+   "Normal creatinine, so kidneys normal",
+   "Urgent nephrology referral"
+  ],
+  "answer": "🧠 القاعدة: creatinine «طبيعي» في مسنّة نحيفة قد يخفي eGFR منخفضاً.\n✅ التطبيق: eGFR ثابت 58 بلا albuminuria → G3a A1 منخفض الخطورة: عدّل جرعات الأدوية، تجنب NSAIDs، تابع سنوياً.\n⚠️ الفخ: الحكم بالـ creatinine وحده، أو تحويل غير لازم.",
+  "terms": [
+   [
+    "sarcopenia",
+    "سار-كو-بي-نيا"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst021",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: How many samples",
+  "scenario": "One stool O&P negative; worker from endemic area with eosinophilia.",
+  "question": "Next step?",
+  "options": [
+   "3 samples on different days",
+   "Accept single negative",
+   "Repeat same day ×3"
+  ],
+  "answer": "🧠 القاعدة: عينة واحدة تكشف ~60–70%؛ ثلاث عينات في أيام مختلفة ترفعها لـ >90%.\n✅ التطبيق: مع eosinophilia ⇒ اطلب 3 عينات في أيام مختلفة + Strongyloides serology.\n⚠️ الفخ: ثلاث عينات في يوم واحد لا تحل الإطراح المتقطع.",
+  "terms": [
+   [
+    "eosinophilia",
+    "إيو-سي-نو-في-ليا"
+   ]
+  ],
+  "ref": "CDC DPDx"
+ },
+ {
+  "id": "lcbc022",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Ferritin in inflammation",
+  "scenario": "RA patient: Hb 10.5 g/dL, ferritin 70 ng/mL, CRP 30 mg/L, TSAT 12%.",
+  "question": "Is iron deficient?",
+  "options": [
+   "Yes: ferritin <100 + TSAT <20% with CRP up",
+   "No: ferritin is above 30",
+   "Cannot tell without marrow"
+  ],
+  "answer": "🧠 القاعدة: ferritin acute-phase يرتفع مع الالتهاب؛ مع inflammation يُقبل <100 + TSAT <20% كنقص حديد.\n✅ التطبيق: 70 و TSAT 12% و CRP عالي ← نقص حديد مع التهاب.\n⚠️ الفخ: تطبيق حد 30 في وجود التهاب فيُفوَّت النقص.",
+  "terms": [
+   [
+    "Acute-phase",
+    "أكيوت فيز"
+   ]
+  ],
+  "ref": "ESC/KDIGO / BSG 2021"
+ },
+ {
+  "id": "llfk022",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: Single kidney check",
+  "scenario": "Man, 35, born with one kidney: BP 128/80, eGFR 85.",
+  "question": "What follow-up?",
+  "options": [
+   "Yearly BP, eGFR and urine ACR",
+   "Nothing – eGFR normal",
+   "Ultrasound every 3 months"
+  ],
+  "answer": "🧠 القاعدة: كلية وحيدة = متابعة سنوية: ضغط + eGFR + ACR.\n✅ التطبيق: الكلية الوحيدة تعمل بفرط ترشيح؛ أول علامة ضرر غالباً albuminuria أو ارتفاع الضغط.\n⚠️ الفخ: الاطمئنان لـ eGFR طبيعي وترك المتابعة.",
+  "terms": [
+   [
+    "hyperfiltration",
+    "هاي-بر-فِل-تري-شن"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst022",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Preservatives",
+  "scenario": "Sample will reach lab after 6 hours.",
+  "question": "What is correct?",
+  "options": [
+   "Use preservative (formalin/PVA/SAF)",
+   "Refrigerate unpreserved; trophozoites fine",
+   "Freeze the sample"
+  ],
+  "answer": "🧠 القاعدة: الـtrophozoites تموت بسرعة؛ استخدم مادة حافظة إذا التأخير طويل.\n✅ التطبيق: يُوضع في 10% formalin وPVA (أو SAF).\n⚠️ الفخ: التجميد يتلف الطفيليات.",
+  "terms": [
+   [
+    "trophozoite",
+    "تروف-و-زو-آيت"
+   ]
+  ],
+  "ref": "CDC DPDx"
+ },
+ {
+  "id": "lcbc023",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: TSAT and TIBC pattern",
+  "scenario": "Hb 10 g/dL: serum iron 30 µg/dL, TIBC 450 µg/dL, ferritin 8 ng/mL.",
+  "question": "Which pattern is this?",
+  "options": [
+   "Iron deficiency (TIBC high, TSAT 7%)",
+   "Anaemia of chronic disease",
+   "Iron overload"
+  ],
+  "answer": "🧠 القاعدة: TSAT = iron ÷ TIBC ×100. نقص الحديد: TIBC ↑، TSAT <20% (غالباً <16%)؛ الالتهاب: TIBC ↓.\n✅ التطبيق: 30÷450 ≈ 7% + TIBC عالي + ferritin 8 ← نقص حديد.\n⚠️ الفخ: الخلط مع chronic disease حيث TIBC منخفض و ferritin طبيعي/عالي.",
+  "terms": [
+   [
+    "Transferrin",
+    "ترانس-في-رِن"
+   ]
+  ],
+  "ref": "BSH"
+ },
+ {
+  "id": "llfk023",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: Triple whammy",
+  "scenario": "Man, 62, on ramipril + furosemide, starts ibuprofen for knee pain. Creatinine rose 1.0 → 1.6 mg/dL.",
+  "question": "Best action?",
+  "options": [
+   "Stop NSAID; review diuretic; recheck",
+   "Continue all; recheck in 6 months",
+   "Add spironolactone"
+  ],
+  "answer": "🧠 القاعدة: ACEi/ARB + diuretic + NSAID = «triple whammy» → AKI.\n✅ التطبيق: ارتفاع 60% = AKI. أوقف ibuprofen واستخدم paracetamol، راجع المدر، أعد خلال أيام.\n⚠️ الفخ: الاستمرار. وارتفاع creatinine حتى 30% بعد بدء ACEi مقبول ولا يستدعي الإيقاف.",
+  "terms": [
+   [
+    "ibuprofen",
+    "آي-بيو-برو-فين"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst023",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: E. histolytica/dispar",
+  "scenario": "Report: 'Entamoeba histolytica/dispar cysts'. Asymptomatic.",
+  "question": "Next step?",
+  "options": [
+   "Antigen or PCR to confirm histolytica",
+   "Treat as amoebic dysentery",
+   "Ignore as non-pathogenic"
+  ],
+  "answer": "🧠 القاعدة: المجهر لا يفرّق histolytica عن dispar (غير ممرض).\n✅ التطبيق: اطلب antigen/PCR؛ إذا histolytica: علاج luminal (paromomycin) حتى بلا أعراض.\n⚠️ الفخ: E. coli, E. hartmanni, Endolimax nana, Iodamoeba غير ممرضة.",
+  "terms": [
+   [
+    "dispar",
+    "دِس-بار"
+   ],
+   [
+    "Endolimax",
+    "إن-دو-لي-ماكس"
+   ]
+  ],
+  "ref": "CDC DPDx"
+ },
+ {
+  "id": "lcbc024",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Serum iron alone misleads",
+  "scenario": "Afternoon sample: serum iron 45 µg/dL; ferritin 120 ng/mL, CRP normal, Hb normal.",
+  "question": "Interpretation?",
+  "options": [
+   "No iron deficiency; serum iron varies",
+   "Iron deficiency: start iron",
+   "Repeat serum iron weekly"
+  ],
+  "answer": "🧠 القاعدة: serum iron له تذبذب يومي (أعلى صباحاً) ويتأثر بالأكل؛ لا يُستخدم وحده.\n✅ التطبيق: ferritin 120 بلا التهاب ← مخزون كافٍ.\n⚠️ الفخ: وصف حديد بناءً على serum iron منخفض منفرد.",
+  "terms": [
+   [
+    "Diurnal",
+    "داي-يُر-نال"
+   ]
+  ],
+  "ref": "BSH"
+ },
+ {
+  "id": "llfk024",
+  "topic": "Labs-Prevention",
+  "title": "💧 KFT: When to refer",
+  "scenario": "Woman, 58: eGFR 45 stable, ACR 450 mg/g (51 mg/mmol) on repeat.",
+  "question": "Refer to nephrology?",
+  "options": [
+   "Yes – ACR >300 mg/g",
+   "No – eGFR above 30",
+   "No – only if eGFR <15"
+  ],
+  "answer": "🧠 القاعدة: حوّل إذا eGFR <30، ACR >300 mg/g، هبوط سريع (>25% أو >5/سنة)، أو haematuria + proteinuria.\n✅ التطبيق: ACR 450 = A3 → تحويل رغم eGFR 45.\n⚠️ الفخ: الاعتماد على eGFR وحده؛ الـ albuminuria الشديدة أقوى مؤشر للتطور.",
+  "terms": [
+   [
+    "nephrology",
+    "نِ-فرو-لو-جي"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst024",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Blastocystis",
+  "scenario": "Asymptomatic worker: Blastocystis hominis reported.",
+  "question": "Action?",
+  "options": [
+   "No treatment; fit for work",
+   "Metronidazole 10 days",
+   "Exclude from food handling"
+  ],
+  "answer": "🧠 القاعدة: Blastocystis شائعة جداً وغالباً بلا أهمية.\n✅ التطبيق: لا علاج ولا استبعاد عند غياب الأعراض.\n⚠️ الفخ: العلاج الروتيني بلا داعٍ ومشكوك الفائدة.",
+  "terms": [
+   [
+    "Blastocystis",
+    "بلاس-تو-سِس-تِس"
+   ]
+  ],
+  "ref": "CDC DPDx"
+ },
+ {
+  "id": "lcbc025",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: High ferritin, healthy adult",
+  "scenario": "Man 45, BMI 33, fatty liver on US: ferritin 650 ng/mL, TSAT 30%, ALT 70 U/L.",
+  "question": "Most likely explanation?",
+  "options": [
+   "Metabolic/fatty liver hyperferritinaemia",
+   "Hereditary haemochromatosis",
+   "Start venesection now"
+  ],
+  "answer": "🧠 القاعدة: ferritin عالٍ مع TSAT <45% = غالباً metabolic (MASLD)، alcohol، التهاب — لا overload.\n✅ التطبيق: سمنة + fatty liver + TSAT 30% ← عالج الوزن والكحول وأعد.\n⚠️ الفخ: تشخيص haemochromatosis من ferritin وحده؛ TSAT هو المفتاح.",
+  "terms": [
+   [
+    "Hyperferritinaemia",
+    "هاي-بَر-في-ري-تي-ني-مي-ا"
+   ]
+  ],
+  "ref": "EASL 2022"
+ },
+ {
+  "id": "llfk025",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Blood but no RBCs",
+  "scenario": "Man, 25: dipstick blood 3+, microscopy 0–1 RBC/hpf. Ran a marathon yesterday.",
+  "question": "What is the likely cause?",
+  "options": [
+   "Myoglobin (or haemoglobin) – check CK",
+   "Kidney stone",
+   "Bladder cancer"
+  ],
+  "answer": "🧠 القاعدة: dipstick دم موجب + لا RBC تحت المجهر = pigment: myoglobin أو haemoglobin.\n✅ التطبيق: ماراثون → rhabdomyolysis محتمل: CK و creatinine وسوائل.\n⚠️ الفخ: البحث عن حصى أو ورم؛ والـ dipstick وحده لا يكفي لتشخيص haematuria.",
+  "terms": [
+   [
+    "myoglobinuria",
+    "ماي-و-غلو-بِن-يو-ريا"
+   ]
+  ],
+  "ref": "AUA 2025"
+ },
+ {
+  "id": "llst025",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Giardia and Cryptosporidium",
+  "scenario": "Child with prolonged diarrhoea; O&P negative.",
+  "question": "What to add?",
+  "options": [
+   "Giardia/Crypto antigen; modified acid-fast",
+   "Repeat routine culture",
+   "Occult blood test"
+  ],
+  "answer": "🧠 القاعدة: Giardia يُكشف أدق بالـantigen؛ Cryptosporidium لا يظهر في O&P الروتيني.\n✅ التطبيق: اطلب antigen (أو PCR) وصبغة modified acid-fast للـCrypto.\n⚠️ الفخ: O&P سلبي لا ينفي هذين.",
+  "terms": [
+   [
+    "Cryptosporidium",
+    "كريب-تو-سبو-ري-ديوم"
+   ],
+   [
+    "Giardia",
+    "جي-آر-ديا"
+   ]
+  ],
+  "ref": "CDC DPDx"
+ },
+ {
+  "id": "lcbc026",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: TSAT ≥45% → HFE",
+  "scenario": "Man 40: fasting TSAT 62%, ferritin 900 ng/mL, ALT mildly high.",
+  "question": "Next step?",
+  "options": [
+   "HFE genotyping (C282Y) and refer",
+   "Iron-rich diet advice",
+   "Repeat ferritin in 2 years"
+  ],
+  "answer": "🧠 القاعدة: TSAT صائم ≥45% مع ferritin عالي ← HFE (C282Y/H63D).\n✅ التطبيق: TSAT 62% ← HFE وتحويل كبد/دموية؛ ferritin >1000 يحتاج تقييم تليف.\n⚠️ الفخ: HFE نادر في العرب؛ إذا سلبي لا يستبعد overload من أسباب أخرى (thalassaemia، نقل دم) فتحتاج إحالة.",
+  "terms": [
+   [
+    "Haemochromatosis",
+    "هي-مو-كرو-ما-تو-سِس"
+   ]
+  ],
+  "ref": "EASL 2022"
+ },
+ {
+  "id": "llfk026",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Microscopic haematuria",
+  "scenario": "Woman, 30: microscopy 5 RBC/hpf. She is on day 2 of menses.",
+  "question": "Best next step?",
+  "options": [
+   "Repeat after menses",
+   "Cystoscopy",
+   "CT urogram"
+  ],
+  "answer": "🧠 القاعدة: microscopic haematuria = ≥3 RBC/hpf بالمجهر. استبعد الدورة والتمرين و UTI والقسطرة أولاً.\n✅ التطبيق: العينة أثناء الحيض غير صالحة؛ أعد بعد انتهائها.\n⚠️ الفخ: البدء بفحوصات تداخلية قبل إعادة عينة نظيفة.",
+  "terms": [
+   [
+    "haematuria",
+    "هي-ما-تيو-ريا"
+   ]
+  ],
+  "ref": "AUA 2025"
+ },
+ {
+  "id": "llst026",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Strongyloides",
+  "scenario": "Worker from South Asia, eosinophilia, 3 O&P negative, steroids planned.",
+  "question": "Next step?",
+  "options": [
+   "Strongyloides serology; ivermectin if +",
+   "Reassure; O&P negative",
+   "Albendazole for everyone"
+  ],
+  "answer": "🧠 القاعدة: Strongyloides يطرح يرقات قليلة، يفوته O&P.\n✅ التطبيق: اطلب serology؛ إيجابي ⇒ ivermectin قبل الكورتيزون لمنع hyperinfection.\n⚠️ الفخ: البيض في O&P لا يخص Strongyloides؛ يظهر كيرقات.",
+  "terms": [
+   [
+    "Strongyloides",
+    "سترون-جي-لو-يدز"
+   ],
+   [
+    "ivermectin",
+    "آي-فر-مِك-تِن"
+   ]
+  ],
+  "ref": "CDC"
+ },
+ {
+  "id": "lcbc028",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Coeliac and H. pylori",
+  "scenario": "Woman 25: refractory iron deficiency despite adherence, no heavy menses.",
+  "question": "Which tests are appropriate?",
+  "options": [
+   "Coeliac tTG-IgA and H. pylori test",
+   "Increase iron to three times daily",
+   "Bone marrow biopsy"
+  ],
+  "answer": "🧠 القاعدة: نقص حديد لا يستجيب ← سوء امتصاص: coeliac، H. pylori، atrophic gastritis، PPIs.\n✅ التطبيق: tTG-IgA (مع total IgA) + H. pylori stool antigen/breath test.\n⚠️ الفخ: زيادة الجرعة يومياً عدة مرات؛ يزيد hepcidin والأعراض دون فائدة.",
+  "terms": [
+   [
+    "Coeliac",
+    "سي-لي-ياك"
+   ],
+   [
+    "Hepcidin",
+    "هِب-سي-دِن"
+   ]
+  ],
+  "ref": "BSG 2021"
+ },
+ {
+  "id": "llfk027",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Smoker with haematuria",
+  "scenario": "Man, 58, 30 pack-year smoker: 12 RBC/hpf on two samples, no UTI.",
+  "question": "Best next step?",
+  "options": [
+   "Urology: cystoscopy + CT urogram",
+   "Repeat urine in 1 year",
+   "Treat as UTI"
+  ],
+  "answer": "🧠 القاعدة: haematuria مؤكدة + عوامل خطر (ذكر، عمر ≥35-40، تدخين) = خطر سرطان مثانة.\n✅ التطبيق: عالي الخطورة → urology: cystoscopy وتصوير المسالك العلوي.\n⚠️ الفخ: المضادات الحيوية بلا عدوى، أو التأجيل؛ وأيضاً عدم إيقاف الفحص لأنه على aspirin.",
+  "terms": [
+   [
+    "cystoscopy",
+    "سِس-توس-كو-بي"
+   ]
+  ],
+  "ref": "AUA 2025"
+ },
+ {
+  "id": "llst027",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Charcot-Leyden crystals",
+  "scenario": "Report: 'Charcot-Leyden crystals, no parasites.'",
+  "question": "Interpretation?",
+  "options": [
+   "Suggests eosinophilic process; repeat O&P",
+   "Normal finding",
+   "Diagnostic of amoebiasis"
+  ],
+  "answer": "🧠 القاعدة: Charcot-Leyden = نواتج eosinophils.\n✅ التطبيق: تشير لطفيلي محتمل ⇒ أعد O&P وافحص CBC.\n⚠️ الفخ: ليست تشخيصاً بذاتها.",
+  "terms": [
+   [
+    "Charcot-Leyden",
+    "شار-كو لاي-دن"
+   ]
+  ],
+  "ref": "CDC DPDx"
+ },
+ {
+  "id": "lcbc029",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Alternate-day dosing",
+  "scenario": "Ferritin 8 ng/mL, GI upset on ferrous sulfate twice daily.",
+  "question": "Better regimen?",
+  "options": [
+   "60–120 mg elemental iron alternate days",
+   "Stop oral; give IV iron at once",
+   "Ferrous sulfate three times daily"
+  ],
+  "answer": "🧠 القاعدة: جرعة واحدة 60–120 mg elemental يوم بعد يوم تمتص أفضل (hepcidin يرتفع 24 ساعة بعد الجرعة).\n✅ التطبيق: ferrous sulfate 200 mg ≈ 65 mg elemental، صباحاً مع vitamin C وبعيداً عن الشاي.\n⚠️ الفخ: جرعات متعددة يومياً = آثار جانبية أكثر وامتصاص أقل.",
+  "terms": [
+   [
+    "Elemental",
+    "إي-لي-مِن-تال"
+   ]
+  ],
+  "ref": "BSH 2021"
+ },
+ {
+  "id": "llfk028",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Dysmorphic RBCs",
+  "scenario": "Man, 28: 20 RBC/hpf, dysmorphic RBCs, red cell casts, ACR 400 mg/g.",
+  "question": "Refer to whom?",
+  "options": [
+   "Nephrology (glomerular disease)",
+   "Urology for cystoscopy",
+   "Repeat in 6 months"
+  ],
+  "answer": "🧠 القاعدة: RBC مشوّهة أو casts أو proteinuria = مصدر glomerular → nephrology.\n✅ التطبيق: red cell casts + ACR عالٍ = glomerulonephritis محتمل؛ اطلب creatinine وضغط وحوّل عاجلاً.\n⚠️ الفخ: إرساله للـ urology؛ النزف هنا من الكبيبات لا المثانة.",
+  "terms": [
+   [
+    "dysmorphic",
+    "دِس-مور-فِك"
+   ]
+  ],
+  "ref": "AUA 2025; KDIGO 2021"
+ },
+ {
+  "id": "llst028",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Ascaris or hookworm in worker",
+  "scenario": "Food handler: Ascaris eggs. Healthy.",
+  "question": "Action?",
+  "options": [
+   "Albendazole 400 mg once; continue work",
+   "Exclude until 3 negatives",
+   "No treatment needed"
+  ],
+  "answer": "🧠 القاعدة: Ascaris/hookworm لا ينتقلان شخص-لشخص مباشرة؛ يحتاجان التربة.\n✅ التطبيق: albendazole 400 mg جرعة واحدة، ويستمر في العمل.\n⚠️ الفخ: الاستبعاد غير ضروري.",
+  "terms": [
+   [
+    "Ascaris",
+    "أس-كا-رِس"
+   ],
+   [
+    "albendazole",
+    "آل-بِن-دا-زول"
+   ]
+  ],
+  "ref": "WHO; CDC"
+ },
+ {
+  "id": "lcbc030",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Response and ferritin target",
+  "scenario": "Iron started 3 weeks ago: Hb from 9.8 to 11.0 g/dL.",
+  "question": "How to continue?",
+  "options": [
+   "Continue ~3 months after Hb normal",
+   "Stop iron now Hb is rising",
+   "Switch to IV iron"
+  ],
+  "answer": "🧠 القاعدة: توقع ارتفاع Hb ≈1–2 g/dL خلال 2–4 أسابيع؛ استمر ~3 أشهر بعد التطبيع لإعادة المخزون (ferritin >50–100).\n✅ التطبيق: ارتفاع 1.2 = استجابة جيدة ← استمر وأعد ferritin.\n⚠️ الفخ: إيقاف مبكر فيعود النقص؛ وعدم الاستجابة ← راجع الالتزام، النزف، الامتصاص.",
+  "terms": [
+   [
+    "Repletion",
+    "ري-بلي-شَن"
+   ]
+  ],
+  "ref": "BSG 2021"
+ },
+ {
+  "id": "llfk029",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Dipstick protein",
+  "scenario": "Man, 40: dipstick protein 1+, urine very concentrated (SG 1.030).",
+  "question": "Best next step?",
+  "options": [
+   "Quantify with ACR/PCR on morning sample",
+   "Diagnose CKD",
+   "Ignore – trace level"
+  ],
+  "answer": "🧠 القاعدة: dipstick يقيس الـ concentration ويتأثر بالتركيز؛ يقيس albumin فقط.\n✅ التطبيق: اطلب ACR (أو PCR) على عينة الصباح لتأكيد الكمية.\n⚠️ الفخ: التشخيص من dipstick؛ البول المركّز يعطي موجباً كاذباً والمخفّف سالباً كاذباً.",
+  "terms": [
+   [
+    "proteinuria",
+    "برو-تين-يو-ريا"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst029",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Pinworm, Taenia, H. nana",
+  "scenario": "Child perianal itch; O&P negative. Separately, adult passed white segments.",
+  "question": "Correct approach?",
+  "options": [
+   "Tape test; send segments for ID",
+   "Repeat O&P for both",
+   "Treat both with metronidazole"
+  ],
+  "answer": "🧠 القاعدة: Enterobius يُكشف بـ tape test صباحاً؛ proglottids ترسل للمختبر.\n✅ التطبيق: Taenia ⇒ praziquantel. H. nana ينتقل مباشرة؛ علاجه praziquantel أيضاً.\n⚠️ الفخ: O&P سلبي لا ينفي Enterobius.",
+  "terms": [
+   [
+    "Enterobius",
+    "إن-تي-رو-بي-يس"
+   ],
+   [
+    "praziquantel",
+    "برا-زي-كوان-تِل"
+   ]
+  ],
+  "ref": "CDC DPDx"
+ },
+ {
+  "id": "lcbc031",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Blood donors",
+  "scenario": "Regular male donor (4 times/yr): Hb 13.5 g/dL, ferritin 12 ng/mL.",
+  "question": "Best advice?",
+  "options": [
+   "Iron supplements and longer donation interval",
+   "Unrelated to donation; refer GI urgently",
+   "Continue donating; ferritin irrelevant"
+  ],
+  "answer": "🧠 القاعدة: التبرع المتكرر سبب شائع ومعروف لنقص الحديد.\n✅ التطبيق: حديد + إطالة الفاصل بين التبرعات وأعد ferritin.\n⚠️ الفخ: Hb طبيعي لا يعني مخزون كافٍ؛ ولو لم يتحسن أو وُجدت أعراض GI ← تقييم.",
+  "terms": [
+   [
+    "Donor",
+    "دو-نَر"
+   ]
+  ],
+  "ref": "AABB / BSH"
+ },
+ {
+  "id": "llfk030",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Orthostatic proteinuria",
+  "scenario": "Boy, 16, pre-sport check: PCR 400 mg/g in afternoon sample; first-morning PCR 50 mg/g.",
+  "question": "Diagnosis?",
+  "options": [
+   "Orthostatic proteinuria – benign",
+   "Nephrotic syndrome",
+   "IgA nephropathy – biopsy"
+  ],
+  "answer": "🧠 القاعدة: بروتين بالنهار ويختفي في عينة الصباح الأولى = orthostatic، حميد في الشباب.\n✅ التطبيق: عينة الصباح طبيعية → طمئن، وأعد سنوياً.\n⚠️ الفخ: تحويل أو biopsy. والبروتين العابر مع الحمى أو الجهد أيضاً حميد.",
+  "terms": [
+   [
+    "orthostatic",
+    "أور-ثو-ستا-تِك"
+   ]
+  ],
+  "ref": "KDIGO 2024"
+ },
+ {
+  "id": "llst030",
+  "topic": "Labs-Prevention",
+  "title": "🔬 Stool O&P: Occult blood",
+  "scenario": "Report: 'O&P negative'. Doctor assumes occult blood was tested.",
+  "question": "Correct?",
+  "options": [
+   "No: FOBT/FIT is a separate test",
+   "Yes, O&P includes occult blood",
+   "O&P equals stool culture"
+  ],
+  "answer": "🧠 القاعدة: O&P = طفيليات فقط.\n✅ التطبيق: فحص الدم الخفي (FIT) يُطلب منفصلاً.\n⚠️ الفخ: افتراض أن O&P يشمل كل شيء يفوّت تشخيصات.",
+  "terms": [
+   [
+    "FIT",
+    "فِت"
+   ]
+  ],
+  "ref": "USPSTF 2021"
+ },
+ {
+  "id": "lcbc032",
+  "topic": "Labs-Prevention",
+  "title": "🧲 Iron: Pregnancy iron",
+  "scenario": "Pregnant 12 weeks: Hb 10.6 g/dL, ferritin 18 ng/mL.",
+  "question": "What do you do?",
+  "options": [
+   "Start oral iron; recheck Hb in 2–4 weeks",
+   "Normal dilution; no treatment",
+   "Defer until third trimester"
+  ],
+  "answer": "🧠 القاعدة: anaemia في الحمل: Hb <11 (الثلث الأول)، <10.5 (الثاني/الثالث)؛ ferritin <30 = نقص.\n✅ التطبيق: Hb 10.6 + ferritin 18 ← حديد فموي وأعد Hb بعد 2–4 أسابيع.\n⚠️ الفخ: نسبتها لتخفيف الدم الفسيولوجي فقط؛ ابحث أيضاً عن hemoglobinopathy إن لم تستجب.",
+  "terms": [
+   [
+    "Haemodilution",
+    "هي-مو-داي-لو-شَن"
+   ]
+  ],
+  "ref": "BSH 2019 / WHO 2016"
+ },
+ {
+  "id": "llfk031",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Glucose with normal blood",
+  "scenario": "Man, 50: urine glucose 3+. FPG 98 mg/dL (5.4 mmol/L), HbA1c 5.4%.",
+  "question": "Most likely cause?",
+  "options": [
+   "SGLT2 inhibitor or renal glycosuria",
+   "Undiagnosed diabetes",
+   "Lab error – ignore all"
+  ],
+  "answer": "🧠 القاعدة: glycosuria مع سكر دم طبيعي = SGLT2i (dapagliflozin/empagliflozin) أو renal glycosuria.\n✅ التطبيق: اسأل عن الأدوية؛ هذه الأدوية تُعطى أيضاً للقلب والكلى. إن لم يكن يأخذها → renal glycosuria حميدة.\n⚠️ الفخ: تشخيص السكري من البول؛ التشخيص بالدم فقط.",
+  "terms": [
+   [
+    "glycosuria",
+    "غلاي-كو-سيو-ريا"
+   ]
+  ],
+  "ref": "ADA 2025"
+ },
+ {
+  "id": "llfk032",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Ketones while fasting",
+  "scenario": "Woman, 25, Ramadan: urine ketones 2+. Glucose 82 mg/dL, well.",
+  "question": "How to interpret?",
+  "options": [
+   "Normal starvation ketosis",
+   "Diabetic ketoacidosis",
+   "Refer to ED"
+  ],
+  "answer": "🧠 القاعدة: ketones مع سكر طبيعي وشخص سليم = صيام/حمية keto.\n✅ التطبيق: صائمة وسكرها طبيعي → طبيعي.\n⚠️ الفخ: الخلط مع DKA؛ لكن مع سكري أو على SGLT2i (euglycaemic DKA) أو أعراض → قِس ketones في الدم.",
+  "terms": [
+   [
+    "ketosis",
+    "كي-تو-سِس"
+   ]
+  ],
+  "ref": "ADA 2025"
+ },
+ {
+  "id": "llfk033",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Asymptomatic bacteriuria",
+  "scenario": "Woman, 45, pre-employment: nitrite +, leukocyte esterase +, culture 10⁵ E. coli. No symptoms.",
+  "question": "Best action?",
+  "options": [
+   "No antibiotics",
+   "Treat 3 days",
+   "Treat and repeat culture"
+  ],
+  "answer": "🧠 القاعدة: asymptomatic bacteriuria لا تُعالج إلا في الحمل وقبل جراحة مسالك تداخلية.\n✅ التطبيق: بلا أعراض وغير حامل → لا مضاد حيوي.\n⚠️ الفخ: العلاج يزيد المقاومة وC. difficile بلا فائدة. لكن في الحامل: افحص وعالج.",
+  "terms": [
+   [
+    "bacteriuria",
+    "باك-تي-ري-يو-ريا"
+   ]
+  ],
+  "ref": "IDSA 2019"
+ },
+ {
+  "id": "llfk034",
+  "topic": "Labs-Prevention",
+  "title": "🧫 Urine: Epithelial cells",
+  "scenario": "Woman, 30: urine microscopy many squamous epithelial cells, mixed bacteria, 8 WBC/hpf. No symptoms.",
+  "question": "How to interpret?",
+  "options": [
+   "Contaminated sample – repeat midstream",
+   "UTI – treat",
+   "Kidney inflammation"
+  ],
+  "answer": "🧠 القاعدة: squamous epithelial cells كثيرة = تلوث من الجلد/المهبل.\n✅ التطبيق: أعد بعينة midstream نظيفة. وفي العادة الـ SG و pH والـ crystals (oxalate/urate) معنى سريري قليل.\n⚠️ الفخ: علاج عينة ملوثة، أو الاهتمام بـ crystals عابرة.",
+  "terms": [
+   [
+    "squamous",
+    "سكوي-مَس"
+   ]
+  ],
+  "ref": "IDSA 2019"
+ },
+ {
   "id": "gexp001",
   "topic": "Bites-PEP",
   "title": "Transdermal dog bite, unvaccinated",
